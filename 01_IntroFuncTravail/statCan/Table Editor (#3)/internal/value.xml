@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="viewValue">
+    <config key="selection"/>
+    <entry key="selectAll" type="xboolean" value="false"/>
+    <entry key="pageSize" type="xint" value="0"/>
+    <entry key="currentPage" type="xint" value="0"/>
+    <entry key="filterString" type="xstring" isnull="true" value=""/>
+    <config key="columnFilterStrings"/>
+    <config key="currentOrder">
+        <entry key="numSettings" type="xint" value="0"/>
+    </config>
+    <entry key="selectAllIndeterminate" type="xboolean" value="false"/>
+    <entry key="hideUnselected" type="xboolean" value="false"/>
+    <entry key="publishSelection" type="xboolean" value="true"/>
+    <entry key="subscribeSelection" type="xboolean" value="true"/>
+    <entry key="publishFilter" type="xboolean" value="true"/>
+    <entry key="subscribeFilter" type="xboolean" value="true"/>
+    <config key="editorChanges_Internals">
+        <entry key="SettingsModelID" type="xstring" value="SMID_tableEditorChanges"/>
+        <entry key="EnabledStatus" type="xboolean" value="true"/>
+    </config>
+    <config key="editorChanges">
+        <entry key="numRows" type="xint" value="0"/>
+    </config>
+    <entry key="tableHash" type="xstring" isnull="true" value=""/>
+</config>
