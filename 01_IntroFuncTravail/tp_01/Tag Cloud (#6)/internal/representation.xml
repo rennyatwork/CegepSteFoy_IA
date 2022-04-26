@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="viewRepresentation">
     <config key="data">
-        <entry key="numSettings" type="xint" value="10"/>
+        <entry key="numSettings" type="xint" value="20"/>
         <config key="0">
             <entry key="id" type="xstring" value="tag_19"/>
             <config key="rowIDs">
@@ -692,8 +692,242 @@
             <entry key="size" type="xdouble" value="10518.0"/>
             <entry key="opacity" type="xdouble" value="0.0"/>
         </config>
+        <config key="10">
+            <entry key="id" type="xstring" value="tag_674"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="16"/>
+                <entry key="0" type="xstring" value="Row3538"/>
+                <entry key="1" type="xstring" value="Row3967"/>
+                <entry key="2" type="xstring" value="Row3801"/>
+                <entry key="3" type="xstring" value="Row1405"/>
+                <entry key="4" type="xstring" value="Row2813"/>
+                <entry key="5" type="xstring" value="Row1124"/>
+                <entry key="6" type="xstring" value="Row1278"/>
+                <entry key="7" type="xstring" value="Row1751"/>
+                <entry key="8" type="xstring" value="Row1334"/>
+                <entry key="9" type="xstring" value="Row4215"/>
+                <entry key="10" type="xstring" value="Row4821"/>
+                <entry key="11" type="xstring" value="Row1681"/>
+                <entry key="12" type="xstring" value="Row4356"/>
+                <entry key="13" type="xstring" value="Row3147"/>
+                <entry key="14" type="xstring" value="Row4251"/>
+                <entry key="15" type="xstring" value="Row866"/>
+            </config>
+            <entry key="text" type="xstring" value="RHEUMATOID ARTHRITIS"/>
+            <entry key="color" type="xstring" isnull="true" value=""/>
+            <entry key="size" type="xdouble" value="9775.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="11">
+            <entry key="id" type="xstring" value="tag_451"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="19"/>
+                <entry key="0" type="xstring" value="Row2939"/>
+                <entry key="1" type="xstring" value="Row1139"/>
+                <entry key="2" type="xstring" value="Row2559"/>
+                <entry key="3" type="xstring" value="Row3846"/>
+                <entry key="4" type="xstring" value="Row1603"/>
+                <entry key="5" type="xstring" value="Row4638"/>
+                <entry key="6" type="xstring" value="Row3842"/>
+                <entry key="7" type="xstring" value="Row1389"/>
+                <entry key="8" type="xstring" value="Row4666"/>
+                <entry key="9" type="xstring" value="Row2754"/>
+                <entry key="10" type="xstring" value="Row3755"/>
+                <entry key="11" type="xstring" value="Row2144"/>
+                <entry key="12" type="xstring" value="Row3541"/>
+                <entry key="13" type="xstring" value="Row4775"/>
+                <entry key="14" type="xstring" value="Row1683"/>
+                <entry key="15" type="xstring" value="Row2795"/>
+                <entry key="16" type="xstring" value="Row564"/>
+                <entry key="17" type="xstring" value="Row2051"/>
+                <entry key="18" type="xstring" value="Row4164"/>
+            </config>
+            <entry key="text" type="xstring" value="ADJUSTMENT DISORDER"/>
+            <entry key="color" type="xstring" isnull="true" value=""/>
+            <entry key="size" type="xdouble" value="8816.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="12">
+            <entry key="id" type="xstring" value="tag_284"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="19"/>
+                <entry key="0" type="xstring" value="Row604"/>
+                <entry key="1" type="xstring" value="Row605"/>
+                <entry key="2" type="xstring" value="Row1819"/>
+                <entry key="3" type="xstring" value="Row1837"/>
+                <entry key="4" type="xstring" value="Row1878"/>
+                <entry key="5" type="xstring" value="Row1388"/>
+                <entry key="6" type="xstring" value="Row3921"/>
+                <entry key="7" type="xstring" value="Row1831"/>
+                <entry key="8" type="xstring" value="Row4026"/>
+                <entry key="9" type="xstring" value="Row1067"/>
+                <entry key="10" type="xstring" value="Row2277"/>
+                <entry key="11" type="xstring" value="Row3322"/>
+                <entry key="12" type="xstring" value="Row3773"/>
+                <entry key="13" type="xstring" value="Row344"/>
+                <entry key="14" type="xstring" value="Row697"/>
+                <entry key="15" type="xstring" value="Row972"/>
+                <entry key="16" type="xstring" value="Row797"/>
+                <entry key="17" type="xstring" value="Row1042"/>
+                <entry key="18" type="xstring" value="Row765"/>
+            </config>
+            <entry key="text" type="xstring" value="ANXIETY"/>
+            <entry key="color" type="xstring" isnull="true" value=""/>
+            <entry key="size" type="xdouble" value="8649.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="13">
+            <entry key="id" type="xstring" value="tag_22"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="10"/>
+                <entry key="0" type="xstring" value="Row1303"/>
+                <entry key="1" type="xstring" value="Row2672"/>
+                <entry key="2" type="xstring" value="Row560"/>
+                <entry key="3" type="xstring" value="Row1123"/>
+                <entry key="4" type="xstring" value="Row2662"/>
+                <entry key="5" type="xstring" value="Row3284"/>
+                <entry key="6" type="xstring" value="Row2859"/>
+                <entry key="7" type="xstring" value="Row22"/>
+                <entry key="8" type="xstring" value="Row2935"/>
+                <entry key="9" type="xstring" value="Row3715"/>
+            </config>
+            <entry key="text" type="xstring" value="MS"/>
+            <entry key="color" type="xstring" isnull="true" value=""/>
+            <entry key="size" type="xdouble" value="8482.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="14">
+            <entry key="id" type="xstring" value="tag_112"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="19"/>
+                <entry key="0" type="xstring" value="Row717"/>
+                <entry key="1" type="xstring" value="Row4627"/>
+                <entry key="2" type="xstring" value="Row1675"/>
+                <entry key="3" type="xstring" value="Row3775"/>
+                <entry key="4" type="xstring" value="Row2259"/>
+                <entry key="5" type="xstring" value="Row130"/>
+                <entry key="6" type="xstring" value="Row142"/>
+                <entry key="7" type="xstring" value="Row4962"/>
+                <entry key="8" type="xstring" value="Row1661"/>
+                <entry key="9" type="xstring" value="Row3873"/>
+                <entry key="10" type="xstring" value="Row3961"/>
+                <entry key="11" type="xstring" value="Row2893"/>
+                <entry key="12" type="xstring" value="Row4003"/>
+                <entry key="13" type="xstring" value="Row3053"/>
+                <entry key="14" type="xstring" value="Row399"/>
+                <entry key="15" type="xstring" value="Row3495"/>
+                <entry key="16" type="xstring" value="Row4284"/>
+                <entry key="17" type="xstring" value="Row1570"/>
+                <entry key="18" type="xstring" value="Row4150"/>
+            </config>
+            <entry key="text" type="xstring" value="FIBROMYALGIA"/>
+            <entry key="color" type="xstring" isnull="true" value=""/>
+            <entry key="size" type="xdouble" value="8108.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="15">
+            <entry key="id" type="xstring" value="tag_565"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="9"/>
+                <entry key="0" type="xstring" value="Row714"/>
+                <entry key="1" type="xstring" value="Row2953"/>
+                <entry key="2" type="xstring" value="Row3965"/>
+                <entry key="3" type="xstring" value="Row1068"/>
+                <entry key="4" type="xstring" value="Row3000"/>
+                <entry key="5" type="xstring" value="Row3819"/>
+                <entry key="6" type="xstring" value="Row742"/>
+                <entry key="7" type="xstring" value="Row3637"/>
+                <entry key="8" type="xstring" value="Row2934"/>
+            </config>
+            <entry key="text" type="xstring" value="BACK PAIN"/>
+            <entry key="color" type="xstring" isnull="true" value=""/>
+            <entry key="size" type="xdouble" value="7854.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="16">
+            <entry key="id" type="xstring" value="tag_83"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="9"/>
+                <entry key="0" type="xstring" value="Row3578"/>
+                <entry key="1" type="xstring" value="Row92"/>
+                <entry key="2" type="xstring" value="Row807"/>
+                <entry key="3" type="xstring" value="Row486"/>
+                <entry key="4" type="xstring" value="Row634"/>
+                <entry key="5" type="xstring" value="Row712"/>
+                <entry key="6" type="xstring" value="Row2638"/>
+                <entry key="7" type="xstring" value="Row416"/>
+                <entry key="8" type="xstring" value="Row2747"/>
+            </config>
+            <entry key="text" type="xstring" value="BIPOLAR DISORDER"/>
+            <entry key="color" type="xstring" isnull="true" value=""/>
+            <entry key="size" type="xdouble" value="7813.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="17">
+            <entry key="id" type="xstring" value="tag_206"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="10"/>
+                <entry key="0" type="xstring" value="Row4998"/>
+                <entry key="1" type="xstring" value="Row4735"/>
+                <entry key="2" type="xstring" value="Row2463"/>
+                <entry key="3" type="xstring" value="Row3134"/>
+                <entry key="4" type="xstring" value="Row4862"/>
+                <entry key="5" type="xstring" value="Row2495"/>
+                <entry key="6" type="xstring" value="Row3608"/>
+                <entry key="7" type="xstring" value="Row247"/>
+                <entry key="8" type="xstring" value="Row1249"/>
+                <entry key="9" type="xstring" value="Row1524"/>
+            </config>
+            <entry key="text" type="xstring" value="SCIATICA"/>
+            <entry key="color" type="xstring" isnull="true" value=""/>
+            <entry key="size" type="xdouble" value="7568.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="18">
+            <entry key="id" type="xstring" value="tag_495"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="12"/>
+                <entry key="0" type="xstring" value="Row1773"/>
+                <entry key="1" type="xstring" value="Row627"/>
+                <entry key="2" type="xstring" value="Row1697"/>
+                <entry key="3" type="xstring" value="Row3002"/>
+                <entry key="4" type="xstring" value="Row2264"/>
+                <entry key="5" type="xstring" value="Row1160"/>
+                <entry key="6" type="xstring" value="Row3471"/>
+                <entry key="7" type="xstring" value="Row1394"/>
+                <entry key="8" type="xstring" value="Row3263"/>
+                <entry key="9" type="xstring" value="Row2679"/>
+                <entry key="10" type="xstring" value="Row811"/>
+                <entry key="11" type="xstring" value="Row2428"/>
+            </config>
+            <entry key="text" type="xstring" value="ROTATOR CUFF TEAR"/>
+            <entry key="color" type="xstring" isnull="true" value=""/>
+            <entry key="size" type="xdouble" value="7371.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="19">
+            <entry key="id" type="xstring" value="tag_169"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="11"/>
+                <entry key="0" type="xstring" value="Row1468"/>
+                <entry key="1" type="xstring" value="Row2963"/>
+                <entry key="2" type="xstring" value="Row4414"/>
+                <entry key="3" type="xstring" value="Row729"/>
+                <entry key="4" type="xstring" value="Row708"/>
+                <entry key="5" type="xstring" value="Row1132"/>
+                <entry key="6" type="xstring" value="Row1495"/>
+                <entry key="7" type="xstring" value="Row199"/>
+                <entry key="8" type="xstring" value="Row3350"/>
+                <entry key="9" type="xstring" value="Row2392"/>
+                <entry key="10" type="xstring" value="Row588"/>
+            </config>
+            <entry key="text" type="xstring" value="ANXIETY/DEPRESSION"/>
+            <entry key="color" type="xstring" isnull="true" value=""/>
+            <entry key="size" type="xdouble" value="7269.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
     </config>
-    <entry key="tableID" type="xstring" value="b87b38f0-64be-4779-a712-c2f8b6259418"/>
+    <entry key="tableID" type="xstring" value="7eb1bd87-7ddb-4e48-b618-dc9c959b696b"/>
     <config key="subscriptionFilterIds">
         <entry key="array-size" type="xint" value="0"/>
     </config>
@@ -702,7 +936,7 @@
         <entry key="key_0" type="xstring" value="knime_missing_values"/>
         <entry key="value_0" type="xstring" value="132 rows were omitted due to missing values."/>
         <entry key="key_1" type="xstring" value="knime_clipped_rows"/>
-        <entry key="value_1" type="xstring" value="Only the first 10 tags are displayed."/>
+        <entry key="value_1" type="xstring" value="Only the first 20 tags are displayed."/>
     </config>
     <entry key="imageGeneration" type="xboolean" value="false"/>
     <entry key="warningsInView" type="xboolean" value="true"/>

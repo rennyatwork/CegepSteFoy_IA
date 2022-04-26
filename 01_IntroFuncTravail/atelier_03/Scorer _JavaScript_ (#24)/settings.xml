@@ -9,8 +9,8 @@
         <entry key="hideInWizard" type="xboolean" value="false"/>
         <entry key="warningsInView" type="xboolean" value="true"/>
         <entry key="reportMissingValues" type="xboolean" value="true"/>
-        <entry key="firstColumn" type="xstring" value=""/>
-        <entry key="secondColumn" type="xstring" value=""/>
+        <entry key="firstColumn" type="xstring" value="Temperature"/>
+        <entry key="secondColumn" type="xstring" value="Prediction (VitesseVent)"/>
         <entry key="sortingStrategy" type="xstring" value="Lexical"/>
         <entry key="reverseOrder" type="xboolean" value="false"/>
         <entry key="ignoreMissingValues" type="xboolean" value="true"/>
@@ -56,6 +56,10 @@
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
     <entry key="state" type="xstring" value="IDLE"/>
+    <config key="nodecontainer_message">
+        <entry key="type" type="xstring" value="WARNING"/>
+        <entry key="message" type="xstring" value="Column Temperature is not string compatible, its type is Number (integer)"/>
+    </config>
     <entry key="factory" type="xstring" value="org.knime.js.base.node.scorer.ScorerNodeFactory"/>
     <entry key="node-name" type="xstring" value="Scorer (JavaScript)"/>
     <entry key="node-bundle-name" type="xstring" value="KNIME JavaScript Views (Labs)"/>

@@ -30,7 +30,7 @@
             <entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
-        <entry key="minNumberRecordsPerNode" type="xint" value="40"/>
+        <entry key="minNumberRecordsPerNode" type="xint" value="50"/>
         <config key="numverRecordsToView_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -116,6 +116,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="8853b50a-d103-47d7-973c-4fd8e84bc45c"/>
+        <entry key="file_store_id" type="xstring" value="faed101d-ba3c-48fa-8a88-92e833078790"/>
     </config>
 </config>
