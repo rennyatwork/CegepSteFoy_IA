@@ -1,0 +1,150 @@
+SELECT geo_code,
+       theme,
+       caracteristique,
+       note,
+       total,
+       flag_total,
+       sexe_masculin,
+       flag_sexe_masculin,
+       sexe_feminin,
+       flag_sexe_feminin
+  FROM StatCanadaPopulationData_csv;
+  
+/*772.192*/
+select count(1) from StatCanadaPopulationData_csv
+;
+
+/*58.896*/
+select count(1) 
+note
+from 
+StatCanadaPopulationData_csv
+where 
+note is not null
+and length(trim(note)) > 0
+;
+
+/*752.628*/
+select count(1) 
+total
+from 
+StatCanadaPopulationData_csv
+where 
+total is not null
+and length(trim(total)) > 0
+;
+
+select 
+total
+, length(trim(total))
+from 
+StatCanadaPopulationData_csv
+limit 10;
+
+/*19.564*/
+select count(1) 
+flag_total
+from 
+StatCanadaPopulationData_csv
+where 
+flag_total is not null
+and length(trim(flag_total)) > 0
+;
+
+/*631.944*/
+select count(1) 
+sexe_masculin
+from 
+StatCanadaPopulationData_csv
+where 
+sexe_masculin is not null
+and length(trim(sexe_masculin)) > 0
+;
+
+/*772.192*/
+select count(1) 
+theme
+from 
+StatCanadaPopulationData_csv
+where
+theme is not null
+and length(trim(theme)) > 0
+;
+
+select 
+theme
+from 
+StatCanadaPopulationData_csv
+limit 10
+;
+
+/*772.192*/
+select count(1) 
+caracteristique
+from 
+StatCanadaPopulationData_csv
+where
+caracteristique is not null
+and length(trim(caracteristique)) > 0
+;
+
+/*58.896*/
+select count(1) 
+note
+from 
+StatCanadaPopulationData_csv
+where
+note is not null
+and length(trim(note)) > 0
+;
+
+/*752628*/
+select count(1) 
+total
+from 
+StatCanadaPopulationData_csv
+where
+total is not null
+and length(trim(total)) > 0
+;
+
+/*140.248*/
+select count(1) 
+flag_sexe_masculin
+from 
+StatCanadaPopulationData_csv
+where
+flag_sexe_masculin is not null
+and length(trim(flag_sexe_masculin)) > 0
+;
+
+/*631.944*/
+select count(1) 
+sexe_feminin
+from 
+StatCanadaPopulationData_csv
+where
+sexe_feminin is not null
+and length(trim(sexe_feminin)) > 0
+;
+
+/*631.944*/
+select count(1) 
+flag_sexe_masculin
+from 
+StatCanadaPopulationData_csv
+where
+sexe_feminin is not null
+and length(trim(sexe_feminin)) > 0
+;
+
+/*140.248*/
+select count(1) 
+flag_sexe_feminin
+from 
+StatCanadaPopulationData_csv
+where
+flag_sexe_feminin is not null
+and length(trim(flag_sexe_feminin)) > 0
+;
+
