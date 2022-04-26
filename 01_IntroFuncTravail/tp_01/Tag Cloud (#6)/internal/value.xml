@@ -5,9 +5,9 @@
     <entry key="subtitle" type="xstring" value=""/>
     <entry key="minFontSize" type="xfloat" value="10.0"/>
     <entry key="maxFontSize" type="xfloat" value="100.0"/>
-    <entry key="fontScaleType" type="xstring" value="linear"/>
+    <entry key="fontScaleType" type="xstring" value="logarithmic"/>
     <entry key="spiralType" type="xstring" value="archimedean"/>
-    <entry key="numOrientations" type="xint" value="5"/>
+    <entry key="numOrientations" type="xint" value="4"/>
     <entry key="startAngle" type="xint" value="-60"/>
     <entry key="endAngle" type="xint" value="60"/>
     <entry key="publishSelection" type="xboolean" value="true"/>
