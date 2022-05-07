@@ -27,6 +27,45 @@ SELECT An_Debut_Invalidite
          0
      end as est_zone_rurale
      
+    , case 
+     when   FSA like 'A__'
+         then 'NL'
+     when   FSA like 'B__'
+         then 'NS'
+     when   FSA like 'C__'
+         then 'PE'
+     when   FSA like 'E__'
+         then 'NB'
+     when   FSA like 'G__'
+         then 'QC - Eastern Quebec'
+     when   FSA like 'H__'
+         then 'QC - Montreal'
+     when   FSA like 'J__'
+         then 'QC - Western Quebec'
+     when   FSA like 'K__'
+         then 'ON - Eastern Ontario'
+     when   FSA like 'L__'
+         then 'ON - Central Ontario'
+     when   FSA like 'M__'
+         then 'ON - Metropolitan Toronto'
+     when   FSA like 'N__'
+         then 'ON - Southern Ontario'
+     when   FSA like 'P__'
+         then 'PE'
+     when   FSA like 'R__'
+         then 'MB'
+     when   FSA like 'S__'
+         then 'SK'
+     when   FSA like 'T__'
+         then 'AB'
+     when   FSA like 'V__'
+         then 'BC'
+     when   FSA like 'X__'
+         then 'NT'
+     when   FSA like 'Y__'
+         then 'YT'
+     end as province_region
+     
     , case
     when salaire_annuel <50000
         then 'moins_50000' 
