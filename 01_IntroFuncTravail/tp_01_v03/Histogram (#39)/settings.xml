@@ -6,21 +6,31 @@
         <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
     </config>
     <config key="model">
-        <config key="generateImagemodel_Internals">
+        <config key="bin_force_int_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
-        <entry key="generateImagemodel" type="xboolean" value="false"/>
-        <config key="cat_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+        <entry key="bin_force_int" type="xboolean" value="true"/>
+        <config key="displayFullscreenButton_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
-        <entry key="cat" type="xstring" value="Duree_Delai_Attente"/>
-        <config key="aggr_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+        <entry key="displayFullscreenButton" type="xboolean" value="true"/>
+        <config key="num_bins_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
+            <entry key="EnabledStatus" type="xboolean" value="false"/>
+        </config>
+        <entry key="num_bins" type="xint" value="8"/>
+        <config key="legend_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
-        <entry key="aggr" type="xstring" value="Occurence Count"/>
+        <entry key="legend" type="xboolean" value="true"/>
+        <config key="enableHorizontalToggle_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="enableHorizontalToggle" type="xboolean" value="true"/>
         <config key="freq_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_columnfilter"/>
             <entry key="EnabledStatus" type="xboolean" value="false"/>
@@ -54,126 +64,96 @@
                 </config>
             </config>
         </config>
-        <config key="processInMemory_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
-        </config>
-        <entry key="processInMemory" type="xboolean" value="true"/>
-        <config key="reportOnMissingValues_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
-        </config>
-        <entry key="reportOnMissingValues" type="xboolean" value="true"/>
-        <config key="includeMissValCat_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
-        </config>
-        <entry key="includeMissValCat" type="xboolean" value="true"/>
-        <config key="bin_method_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
-        </config>
-        <entry key="bin_method" type="xstring" value="Sample quantiles"/>
-        <config key="num_bins_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
-            <entry key="EnabledStatus" type="xboolean" value="false"/>
-        </config>
-        <entry key="num_bins" type="xint" value="8"/>
-        <config key="bin_equal_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
-            <entry key="EnabledStatus" type="xboolean" value="false"/>
-        </config>
-        <entry key="bin_equal" type="xstring" value="width"/>
-        <config key="bin_quantiles_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
-        </config>
-        <entry key="bin_quantiles" type="xstring" value="0.0, 0.25, 0.5, 0.75, 1"/>
-        <config key="bin_naming_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
-        </config>
-        <entry key="bin_naming" type="xstring" value="Borders"/>
-        <config key="bin_force_int_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
-        </config>
-        <entry key="bin_force_int" type="xboolean" value="true"/>
-        <config key="num_format_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
-        </config>
-        <entry key="num_format" type="xstring" value="Default formatting"/>
-        <config key="out_format_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
-            <entry key="EnabledStatus" type="xboolean" value="false"/>
-        </config>
-        <entry key="out_format" type="xstring" value="Standard String"/>
-        <config key="format_precision_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
-            <entry key="EnabledStatus" type="xboolean" value="false"/>
-        </config>
-        <entry key="format_precision" type="xint" value="3"/>
-        <config key="format_prec_mode_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
-            <entry key="EnabledStatus" type="xboolean" value="false"/>
-        </config>
-        <entry key="format_prec_mode" type="xstring" value="Decimal places"/>
-        <config key="format_rounding_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
-            <entry key="EnabledStatus" type="xboolean" value="false"/>
-        </config>
-        <entry key="format_rounding" type="xstring" value="HALF_UP"/>
-        <config key="title_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
-        </config>
-        <entry key="title" type="xstring" value="Histogram"/>
-        <config key="subtitle_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
-        </config>
-        <entry key="subtitle" type="xstring" value=""/>
-        <config key="catLabel_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
-        </config>
-        <entry key="catLabel" type="xstring" value=""/>
-        <config key="freqLabel_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
-        </config>
-        <entry key="freqLabel" type="xstring" value=""/>
-        <config key="chartType_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
-        </config>
-        <entry key="chartType" type="xstring" value="Grouped"/>
-        <config key="legend_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
-        </config>
-        <entry key="legend" type="xboolean" value="true"/>
         <config key="tooltip_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
         <entry key="tooltip" type="xboolean" value="true"/>
-        <config key="orientation_Internals">
+        <config key="title_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="title" type="xstring" value="Histogram"/>
+        <config key="format_precision_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
+            <entry key="EnabledStatus" type="xboolean" value="false"/>
+        </config>
+        <entry key="format_precision" type="xint" value="3"/>
+        <config key="enableSwitchMissValCat_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
-        <entry key="orientation" type="xboolean" value="false"/>
-        <config key="displayFullscreenButton_Internals">
+        <entry key="enableSwitchMissValCat" type="xboolean" value="true"/>
+        <config key="includeMissValCat_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
-        <entry key="displayFullscreenButton" type="xboolean" value="true"/>
+        <entry key="includeMissValCat" type="xboolean" value="true"/>
+        <config key="processInMemory_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="processInMemory" type="xboolean" value="true"/>
+        <config key="freqLabel_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="freqLabel" type="xstring" value=""/>
+        <config key="num_format_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="num_format" type="xstring" value="Default formatting"/>
+        <config key="cat_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="cat" type="xstring" value="Duree_Delai_Attente"/>
+        <config key="showWarnings_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="showWarnings" type="xboolean" value="true"/>
+        <config key="enableSubtitleEdit_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="enableSubtitleEdit" type="xboolean" value="true"/>
+        <config key="publishSelection_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="publishSelection" type="xboolean" value="true"/>
+        <config key="bin_naming_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="bin_naming" type="xstring" value="Borders"/>
         <config key="showMaximum_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
         <entry key="showMaximum" type="xboolean" value="true"/>
+        <config key="bin_equal_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+            <entry key="EnabledStatus" type="xboolean" value="false"/>
+        </config>
+        <entry key="bin_equal" type="xstring" value="width"/>
+        <config key="catLabel_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="catLabel" type="xstring" value=""/>
+        <config key="orientation_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="orientation" type="xboolean" value="false"/>
+        <config key="displayClearSelectionButton_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="displayClearSelectionButton" type="xboolean" value="true"/>
         <config key="svg_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_svg"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -184,78 +164,93 @@
             <entry key="fullscreen" type="xboolean" value="true"/>
             <entry key="showFullscreen" type="xboolean" value="true"/>
         </config>
-        <config key="showWarnings_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
-        </config>
-        <entry key="showWarnings" type="xboolean" value="true"/>
-        <config key="enableViewControls_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
-        </config>
-        <entry key="enableViewControls" type="xboolean" value="true"/>
-        <config key="enableStackedEdit_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
-        </config>
-        <entry key="enableStackedEdit" type="xboolean" value="true"/>
-        <config key="enableHorizontalToggle_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
-        </config>
-        <entry key="enableHorizontalToggle" type="xboolean" value="true"/>
         <config key="enableTitleEdit_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
         <entry key="enableTitleEdit" type="xboolean" value="true"/>
-        <config key="enableSubtitleEdit_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
-        </config>
-        <entry key="enableSubtitleEdit" type="xboolean" value="true"/>
-        <config key="enableAxisEdit_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
-        </config>
-        <entry key="enableAxisEdit" type="xboolean" value="true"/>
-        <config key="enableSwitchMissValCat_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
-        </config>
-        <entry key="enableSwitchMissValCat" type="xboolean" value="true"/>
-        <config key="enableMaximumValue_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
-        </config>
-        <entry key="enableMaximumValue" type="xboolean" value="true"/>
         <config key="enableSelection_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
         <entry key="enableSelection" type="xboolean" value="true"/>
+        <config key="format_prec_mode_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+            <entry key="EnabledStatus" type="xboolean" value="false"/>
+        </config>
+        <entry key="format_prec_mode" type="xstring" value="Decimal places"/>
+        <config key="enableStackedEdit_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="enableStackedEdit" type="xboolean" value="true"/>
+        <config key="enableAxisEdit_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="enableAxisEdit" type="xboolean" value="true"/>
+        <config key="bin_quantiles_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="bin_quantiles" type="xstring" value="0.0, 0.25, 0.5, 0.75, 1"/>
+        <config key="reportOnMissingValues_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="reportOnMissingValues" type="xboolean" value="true"/>
+        <config key="subtitle_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="subtitle" type="xstring" value=""/>
+        <config key="chartType_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="chartType" type="xstring" value="Grouped"/>
+        <config key="format_rounding_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+            <entry key="EnabledStatus" type="xboolean" value="false"/>
+        </config>
+        <entry key="format_rounding" type="xstring" value="HALF_UP"/>
+        <config key="enableViewControls_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="enableViewControls" type="xboolean" value="true"/>
+        <config key="aggr_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="aggr" type="xstring" value="Occurence Count"/>
+        <config key="bin_method_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="bin_method" type="xstring" value="Sample quantiles"/>
         <config key="subscribeToSelection_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
         <entry key="subscribeToSelection" type="xboolean" value="true"/>
-        <config key="publishSelection_Internals">
+        <config key="enableMaximumValue_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
-        <entry key="publishSelection" type="xboolean" value="true"/>
-        <config key="displayClearSelectionButton_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        <entry key="enableMaximumValue" type="xboolean" value="true"/>
+        <config key="out_format_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+            <entry key="EnabledStatus" type="xboolean" value="false"/>
         </config>
-        <entry key="displayClearSelectionButton" type="xboolean" value="true"/>
+        <entry key="out_format" type="xstring" value="Standard String"/>
         <entry key="hideInWizard" type="xboolean" value="false"/>
         <entry key="maxRows" type="xint" value="2500"/>
         <entry key="generateImage" type="xboolean" value="false"/>
         <entry key="customCSS" type="xstring" value=""/>
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
-    <entry key="state" type="xstring" value="EXECUTED"/>
+    <entry key="state" type="xstring" value="CONFIGURED"/>
     <entry key="factory" type="xstring" value="org.knime.dynamic.js.v30.DynamicJSNodeFactory"/>
     <entry key="node-name" type="xstring" value="Histogram"/>
     <entry key="node-bundle-name" type="xstring" value="D3 Samples for KNIME Dynamic JavaScript Node Generation"/>
@@ -270,21 +265,16 @@
         <entry key="nodeDir" type="xstring" value="org.knime.dynamic.js.base:nodes/:histogram"/>
     </config>
     <entry key="name" type="xstring" value="Histogram"/>
-    <entry key="hasContent" type="xboolean" value="true"/>
+    <entry key="hasContent" type="xboolean" value="false"/>
     <entry key="isInactive" type="xboolean" value="false"/>
     <config key="ports">
         <config key="port_1">
             <entry key="index" type="xint" value="1"/>
-            <entry key="port_spec_class" type="xstring" value="org.knime.core.node.port.inactive.InactiveBranchPortObjectSpec"/>
-            <entry key="port_object_class" type="xstring" value="org.knime.core.node.port.inactive.InactiveBranchPortObject"/>
-            <entry key="port_object_summary" type="xstring" value="Inactive Port Object"/>
-            <entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
-            <entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
-            <entry key="port_dir_location" type="xstring" value="port_1"/>
+            <entry key="port_dir_location" type="xstring" isnull="true" value=""/>
         </config>
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="341dddff-db0e-46f0-89f3-d2c5ef68a5c1"/>
+        <entry key="file_store_id" type="xstring" isnull="true" value=""/>
     </config>
 </config>

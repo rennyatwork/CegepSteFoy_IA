@@ -6,11 +6,70 @@
         <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
     </config>
     <config key="model">
+        <config key="settings">
+            <config key="file_selection_Internals">
+                <entry key="SettingsModelID" type="xstring" value="SMID_ReaderFileChooser"/>
+                <entry key="EnabledStatus" type="xboolean" value="true"/>
+            </config>
+            <config key="file_selection">
+                <config key="file_system_chooser__Internals">
+                    <entry key="has_fs_port" type="xboolean" value="false"/>
+                    <entry key="overwritten_by_variable" type="xboolean" value="false"/>
+                    <entry key="convenience_fs_category" type="xstring" value="LOCAL"/>
+                    <entry key="relative_to" type="xstring" value="knime.workflow.data"/>
+                    <entry key="mountpoint" type="xstring" value="LOCAL"/>
+                    <entry key="custom_url_timeout" type="xint" value="1000"/>
+                    <entry key="connected_fs" type="xboolean" value="true"/>
+                </config>
+                <config key="path">
+                    <entry key="location_present" type="xboolean" value="true"/>
+                    <entry key="file_system_type" type="xstring" value="LOCAL"/>
+                    <entry key="path" type="xstring" value="/home/oracle/Documents/CegepSteFoy/TP-01/assurance_mod.csv"/>
+                </config>
+                <config key="filter_mode_Internals">
+                    <entry key="SettingsModelID" type="xstring" value="SMID_FilterMode"/>
+                    <entry key="EnabledStatus" type="xboolean" value="true"/>
+                </config>
+                <config key="filter_mode">
+                    <entry key="filter_mode" type="xstring" value="FILE"/>
+                    <entry key="include_subfolders" type="xboolean" value="false"/>
+                    <config key="filter_options">
+                        <entry key="filter_files_extension" type="xboolean" value="false"/>
+                        <entry key="files_extension_expression" type="xstring" value=""/>
+                        <entry key="files_extension_case_sensitive" type="xboolean" value="false"/>
+                        <entry key="filter_files_name" type="xboolean" value="false"/>
+                        <entry key="files_name_expression" type="xstring" value="*"/>
+                        <entry key="files_name_case_sensitive" type="xboolean" value="false"/>
+                        <entry key="files_name_filter_type" type="xstring" value="WILDCARD"/>
+                        <entry key="include_hidden_files" type="xboolean" value="false"/>
+                        <entry key="include_special_files" type="xboolean" value="true"/>
+                        <entry key="filter_folders_name" type="xboolean" value="false"/>
+                        <entry key="folders_name_expression" type="xstring" value="*"/>
+                        <entry key="folders_name_case_sensitive" type="xboolean" value="false"/>
+                        <entry key="folders_name_filter_type" type="xstring" value="WILDCARD"/>
+                        <entry key="include_hidden_folders" type="xboolean" value="false"/>
+                        <entry key="follow_links" type="xboolean" value="true"/>
+                    </config>
+                </config>
+            </config>
+            <entry key="has_column_header" type="xboolean" value="true"/>
+            <entry key="has_row_id" type="xboolean" value="false"/>
+            <entry key="support_short_data_rows" type="xboolean" value="false"/>
+            <entry key="skip_empty_data_rows" type="xboolean" value="false"/>
+            <entry key="prepend_file_idx_to_row_id" type="xboolean" value="false"/>
+            <entry key="comment_char" type="xstring" value="#"/>
+            <entry key="column_delimiter" type="xstring" value=";"/>
+            <entry key="quote_char" type="xstring" value="&quot;"/>
+            <entry key="quote_escape_char" type="xstring" value="&quot;"/>
+            <entry key="use_line_break_row_delimiter" type="xboolean" value="true"/>
+            <entry key="row_delimiter" type="xstring" value="%%00010"/>
+            <entry key="autodetect_buffer_size" type="xint" value="1048576"/>
+        </config>
         <config key="table_spec_config_Internals">
             <entry key="version" type="xstring" value="V4_4"/>
             <config key="individual_specs">
-                <config key="/home/oracle/Documents/CegepSteFoy/TP-01/MODELING_DATA.csv">
-                    <entry key="num_columns" type="xint" value="10"/>
+                <config key="/home/oracle/Documents/CegepSteFoy/TP-01/assurance_mod.csv">
+                    <entry key="num_columns" type="xint" value="26"/>
                     <config key="0">
                         <entry key="name" type="xstring" value="An_Debut_Invalidite"/>
                         <entry key="has_type" type="xboolean" value="true"/>
@@ -76,6 +135,118 @@
                     </config>
                     <config key="9">
                         <entry key="name" type="xstring" value="Duree_Invalidite"/>
+                        <entry key="has_type" type="xboolean" value="true"/>
+                        <config key="type">
+                            <entry key="class" type="xstring" value="java.lang.Integer"/>
+                        </config>
+                    </config>
+                    <config key="10">
+                        <entry key="name" type="xstring" value="Age_debut_Invalid"/>
+                        <entry key="has_type" type="xboolean" value="true"/>
+                        <config key="type">
+                            <entry key="class" type="xstring" value="java.lang.Integer"/>
+                        </config>
+                    </config>
+                    <config key="11">
+                        <entry key="name" type="xstring" value="saison_invalid"/>
+                        <entry key="has_type" type="xboolean" value="true"/>
+                        <config key="type">
+                            <entry key="class" type="xstring" value="java.lang.String"/>
+                        </config>
+                    </config>
+                    <config key="12">
+                        <entry key="name" type="xstring" value="est_zone_rurale"/>
+                        <entry key="has_type" type="xboolean" value="true"/>
+                        <config key="type">
+                            <entry key="class" type="xstring" value="java.lang.Integer"/>
+                        </config>
+                    </config>
+                    <config key="13">
+                        <entry key="name" type="xstring" value="province_region"/>
+                        <entry key="has_type" type="xboolean" value="true"/>
+                        <config key="type">
+                            <entry key="class" type="xstring" value="java.lang.String"/>
+                        </config>
+                    </config>
+                    <config key="14">
+                        <entry key="name" type="xstring" value="categ_salaire"/>
+                        <entry key="has_type" type="xboolean" value="true"/>
+                        <config key="type">
+                            <entry key="class" type="xstring" value="java.lang.String"/>
+                        </config>
+                    </config>
+                    <config key="15">
+                        <entry key="name" type="xstring" value="est_invalid_courte"/>
+                        <entry key="has_type" type="xboolean" value="true"/>
+                        <config key="type">
+                            <entry key="class" type="xstring" value="java.lang.Integer"/>
+                        </config>
+                    </config>
+                    <config key="16">
+                        <entry key="name" type="xstring" value="categ_duree_invalid"/>
+                        <entry key="has_type" type="xboolean" value="true"/>
+                        <config key="type">
+                            <entry key="class" type="xstring" value="java.lang.String"/>
+                        </config>
+                    </config>
+                    <config key="17">
+                        <entry key="name" type="xstring" value="categ_delai_attente"/>
+                        <entry key="has_type" type="xboolean" value="true"/>
+                        <config key="type">
+                            <entry key="class" type="xstring" value="java.lang.String"/>
+                        </config>
+                    </config>
+                    <config key="18">
+                        <entry key="name" type="xstring" value="est_cancer"/>
+                        <entry key="has_type" type="xboolean" value="true"/>
+                        <config key="type">
+                            <entry key="class" type="xstring" value="java.lang.Integer"/>
+                        </config>
+                    </config>
+                    <config key="19">
+                        <entry key="name" type="xstring" value="est_depression"/>
+                        <entry key="has_type" type="xboolean" value="true"/>
+                        <config key="type">
+                            <entry key="class" type="xstring" value="java.lang.Integer"/>
+                        </config>
+                    </config>
+                    <config key="20">
+                        <entry key="name" type="xstring" value="est_major_depressive"/>
+                        <entry key="has_type" type="xboolean" value="true"/>
+                        <config key="type">
+                            <entry key="class" type="xstring" value="java.lang.Integer"/>
+                        </config>
+                    </config>
+                    <config key="21">
+                        <entry key="name" type="xstring" value="est_see_file"/>
+                        <entry key="has_type" type="xboolean" value="true"/>
+                        <config key="type">
+                            <entry key="class" type="xstring" value="java.lang.Integer"/>
+                        </config>
+                    </config>
+                    <config key="22">
+                        <entry key="name" type="xstring" value="est_coronary_disease"/>
+                        <entry key="has_type" type="xboolean" value="true"/>
+                        <config key="type">
+                            <entry key="class" type="xstring" value="java.lang.Integer"/>
+                        </config>
+                    </config>
+                    <config key="23">
+                        <entry key="name" type="xstring" value="est_back_pain"/>
+                        <entry key="has_type" type="xboolean" value="true"/>
+                        <config key="type">
+                            <entry key="class" type="xstring" value="java.lang.Integer"/>
+                        </config>
+                    </config>
+                    <config key="24">
+                        <entry key="name" type="xstring" value="est_arthritis"/>
+                        <entry key="has_type" type="xboolean" value="true"/>
+                        <config key="type">
+                            <entry key="class" type="xstring" value="java.lang.Integer"/>
+                        </config>
+                    </config>
+                    <config key="25">
+                        <entry key="name" type="xstring" value="est_disorder"/>
                         <entry key="has_type" type="xboolean" value="true"/>
                         <config key="type">
                             <entry key="class" type="xstring" value="java.lang.Integer"/>
@@ -325,9 +496,393 @@
                             <config key="_producer_config"/>
                         </config>
                     </config>
-                    <entry key="num_columns" type="xint" value="10"/>
+                    <config key="10">
+                        <config key="external_spec">
+                            <entry key="name" type="xstring" value="Age_debut_Invalid"/>
+                            <entry key="has_type" type="xboolean" value="true"/>
+                            <config key="type">
+                                <entry key="class" type="xstring" value="java.lang.Integer"/>
+                            </config>
+                        </config>
+                        <entry key="name" type="xstring" value="Age_debut_Invalid"/>
+                        <entry key="keep" type="xboolean" value="true"/>
+                        <entry key="position" type="xint" value="10"/>
+                        <config key="production_path">
+                            <entry key="_converter" type="xstring" value="org.knime.core.data.def.IntCell$IntCellFactory.create(class java.lang.Integer)"/>
+                            <entry key="_converter_src" type="xstring" value="java.lang.Integer"/>
+                            <entry key="_converter_dst" type="xstring" value="Number (integer)"/>
+                            <entry key="_converter_name" type="xstring" value="Integer"/>
+                            <config key="_converter_config"/>
+                            <entry key="_producer" type="xstring" value="class java.lang.Integer-&gt;java.lang.Integer"/>
+                            <entry key="_producer_src" type="xstring" value="java.lang.Integer"/>
+                            <entry key="_producer_dst" type="xstring" value="java.lang.Integer"/>
+                            <entry key="_producer_name" type="xstring" value="java.lang.Integer"/>
+                            <config key="_producer_config"/>
+                        </config>
+                    </config>
+                    <config key="11">
+                        <config key="external_spec">
+                            <entry key="name" type="xstring" value="saison_invalid"/>
+                            <entry key="has_type" type="xboolean" value="true"/>
+                            <config key="type">
+                                <entry key="class" type="xstring" value="java.lang.String"/>
+                            </config>
+                        </config>
+                        <entry key="name" type="xstring" value="saison_invalid"/>
+                        <entry key="keep" type="xboolean" value="true"/>
+                        <entry key="position" type="xint" value="11"/>
+                        <config key="production_path">
+                            <entry key="_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
+                            <entry key="_converter_src" type="xstring" value="java.lang.String"/>
+                            <entry key="_converter_dst" type="xstring" value="String"/>
+                            <entry key="_converter_name" type="xstring" value="String"/>
+                            <config key="_converter_config"/>
+                            <entry key="_producer" type="xstring" value="class java.lang.String-&gt;java.lang.String"/>
+                            <entry key="_producer_src" type="xstring" value="java.lang.String"/>
+                            <entry key="_producer_dst" type="xstring" value="java.lang.String"/>
+                            <entry key="_producer_name" type="xstring" value="java.lang.String"/>
+                            <config key="_producer_config"/>
+                        </config>
+                    </config>
+                    <config key="12">
+                        <config key="external_spec">
+                            <entry key="name" type="xstring" value="est_zone_rurale"/>
+                            <entry key="has_type" type="xboolean" value="true"/>
+                            <config key="type">
+                                <entry key="class" type="xstring" value="java.lang.Integer"/>
+                            </config>
+                        </config>
+                        <entry key="name" type="xstring" value="est_zone_rurale"/>
+                        <entry key="keep" type="xboolean" value="true"/>
+                        <entry key="position" type="xint" value="12"/>
+                        <config key="production_path">
+                            <entry key="_converter" type="xstring" value="org.knime.core.data.def.IntCell$IntCellFactory.create(class java.lang.Integer)"/>
+                            <entry key="_converter_src" type="xstring" value="java.lang.Integer"/>
+                            <entry key="_converter_dst" type="xstring" value="Number (integer)"/>
+                            <entry key="_converter_name" type="xstring" value="Integer"/>
+                            <config key="_converter_config"/>
+                            <entry key="_producer" type="xstring" value="class java.lang.Integer-&gt;java.lang.Integer"/>
+                            <entry key="_producer_src" type="xstring" value="java.lang.Integer"/>
+                            <entry key="_producer_dst" type="xstring" value="java.lang.Integer"/>
+                            <entry key="_producer_name" type="xstring" value="java.lang.Integer"/>
+                            <config key="_producer_config"/>
+                        </config>
+                    </config>
+                    <config key="13">
+                        <config key="external_spec">
+                            <entry key="name" type="xstring" value="province_region"/>
+                            <entry key="has_type" type="xboolean" value="true"/>
+                            <config key="type">
+                                <entry key="class" type="xstring" value="java.lang.String"/>
+                            </config>
+                        </config>
+                        <entry key="name" type="xstring" value="province_region"/>
+                        <entry key="keep" type="xboolean" value="true"/>
+                        <entry key="position" type="xint" value="13"/>
+                        <config key="production_path">
+                            <entry key="_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
+                            <entry key="_converter_src" type="xstring" value="java.lang.String"/>
+                            <entry key="_converter_dst" type="xstring" value="String"/>
+                            <entry key="_converter_name" type="xstring" value="String"/>
+                            <config key="_converter_config"/>
+                            <entry key="_producer" type="xstring" value="class java.lang.String-&gt;java.lang.String"/>
+                            <entry key="_producer_src" type="xstring" value="java.lang.String"/>
+                            <entry key="_producer_dst" type="xstring" value="java.lang.String"/>
+                            <entry key="_producer_name" type="xstring" value="java.lang.String"/>
+                            <config key="_producer_config"/>
+                        </config>
+                    </config>
+                    <config key="14">
+                        <config key="external_spec">
+                            <entry key="name" type="xstring" value="categ_salaire"/>
+                            <entry key="has_type" type="xboolean" value="true"/>
+                            <config key="type">
+                                <entry key="class" type="xstring" value="java.lang.String"/>
+                            </config>
+                        </config>
+                        <entry key="name" type="xstring" value="categ_salaire"/>
+                        <entry key="keep" type="xboolean" value="true"/>
+                        <entry key="position" type="xint" value="14"/>
+                        <config key="production_path">
+                            <entry key="_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
+                            <entry key="_converter_src" type="xstring" value="java.lang.String"/>
+                            <entry key="_converter_dst" type="xstring" value="String"/>
+                            <entry key="_converter_name" type="xstring" value="String"/>
+                            <config key="_converter_config"/>
+                            <entry key="_producer" type="xstring" value="class java.lang.String-&gt;java.lang.String"/>
+                            <entry key="_producer_src" type="xstring" value="java.lang.String"/>
+                            <entry key="_producer_dst" type="xstring" value="java.lang.String"/>
+                            <entry key="_producer_name" type="xstring" value="java.lang.String"/>
+                            <config key="_producer_config"/>
+                        </config>
+                    </config>
+                    <config key="15">
+                        <config key="external_spec">
+                            <entry key="name" type="xstring" value="est_invalid_courte"/>
+                            <entry key="has_type" type="xboolean" value="true"/>
+                            <config key="type">
+                                <entry key="class" type="xstring" value="java.lang.Integer"/>
+                            </config>
+                        </config>
+                        <entry key="name" type="xstring" value="est_invalid_courte"/>
+                        <entry key="keep" type="xboolean" value="true"/>
+                        <entry key="position" type="xint" value="15"/>
+                        <config key="production_path">
+                            <entry key="_converter" type="xstring" value="org.knime.core.data.def.IntCell$IntCellFactory.create(class java.lang.Integer)"/>
+                            <entry key="_converter_src" type="xstring" value="java.lang.Integer"/>
+                            <entry key="_converter_dst" type="xstring" value="Number (integer)"/>
+                            <entry key="_converter_name" type="xstring" value="Integer"/>
+                            <config key="_converter_config"/>
+                            <entry key="_producer" type="xstring" value="class java.lang.Integer-&gt;java.lang.Integer"/>
+                            <entry key="_producer_src" type="xstring" value="java.lang.Integer"/>
+                            <entry key="_producer_dst" type="xstring" value="java.lang.Integer"/>
+                            <entry key="_producer_name" type="xstring" value="java.lang.Integer"/>
+                            <config key="_producer_config"/>
+                        </config>
+                    </config>
+                    <config key="16">
+                        <config key="external_spec">
+                            <entry key="name" type="xstring" value="categ_duree_invalid"/>
+                            <entry key="has_type" type="xboolean" value="true"/>
+                            <config key="type">
+                                <entry key="class" type="xstring" value="java.lang.String"/>
+                            </config>
+                        </config>
+                        <entry key="name" type="xstring" value="categ_duree_invalid"/>
+                        <entry key="keep" type="xboolean" value="true"/>
+                        <entry key="position" type="xint" value="16"/>
+                        <config key="production_path">
+                            <entry key="_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
+                            <entry key="_converter_src" type="xstring" value="java.lang.String"/>
+                            <entry key="_converter_dst" type="xstring" value="String"/>
+                            <entry key="_converter_name" type="xstring" value="String"/>
+                            <config key="_converter_config"/>
+                            <entry key="_producer" type="xstring" value="class java.lang.String-&gt;java.lang.String"/>
+                            <entry key="_producer_src" type="xstring" value="java.lang.String"/>
+                            <entry key="_producer_dst" type="xstring" value="java.lang.String"/>
+                            <entry key="_producer_name" type="xstring" value="java.lang.String"/>
+                            <config key="_producer_config"/>
+                        </config>
+                    </config>
+                    <config key="17">
+                        <config key="external_spec">
+                            <entry key="name" type="xstring" value="categ_delai_attente"/>
+                            <entry key="has_type" type="xboolean" value="true"/>
+                            <config key="type">
+                                <entry key="class" type="xstring" value="java.lang.String"/>
+                            </config>
+                        </config>
+                        <entry key="name" type="xstring" value="categ_delai_attente"/>
+                        <entry key="keep" type="xboolean" value="true"/>
+                        <entry key="position" type="xint" value="17"/>
+                        <config key="production_path">
+                            <entry key="_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
+                            <entry key="_converter_src" type="xstring" value="java.lang.String"/>
+                            <entry key="_converter_dst" type="xstring" value="String"/>
+                            <entry key="_converter_name" type="xstring" value="String"/>
+                            <config key="_converter_config"/>
+                            <entry key="_producer" type="xstring" value="class java.lang.String-&gt;java.lang.String"/>
+                            <entry key="_producer_src" type="xstring" value="java.lang.String"/>
+                            <entry key="_producer_dst" type="xstring" value="java.lang.String"/>
+                            <entry key="_producer_name" type="xstring" value="java.lang.String"/>
+                            <config key="_producer_config"/>
+                        </config>
+                    </config>
+                    <config key="18">
+                        <config key="external_spec">
+                            <entry key="name" type="xstring" value="est_cancer"/>
+                            <entry key="has_type" type="xboolean" value="true"/>
+                            <config key="type">
+                                <entry key="class" type="xstring" value="java.lang.Integer"/>
+                            </config>
+                        </config>
+                        <entry key="name" type="xstring" value="est_cancer"/>
+                        <entry key="keep" type="xboolean" value="true"/>
+                        <entry key="position" type="xint" value="18"/>
+                        <config key="production_path">
+                            <entry key="_converter" type="xstring" value="org.knime.core.data.def.IntCell$IntCellFactory.create(class java.lang.Integer)"/>
+                            <entry key="_converter_src" type="xstring" value="java.lang.Integer"/>
+                            <entry key="_converter_dst" type="xstring" value="Number (integer)"/>
+                            <entry key="_converter_name" type="xstring" value="Integer"/>
+                            <config key="_converter_config"/>
+                            <entry key="_producer" type="xstring" value="class java.lang.Integer-&gt;java.lang.Integer"/>
+                            <entry key="_producer_src" type="xstring" value="java.lang.Integer"/>
+                            <entry key="_producer_dst" type="xstring" value="java.lang.Integer"/>
+                            <entry key="_producer_name" type="xstring" value="java.lang.Integer"/>
+                            <config key="_producer_config"/>
+                        </config>
+                    </config>
+                    <config key="19">
+                        <config key="external_spec">
+                            <entry key="name" type="xstring" value="est_depression"/>
+                            <entry key="has_type" type="xboolean" value="true"/>
+                            <config key="type">
+                                <entry key="class" type="xstring" value="java.lang.Integer"/>
+                            </config>
+                        </config>
+                        <entry key="name" type="xstring" value="est_depression"/>
+                        <entry key="keep" type="xboolean" value="true"/>
+                        <entry key="position" type="xint" value="19"/>
+                        <config key="production_path">
+                            <entry key="_converter" type="xstring" value="org.knime.core.data.def.IntCell$IntCellFactory.create(class java.lang.Integer)"/>
+                            <entry key="_converter_src" type="xstring" value="java.lang.Integer"/>
+                            <entry key="_converter_dst" type="xstring" value="Number (integer)"/>
+                            <entry key="_converter_name" type="xstring" value="Integer"/>
+                            <config key="_converter_config"/>
+                            <entry key="_producer" type="xstring" value="class java.lang.Integer-&gt;java.lang.Integer"/>
+                            <entry key="_producer_src" type="xstring" value="java.lang.Integer"/>
+                            <entry key="_producer_dst" type="xstring" value="java.lang.Integer"/>
+                            <entry key="_producer_name" type="xstring" value="java.lang.Integer"/>
+                            <config key="_producer_config"/>
+                        </config>
+                    </config>
+                    <config key="20">
+                        <config key="external_spec">
+                            <entry key="name" type="xstring" value="est_major_depressive"/>
+                            <entry key="has_type" type="xboolean" value="true"/>
+                            <config key="type">
+                                <entry key="class" type="xstring" value="java.lang.Integer"/>
+                            </config>
+                        </config>
+                        <entry key="name" type="xstring" value="est_major_depressive"/>
+                        <entry key="keep" type="xboolean" value="true"/>
+                        <entry key="position" type="xint" value="20"/>
+                        <config key="production_path">
+                            <entry key="_converter" type="xstring" value="org.knime.core.data.def.IntCell$IntCellFactory.create(class java.lang.Integer)"/>
+                            <entry key="_converter_src" type="xstring" value="java.lang.Integer"/>
+                            <entry key="_converter_dst" type="xstring" value="Number (integer)"/>
+                            <entry key="_converter_name" type="xstring" value="Integer"/>
+                            <config key="_converter_config"/>
+                            <entry key="_producer" type="xstring" value="class java.lang.Integer-&gt;java.lang.Integer"/>
+                            <entry key="_producer_src" type="xstring" value="java.lang.Integer"/>
+                            <entry key="_producer_dst" type="xstring" value="java.lang.Integer"/>
+                            <entry key="_producer_name" type="xstring" value="java.lang.Integer"/>
+                            <config key="_producer_config"/>
+                        </config>
+                    </config>
+                    <config key="21">
+                        <config key="external_spec">
+                            <entry key="name" type="xstring" value="est_see_file"/>
+                            <entry key="has_type" type="xboolean" value="true"/>
+                            <config key="type">
+                                <entry key="class" type="xstring" value="java.lang.Integer"/>
+                            </config>
+                        </config>
+                        <entry key="name" type="xstring" value="est_see_file"/>
+                        <entry key="keep" type="xboolean" value="true"/>
+                        <entry key="position" type="xint" value="21"/>
+                        <config key="production_path">
+                            <entry key="_converter" type="xstring" value="org.knime.core.data.def.IntCell$IntCellFactory.create(class java.lang.Integer)"/>
+                            <entry key="_converter_src" type="xstring" value="java.lang.Integer"/>
+                            <entry key="_converter_dst" type="xstring" value="Number (integer)"/>
+                            <entry key="_converter_name" type="xstring" value="Integer"/>
+                            <config key="_converter_config"/>
+                            <entry key="_producer" type="xstring" value="class java.lang.Integer-&gt;java.lang.Integer"/>
+                            <entry key="_producer_src" type="xstring" value="java.lang.Integer"/>
+                            <entry key="_producer_dst" type="xstring" value="java.lang.Integer"/>
+                            <entry key="_producer_name" type="xstring" value="java.lang.Integer"/>
+                            <config key="_producer_config"/>
+                        </config>
+                    </config>
+                    <config key="22">
+                        <config key="external_spec">
+                            <entry key="name" type="xstring" value="est_coronary_disease"/>
+                            <entry key="has_type" type="xboolean" value="true"/>
+                            <config key="type">
+                                <entry key="class" type="xstring" value="java.lang.Integer"/>
+                            </config>
+                        </config>
+                        <entry key="name" type="xstring" value="est_coronary_disease"/>
+                        <entry key="keep" type="xboolean" value="true"/>
+                        <entry key="position" type="xint" value="22"/>
+                        <config key="production_path">
+                            <entry key="_converter" type="xstring" value="org.knime.core.data.def.IntCell$IntCellFactory.create(class java.lang.Integer)"/>
+                            <entry key="_converter_src" type="xstring" value="java.lang.Integer"/>
+                            <entry key="_converter_dst" type="xstring" value="Number (integer)"/>
+                            <entry key="_converter_name" type="xstring" value="Integer"/>
+                            <config key="_converter_config"/>
+                            <entry key="_producer" type="xstring" value="class java.lang.Integer-&gt;java.lang.Integer"/>
+                            <entry key="_producer_src" type="xstring" value="java.lang.Integer"/>
+                            <entry key="_producer_dst" type="xstring" value="java.lang.Integer"/>
+                            <entry key="_producer_name" type="xstring" value="java.lang.Integer"/>
+                            <config key="_producer_config"/>
+                        </config>
+                    </config>
+                    <config key="23">
+                        <config key="external_spec">
+                            <entry key="name" type="xstring" value="est_back_pain"/>
+                            <entry key="has_type" type="xboolean" value="true"/>
+                            <config key="type">
+                                <entry key="class" type="xstring" value="java.lang.Integer"/>
+                            </config>
+                        </config>
+                        <entry key="name" type="xstring" value="est_back_pain"/>
+                        <entry key="keep" type="xboolean" value="true"/>
+                        <entry key="position" type="xint" value="23"/>
+                        <config key="production_path">
+                            <entry key="_converter" type="xstring" value="org.knime.core.data.def.IntCell$IntCellFactory.create(class java.lang.Integer)"/>
+                            <entry key="_converter_src" type="xstring" value="java.lang.Integer"/>
+                            <entry key="_converter_dst" type="xstring" value="Number (integer)"/>
+                            <entry key="_converter_name" type="xstring" value="Integer"/>
+                            <config key="_converter_config"/>
+                            <entry key="_producer" type="xstring" value="class java.lang.Integer-&gt;java.lang.Integer"/>
+                            <entry key="_producer_src" type="xstring" value="java.lang.Integer"/>
+                            <entry key="_producer_dst" type="xstring" value="java.lang.Integer"/>
+                            <entry key="_producer_name" type="xstring" value="java.lang.Integer"/>
+                            <config key="_producer_config"/>
+                        </config>
+                    </config>
+                    <config key="24">
+                        <config key="external_spec">
+                            <entry key="name" type="xstring" value="est_arthritis"/>
+                            <entry key="has_type" type="xboolean" value="true"/>
+                            <config key="type">
+                                <entry key="class" type="xstring" value="java.lang.Integer"/>
+                            </config>
+                        </config>
+                        <entry key="name" type="xstring" value="est_arthritis"/>
+                        <entry key="keep" type="xboolean" value="true"/>
+                        <entry key="position" type="xint" value="24"/>
+                        <config key="production_path">
+                            <entry key="_converter" type="xstring" value="org.knime.core.data.def.IntCell$IntCellFactory.create(class java.lang.Integer)"/>
+                            <entry key="_converter_src" type="xstring" value="java.lang.Integer"/>
+                            <entry key="_converter_dst" type="xstring" value="Number (integer)"/>
+                            <entry key="_converter_name" type="xstring" value="Integer"/>
+                            <config key="_converter_config"/>
+                            <entry key="_producer" type="xstring" value="class java.lang.Integer-&gt;java.lang.Integer"/>
+                            <entry key="_producer_src" type="xstring" value="java.lang.Integer"/>
+                            <entry key="_producer_dst" type="xstring" value="java.lang.Integer"/>
+                            <entry key="_producer_name" type="xstring" value="java.lang.Integer"/>
+                            <config key="_producer_config"/>
+                        </config>
+                    </config>
+                    <config key="25">
+                        <config key="external_spec">
+                            <entry key="name" type="xstring" value="est_disorder"/>
+                            <entry key="has_type" type="xboolean" value="true"/>
+                            <config key="type">
+                                <entry key="class" type="xstring" value="java.lang.Integer"/>
+                            </config>
+                        </config>
+                        <entry key="name" type="xstring" value="est_disorder"/>
+                        <entry key="keep" type="xboolean" value="true"/>
+                        <entry key="position" type="xint" value="25"/>
+                        <config key="production_path">
+                            <entry key="_converter" type="xstring" value="org.knime.core.data.def.IntCell$IntCellFactory.create(class java.lang.Integer)"/>
+                            <entry key="_converter_src" type="xstring" value="java.lang.Integer"/>
+                            <entry key="_converter_dst" type="xstring" value="Number (integer)"/>
+                            <entry key="_converter_name" type="xstring" value="Integer"/>
+                            <config key="_converter_config"/>
+                            <entry key="_producer" type="xstring" value="class java.lang.Integer-&gt;java.lang.Integer"/>
+                            <entry key="_producer_src" type="xstring" value="java.lang.Integer"/>
+                            <entry key="_producer_dst" type="xstring" value="java.lang.Integer"/>
+                            <entry key="_producer_name" type="xstring" value="java.lang.Integer"/>
+                            <config key="_producer_config"/>
+                        </config>
+                    </config>
+                    <entry key="num_columns" type="xint" value="26"/>
                     <config key="intersection_indices">
-                        <entry key="array-size" type="xint" value="10"/>
+                        <entry key="array-size" type="xint" value="26"/>
                         <entry key="0" type="xint" value="0"/>
                         <entry key="1" type="xint" value="1"/>
                         <entry key="2" type="xint" value="2"/>
@@ -338,18 +893,34 @@
                         <entry key="7" type="xint" value="7"/>
                         <entry key="8" type="xint" value="8"/>
                         <entry key="9" type="xint" value="9"/>
+                        <entry key="10" type="xint" value="10"/>
+                        <entry key="11" type="xint" value="11"/>
+                        <entry key="12" type="xint" value="12"/>
+                        <entry key="13" type="xint" value="13"/>
+                        <entry key="14" type="xint" value="14"/>
+                        <entry key="15" type="xint" value="15"/>
+                        <entry key="16" type="xint" value="16"/>
+                        <entry key="17" type="xint" value="17"/>
+                        <entry key="18" type="xint" value="18"/>
+                        <entry key="19" type="xint" value="19"/>
+                        <entry key="20" type="xint" value="20"/>
+                        <entry key="21" type="xint" value="21"/>
+                        <entry key="22" type="xint" value="22"/>
+                        <entry key="23" type="xint" value="23"/>
+                        <entry key="24" type="xint" value="24"/>
+                        <entry key="25" type="xint" value="25"/>
                     </config>
                 </config>
                 <entry key="skip_empty_columns" type="xboolean" value="false"/>
                 <entry key="enforce_types" type="xboolean" value="true"/>
                 <entry key="column_filter_mode" type="xstring" value="UNION"/>
                 <config key="unknown_columns_transformation">
-                    <entry key="position" type="xint" value="10"/>
+                    <entry key="position" type="xint" value="26"/>
                     <entry key="keep" type="xboolean" value="true"/>
                     <entry key="force_type" type="xboolean" value="false"/>
                 </config>
             </config>
-            <entry key="source_group_id" type="xstring" value="/home/oracle/Documents/CegepSteFoy/TP-01/MODELING_DATA.csv"/>
+            <entry key="source_group_id" type="xstring" value="/home/oracle/Documents/CegepSteFoy/TP-01/assurance_mod.csv"/>
             <config key="config_id">
                 <config key="multi_table_read">
                     <config key="settings">
@@ -378,65 +949,6 @@
                         <entry key="number_of_lines_to_skip" type="xlong" value="1"/>
                         <entry key="skip_data_rows" type="xboolean" value="false"/>
                         <entry key="number_of_rows_to_skip" type="xlong" value="1"/>
-                    </config>
-                </config>
-            </config>
-        </config>
-        <config key="settings">
-            <entry key="has_column_header" type="xboolean" value="true"/>
-            <entry key="has_row_id" type="xboolean" value="false"/>
-            <entry key="support_short_data_rows" type="xboolean" value="false"/>
-            <entry key="skip_empty_data_rows" type="xboolean" value="false"/>
-            <entry key="prepend_file_idx_to_row_id" type="xboolean" value="false"/>
-            <entry key="comment_char" type="xstring" value="#"/>
-            <entry key="column_delimiter" type="xstring" value=";"/>
-            <entry key="quote_char" type="xstring" value="&quot;"/>
-            <entry key="quote_escape_char" type="xstring" value="&quot;"/>
-            <entry key="use_line_break_row_delimiter" type="xboolean" value="true"/>
-            <entry key="row_delimiter" type="xstring" value="%%00010"/>
-            <entry key="autodetect_buffer_size" type="xint" value="1048576"/>
-            <config key="file_selection_Internals">
-                <entry key="SettingsModelID" type="xstring" value="SMID_ReaderFileChooser"/>
-                <entry key="EnabledStatus" type="xboolean" value="true"/>
-            </config>
-            <config key="file_selection">
-                <config key="file_system_chooser__Internals">
-                    <entry key="has_fs_port" type="xboolean" value="false"/>
-                    <entry key="overwritten_by_variable" type="xboolean" value="false"/>
-                    <entry key="convenience_fs_category" type="xstring" value="LOCAL"/>
-                    <entry key="relative_to" type="xstring" value="knime.workflow.data"/>
-                    <entry key="mountpoint" type="xstring" value="LOCAL"/>
-                    <entry key="custom_url_timeout" type="xint" value="1000"/>
-                    <entry key="connected_fs" type="xboolean" value="true"/>
-                </config>
-                <config key="path">
-                    <entry key="location_present" type="xboolean" value="true"/>
-                    <entry key="file_system_type" type="xstring" value="LOCAL"/>
-                    <entry key="path" type="xstring" value="/home/oracle/Documents/CegepSteFoy/TP-01/MODELING_DATA.csv"/>
-                </config>
-                <config key="filter_mode_Internals">
-                    <entry key="SettingsModelID" type="xstring" value="SMID_FilterMode"/>
-                    <entry key="EnabledStatus" type="xboolean" value="true"/>
-                </config>
-                <config key="filter_mode">
-                    <entry key="filter_mode" type="xstring" value="FILE"/>
-                    <entry key="include_subfolders" type="xboolean" value="false"/>
-                    <config key="filter_options">
-                        <entry key="filter_files_extension" type="xboolean" value="false"/>
-                        <entry key="files_extension_expression" type="xstring" value=""/>
-                        <entry key="files_extension_case_sensitive" type="xboolean" value="false"/>
-                        <entry key="filter_files_name" type="xboolean" value="false"/>
-                        <entry key="files_name_expression" type="xstring" value="*"/>
-                        <entry key="files_name_case_sensitive" type="xboolean" value="false"/>
-                        <entry key="files_name_filter_type" type="xstring" value="WILDCARD"/>
-                        <entry key="include_hidden_files" type="xboolean" value="false"/>
-                        <entry key="include_special_files" type="xboolean" value="true"/>
-                        <entry key="filter_folders_name" type="xboolean" value="false"/>
-                        <entry key="folders_name_expression" type="xstring" value="*"/>
-                        <entry key="folders_name_case_sensitive" type="xboolean" value="false"/>
-                        <entry key="folders_name_filter_type" type="xstring" value="WILDCARD"/>
-                        <entry key="include_hidden_folders" type="xboolean" value="false"/>
-                        <entry key="follow_links" type="xboolean" value="true"/>
                     </config>
                 </config>
             </config>
@@ -507,12 +1019,12 @@
             <entry key="index" type="xint" value="1"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-            <entry key="port_object_summary" type="xstring" value="Rows: 5000, Cols: 10"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 5000, Cols: 26"/>
             <entry key="port_dir_location" type="xstring" value="port_1"/>
         </config>
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="49956c98-2f83-4d6b-8826-ec522bb6bc61"/>
+        <entry key="file_store_id" type="xstring" value="92bd0c6d-1dc0-4a17-bd0b-ef494e693276"/>
     </config>
 </config>
