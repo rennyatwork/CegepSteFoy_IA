@@ -9,36 +9,36 @@
         <config key="column-filter">
             <entry key="filter-type" type="xstring" value="STANDARD"/>
             <config key="included_names">
-                <entry key="array-size" type="xint" value="23"/>
-                <entry key="0" type="xstring" value="An_Debut_Invalidite"/>
-                <entry key="1" type="xstring" value="Mois_Debut_Invalidite"/>
-                <entry key="2" type="xstring" value="FSA"/>
-                <entry key="3" type="xstring" value="Sexe"/>
-                <entry key="4" type="xstring" value="Annee_Naissance"/>
-                <entry key="5" type="xstring" value="Code_Emploi"/>
-                <entry key="6" type="xstring" value="Description_Invalidite"/>
-                <entry key="7" type="xstring" value="Salaire_Annuel"/>
-                <entry key="8" type="xstring" value="Age_debut_Invalid"/>
-                <entry key="9" type="xstring" value="saison_invalid"/>
-                <entry key="10" type="xstring" value="est_zone_rurale"/>
-                <entry key="11" type="xstring" value="province_region"/>
-                <entry key="12" type="xstring" value="categ_salaire"/>
-                <entry key="13" type="xstring" value="categ_duree_invalid"/>
-                <entry key="14" type="xstring" value="categ_delai_attente"/>
-                <entry key="15" type="xstring" value="est_cancer"/>
-                <entry key="16" type="xstring" value="est_depression"/>
-                <entry key="17" type="xstring" value="est_major_depressive"/>
-                <entry key="18" type="xstring" value="est_see_file"/>
-                <entry key="19" type="xstring" value="est_coronary_disease"/>
-                <entry key="20" type="xstring" value="est_back_pain"/>
-                <entry key="21" type="xstring" value="est_arthritis"/>
-                <entry key="22" type="xstring" value="est_disorder"/>
+                <entry key="array-size" type="xint" value="21"/>
+                <entry key="0" type="xstring" value="FSA"/>
+                <entry key="1" type="xstring" value="Sexe"/>
+                <entry key="2" type="xstring" value="Annee_Naissance"/>
+                <entry key="3" type="xstring" value="Code_Emploi"/>
+                <entry key="4" type="xstring" value="Description_Invalidite"/>
+                <entry key="5" type="xstring" value="Salaire_Annuel"/>
+                <entry key="6" type="xstring" value="Age_debut_Invalid"/>
+                <entry key="7" type="xstring" value="saison_invalid"/>
+                <entry key="8" type="xstring" value="est_zone_rurale"/>
+                <entry key="9" type="xstring" value="province_region"/>
+                <entry key="10" type="xstring" value="categ_salaire"/>
+                <entry key="11" type="xstring" value="categ_duree_invalid"/>
+                <entry key="12" type="xstring" value="categ_delai_attente"/>
+                <entry key="13" type="xstring" value="est_cancer"/>
+                <entry key="14" type="xstring" value="est_depression"/>
+                <entry key="15" type="xstring" value="est_major_depressive"/>
+                <entry key="16" type="xstring" value="est_see_file"/>
+                <entry key="17" type="xstring" value="est_coronary_disease"/>
+                <entry key="18" type="xstring" value="est_back_pain"/>
+                <entry key="19" type="xstring" value="est_arthritis"/>
+                <entry key="20" type="xstring" value="est_disorder"/>
             </config>
             <config key="excluded_names">
-                <entry key="array-size" type="xint" value="3"/>
-                <entry key="0" type="xstring" value="Duree_Delai_Attente"/>
-                <entry key="1" type="xstring" value="Duree_Invalidite"/>
-                <entry key="2" type="xstring" value="est_invalid_courte"/>
+                <entry key="array-size" type="xint" value="5"/>
+                <entry key="0" type="xstring" value="An_Debut_Invalidite"/>
+                <entry key="1" type="xstring" value="Mois_Debut_Invalidite"/>
+                <entry key="2" type="xstring" value="Duree_Delai_Attente"/>
+                <entry key="3" type="xstring" value="Duree_Invalidite"/>
+                <entry key="4" type="xstring" value="est_invalid_courte"/>
             </config>
             <entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
             <config key="name_pattern">
@@ -80,12 +80,12 @@
             <entry key="index" type="xint" value="1"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-            <entry key="port_object_summary" type="xstring" value="Rows: 4501, Cols: 23"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 4501, Cols: 21"/>
             <entry key="port_dir_location" type="xstring" value="port_1"/>
         </config>
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="f85c4cbb-5999-440f-a0aa-9e6c0bf26ba2"/>
+        <entry key="file_store_id" type="xstring" value="46443a50-e4fd-4df3-83c4-6ab5daea32a1"/>
     </config>
 </config>
