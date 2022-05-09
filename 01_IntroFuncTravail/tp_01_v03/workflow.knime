@@ -8,7 +8,7 @@
         <entry key="authored-by" type="xstring" value="oracle"/>
         <entry key="authored-when" type="xstring" value="2022-04-22 10:01:15 -0400"/>
         <entry key="lastEdited-by" type="xstring" value="oracle"/>
-        <entry key="lastEdited-when" type="xstring" value="2022-05-07 20:51:37 -0400"/>
+        <entry key="lastEdited-when" type="xstring" value="2022-05-09 19:55:37 -0400"/>
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
     <entry key="state" type="xstring" value="CONFIGURED"/>
@@ -56,7 +56,7 @@
                 <config key="extrainfo.node.bounds">
                     <entry key="array-size" type="xint" value="4"/>
                     <entry key="0" type="xint" value="124"/>
-                    <entry key="1" type="xint" value="197"/>
+                    <entry key="1" type="xint" value="177"/>
                     <entry key="2" type="xint" value="100"/>
                     <entry key="3" type="xint" value="83"/>
                 </config>
@@ -71,8 +71,8 @@
             <config key="ui_settings">
                 <config key="extrainfo.node.bounds">
                     <entry key="array-size" type="xint" value="4"/>
-                    <entry key="0" type="xint" value="444"/>
-                    <entry key="1" type="xint" value="137"/>
+                    <entry key="0" type="xint" value="504"/>
+                    <entry key="1" type="xint" value="97"/>
                     <entry key="2" type="xint" value="99"/>
                     <entry key="3" type="xint" value="83"/>
                 </config>
@@ -119,8 +119,8 @@
             <config key="ui_settings">
                 <config key="extrainfo.node.bounds">
                     <entry key="array-size" type="xint" value="4"/>
-                    <entry key="0" type="xint" value="264"/>
-                    <entry key="1" type="xint" value="197"/>
+                    <entry key="0" type="xint" value="284"/>
+                    <entry key="1" type="xint" value="177"/>
                     <entry key="2" type="xint" value="82"/>
                     <entry key="3" type="xint" value="103"/>
                 </config>
