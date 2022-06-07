@@ -1,5 +1,5 @@
 #!/usr/bin/python
-
+## beautifulSoup example (not scrapy)
 import requests
 
 from os import system

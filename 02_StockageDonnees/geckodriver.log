@@ -1,0 +1,10 @@
+1654047774913	geckodriver	INFO	Listening on 127.0.0.1:14753
+1654047775576	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileyeaDQW"
+1654047778017	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileyeaDQW/search.json.mozlz4", (void 0)))
+1654047799090	Marionette	INFO	Listening on port 35503
+1654047799695	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1654047805189	Marionette	WARN	TimedPromise timed out after 5000 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+GeckoDriver.prototype.maximizeWindow@chrome://remote/content/marionette/driver.js:2458:11
