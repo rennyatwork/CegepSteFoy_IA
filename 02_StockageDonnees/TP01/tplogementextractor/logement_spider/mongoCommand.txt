@@ -1,0 +1,128 @@
+## pour charger un json
+mongoimport --mode=insert --stopOnError --db=db_logements --collection=logements --verbose --file=laberge.json --jsonArray
+
+##### mongodb-compass
+## example: code postal contient G1e
+{"codePostal": /.*G1e.*/i}
+
+##### mongo shell
+## distinct codePostal
+db.logements.distinct("codePostal").length
+> 53
+
+## l'adresse contien 'rue'
+MongoDB Enterprise > db.logements.find({adresse:/.*rue*./i}).length()
+28
+MongoDB Enterprise > 
+
+## remove all documents
+MongoDB Enterprise > db.logements.remove({})
+WriteResult({ "nRemoved" : 67 })
+
+##########
+## load new json (scrapy_Laberge.json)
+
+MongoDB Enterprise > db.logements.find({"0.adresse":/.*rue*./i}).length()
+28
+
+##compass
+{"0.ville":/.*bec*./i}
+
+## apartments having at least one appartment on 5th floor
+## '0' is a field name (which is confusing since it's also an index)
+{ "0.appartements": {$elemMatch: {"0.etage":"5"} } }
+
+#filter:
+	{ "0.appartements": {$elemMatch: {"0.etage":"5", 
+"0.disponibilite":"Maintenant"} } }
+
+#project:
+{"0.adresse":1, "0.appartements.disponibilite":1, "0.appartements.etage":1, "0.appartements.prix":1, "0.appartements.typeApp":1, "0.ville":1, "0.nom":1}
+
+-------------
+## Logisco
+
+#loading
+mongoimport --mode=insert --stopOnError --db=db_logements --collection=logements --verbose --file=scrapping_Logisco.json --jsonArray
+
+## des ap à Québec (Laberge ou Logisco)
+{$or:[ {"0.ville": /.*bec*./i}, {"ville":/.*bec*./i} ]}
+
+
+####### aggregate
+## count all 
+MongoDB Enterprise > use db_logements
+switched to db db_logements
+MongoDB Enterprise > db.logements.aggregate( [   {     $group: {        _id: null,        count: { $count: { } }     }   } ] )
+{ "_id" : null, "count" : 121 }
+    }  ])
+
+
+MongoDB Enterprise > db.logements.aggregate( [   {     $group: {        _id: "$ville",        count: { $count: { } }     }   } ] )
+{ "_id" : "Lévis", "count" : 9 }
+{ "_id" : "Donnacona", "count" : 1 }
+{ "_id" : "Lebourgneuf", "count" : 2 }
+{ "_id" : "Vanier", "count" : 1 }
+{ "_id" : "Loretteville", "count" : 4 }
+{ "_id" : "Saint-Romuald", "count" : 6 }
+{ "_id" : "Montcalm", "count" : 2 }
+{ "_id" : "Charny", "count" : 3 }
+{ "_id" : "Québec", "count" : 3 }
+{ "_id" : "Saint-Nicolas", "count" : 1 }
+{ "_id" : "Les Saules", "count" : 1 }
+{ "_id" : "Saint-Émile", "count" : 1 }
+{ "_id" : "Sainte-Foy", "count" : 4 }
+{ "_id" : "Val-Bélair", "count" : 3 }
+{ "_id" : "Charlesbourg", "count" : 3 }
+{ "_id" : "Neufchâtel", "count" : 2 }
+{ "_id" : "Beauport", "count" : 4 }
+{ "_id" : "Saint-Augustin", "count" : 3 }
+{ "_id" : null, "count" : 67 }
+{ "_id" : "L'Ancienne-Lorette", "count" : 1 }
+MongoDB Enterprise > 
+
+#####
+## Aggregate villes logisco et laberge (0.ville)
+MongoDB Enterprise > db.logements.aggregate( [   {     $group: {        _id: ["$ville", "$0.ville"],        count: { $count: { } }     }   } ] )
+{ "_id" : [ "Saint-Romuald", null ], "count" : 6 }
+{ "_id" : [ "Saint-Augustin", null ], "count" : 3 }
+{ "_id" : [ null, "Lévis" ], "count" : 1 }
+{ "_id" : [ "Sainte-Foy", null ], "count" : 4 }
+{ "_id" : [ "Vanier", null ], "count" : 1 }
+{ "_id" : [ null, "Québec" ], "count" : 58 }
+{ "_id" : [ null, "LaSalle" ], "count" : 1 }
+{ "_id" : [ "Montcalm", null ], "count" : 2 }
+{ "_id" : [ "Saint-Nicolas", null ], "count" : 1 }
+{ "_id" : [ "Donnacona", null ], "count" : 1 }
+{ "_id" : [ "L'Ancienne-Lorette", null ], "count" : 1 }
+{ "_id" : [ null, "Pierrefonds" ], "count" : 1 }
+{ "_id" : [ "Charny", null ], "count" : 3 }
+{ "_id" : [ "Beauport", null ], "count" : 4 }
+{ "_id" : [ "Les Saules", null ], "count" : 1 }
+{ "_id" : [ null, "Montréal" ], "count" : 2 }
+{ "_id" : [ "Québec", null ], "count" : 3 }
+{ "_id" : [ null, "Côte St-Luc" ], "count" : 4 }
+{ "_id" : [ "Lévis", null ], "count" : 9 }
+{ "_id" : [ "Loretteville", null ], "count" : 4 }
+Type "it" for more
+MongoDB Enterprise > 
+
+
+### au moins deux appartementsMongoDB Enterprise > db.logements.aggregate( [   {     $group: {        _id: ["$ville", "$0.ville"],        count: { $count: { } }     }   }, {$match:{"count":{$gt:1}}} ] )
+{ "_id" : [ "Saint-Romuald", null ], "count" : 6 }
+{ "_id" : [ "Saint-Augustin", null ], "count" : 3 }
+{ "_id" : [ "Sainte-Foy", null ], "count" : 4 }
+{ "_id" : [ null, "Québec" ], "count" : 58 }
+{ "_id" : [ "Montcalm", null ], "count" : 2 }
+{ "_id" : [ "Charny", null ], "count" : 3 }
+{ "_id" : [ "Beauport", null ], "count" : 4 }
+{ "_id" : [ null, "Montréal" ], "count" : 2 }
+{ "_id" : [ "Québec", null ], "count" : 3 }
+{ "_id" : [ null, "Côte St-Luc" ], "count" : 4 }
+{ "_id" : [ "Lévis", null ], "count" : 9 }
+{ "_id" : [ "Loretteville", null ], "count" : 4 }
+{ "_id" : [ "Charlesbourg", null ], "count" : 3 }
+{ "_id" : [ "Val-Bélair", null ], "count" : 3 }
+{ "_id" : [ "Lebourgneuf", null ], "count" : 2 }
+{ "_id" : [ "Neufchâtel", null ], "count" : 2 }
+MongoDB Enterprise > 
