@@ -1,0 +1,1001 @@
+﻿ID,Âge,Emploi,Revenu,Genre,Logis,Degré de satisfaction
+3,De 18 à 24 ans,Temps plein,De 40 000 $ à 59 999 $,Féminin,Locataire,6
+5,De 45 à 54 ans,Temps plein,160 000 $ et plus,Masculin,Propriétaire,10
+6,De 25 à 34 ans,Temps plein,De 40 000 $ à 59 999 $,Féminin,Locataire,9
+7,De 18 à 24 ans,Étudiant,Abstention,Féminin,Locataire,8
+8,De 25 à 34 ans,Temps plein,De 100 000 $ à 119 999 $,Féminin,Locataire,10
+9,De 35 à 44 ans,Temps plein,160 000 $ et plus,Masculin,Propriétaire,6
+10,De 65 à 74 ans,Abstention,De 40 000 $ à 59 999 $,Féminin,Propriétaire,8
+11,De 55 à 64 ans,Retraité,De 20 000 $ à 39 999 $,Masculin,Propriétaire,7
+13,De 25 à 34 ans,En recherche d’emploi,De 60 000 $ à 79 999 $,Féminin,Locataire,9
+14,De 45 à 54 ans,Temps plein,De 100 000 $ à 119 999 $,Féminin,Propriétaire,8
+15,De 25 à 34 ans,Étudiant,De 20 000 $ à 39 999 $,Féminin,Locataire,8
+16,De 65 à 74 ans,Retraité,De 60 000 $ à 79 999 $,Masculin,Propriétaire,7
+17,De 65 à 74 ans,Retraité,De 80 000 $ à 99 999 $,Féminin,Propriétaire,8
+19,De 25 à 34 ans,Temps plein,De 80 000 $ à 99 999 $,Féminin,Locataire,9
+20,De 25 à 34 ans,Temps plein,De 100 000 $ à 119 999 $,Féminin,Locataire,6
+21,De 35 à 44 ans,Temps plein,De 100 000 $ à 119 999 $,Masculin,Propriétaire,8
+23,De 35 à 44 ans,Temps plein,Abstention,Masculin,Propriétaire,10
+24,De 25 à 34 ans,Temps plein,De 80 000 $ à 99 999 $,Féminin,Propriétaire,7
+25,De 25 à 34 ans,Étudiant,19 999 $ et moins,Féminin,Locataire,8
+26,De 45 à 54 ans,Travailleur autonome,De 60 000 $ à 79 999 $,Féminin,Locataire,8
+27,De 35 à 44 ans,Temps plein,De 100 000 $ à 119 999 $,Masculin,Propriétaire,8
+28,De 35 à 44 ans,Abstention,De 40 000 $ à 59 999 $,Féminin,Locataire,6
+29,De 25 à 34 ans,Temps plein,De 40 000 $ à 59 999 $,Masculin,Locataire,6
+30,De 55 à 64 ans,Retraité,De 100 000 $ à 119 999 $,Masculin,Propriétaire,7
+31,De 18 à 24 ans,temps partiel,De 100 000 $ à 119 999 $,Féminin,Locataire,9
+33,De 55 à 64 ans,Travailleur autonome,De 120 000 $ à 139 999 $,Féminin,Propriétaire,8
+34,De 45 à 54 ans,Temps plein,De 20 000 $ à 39 999 $,Masculin,Locataire,8
+35,De 35 à 44 ans,Temps plein,De 80 000 $ à 99 999 $,Masculin,Propriétaire,8
+37,De 65 à 74 ans,Travailleur autonome,De 80 000 $ à 99 999 $,Masculin,Propriétaire,9
+40,De 55 à 64 ans,Retraité,160 000 $ et plus,Féminin,Propriétaire,6
+41,De 45 à 54 ans,temps partiel,De 40 000 $ à 59 999 $,Féminin,Locataire,0
+42,De 65 à 74 ans,Retraité,De 20 000 $ à 39 999 $,Féminin,Locataire,7
+43,De 18 à 24 ans,Temps plein,De 80 000 $ à 99 999 $,Féminin,Propriétaire,8
+44,De 25 à 34 ans,Temps plein,De 40 000 $ à 59 999 $,Féminin,Locataire,8
+45,De 55 à 64 ans,Retraité,De 40 000 $ à 59 999 $,Masculin,Locataire,8
+67,De 65 à 74 ans,Retraité,De 60 000 $ à 79 999 $,Féminin,Propriétaire,8
+69,De 18 à 24 ans,temps partiel,De 20 000 $ à 39 999 $,Masculin,Propriétaire,8
+70,De 18 à 24 ans,temps partiel,160 000 $ et plus,Masculin,Locataire,8
+71,De 25 à 34 ans,Temps plein,160 000 $ et plus,Féminin,Propriétaire,8
+72,De 55 à 64 ans,Retraité,Abstention,Féminin,Locataire,3
+73,De 65 à 74 ans,Retraité,De 20 000 $ à 39 999 $,Masculin,Locataire,9
+74,De 18 à 24 ans,temps partiel,19 999 $ et moins,Féminin,Propriétaire,7
+75,De 55 à 64 ans,Retraité,De 100 000 $ à 119 999 $,Féminin,Propriétaire,9
+76,De 55 à 64 ans,Retraité,Abstention,Féminin,Propriétaire,6
+77,De 65 à 74 ans,Retraité,De 40 000 $ à 59 999 $,Féminin,Locataire,8
+78,De 65 à 74 ans,Retraité,De 40 000 $ à 59 999 $,Masculin,Locataire,7
+79,De 65 à 74 ans,Retraité,De 60 000 $ à 79 999 $,Féminin,Locataire,8
+80,De 25 à 34 ans,Temps plein,De 40 000 $ à 59 999 $,Féminin,Locataire,7
+81,De 35 à 44 ans,temps partiel,De 60 000 $ à 79 999 $,Féminin,Propriétaire,6
+83,De 25 à 34 ans,Temps plein,De 120 000 $ à 139 999 $,Masculin,Locataire,9
+84,De 45 à 54 ans,Temps plein,De 120 000 $ à 139 999 $,Masculin,Propriétaire,7
+87,De 65 à 74 ans,Retraité,Abstention,Féminin,Propriétaire,9
+88,De 55 à 64 ans,Temps plein,Abstention,Masculin,Locataire,5
+89,De 45 à 54 ans,Au foyer,Abstention,Féminin,Locataire,10
+90,De 25 à 34 ans,Temps plein,De 80 000 $ à 99 999 $,Féminin,Locataire,8
+91,De 35 à 44 ans,temps partiel,De 40 000 $ à 59 999 $,Masculin,Locataire,7
+94,De 18 à 24 ans,Temps plein,De 60 000 $ à 79 999 $,Féminin,Locataire,7
+95,De 55 à 64 ans,Retraité,De 80 000 $ à 99 999 $,Féminin,Propriétaire,8
+96,De 65 à 74 ans,Retraité,De 20 000 $ à 39 999 $,Masculin,Propriétaire,6
+97,De 65 à 74 ans,Travailleur autonome,160 000 $ et plus,Féminin,Propriétaire,6
+100,De 18 à 24 ans,Temps plein,Abstention,Féminin,Locataire,10
+102,De 45 à 54 ans,Temps plein,De 40 000 $ à 59 999 $,Féminin,Locataire,6
+103,De 65 à 74 ans,Retraité,De 80 000 $ à 99 999 $,Féminin,Propriétaire,10
+104,De 35 à 44 ans,Étudiant,De 120 000 $ à 139 999 $,Masculin,Locataire,9
+105,De 25 à 34 ans,Temps plein,De 120 000 $ à 139 999 $,Masculin,Propriétaire,7
+106,De 45 à 54 ans,Temps plein,De 120 000 $ à 139 999 $,Féminin,Propriétaire,8
+107,De 25 à 34 ans,Temps plein,De 100 000 $ à 119 999 $,Féminin,Propriétaire,8
+108,De 55 à 64 ans,Retraité,De 60 000 $ à 79 999 $,Féminin,Propriétaire,10
+109,De 18 à 24 ans,Temps plein,De 60 000 $ à 79 999 $,Masculin,Propriétaire,7
+110,75 ans ou plus,Retraité,De 20 000 $ à 39 999 $,Masculin,Locataire,8
+111,De 35 à 44 ans,Temps plein,De 140 000 $ à 159 999 $,Masculin,Propriétaire,3
+115,De 55 à 64 ans,Retraité,160 000 $ et plus,Féminin,Propriétaire,8
+116,De 65 à 74 ans,Retraité,De 60 000 $ à 79 999 $,Féminin,Propriétaire,7
+117,De 35 à 44 ans,Temps plein,De 40 000 $ à 59 999 $,Masculin,Locataire,7
+118,De 55 à 64 ans,Temps plein,De 100 000 $ à 119 999 $,Masculin,Propriétaire,8
+119,75 ans ou plus,Retraité,De 20 000 $ à 39 999 $,Masculin,Locataire,9
+121,75 ans ou plus,Retraité,De 60 000 $ à 79 999 $,Masculin,Locataire,9
+122,De 45 à 54 ans,Temps plein,De 40 000 $ à 59 999 $,Masculin,Propriétaire,6
+123,De 25 à 34 ans,Temps plein,De 80 000 $ à 99 999 $,Masculin,Propriétaire,8
+124,De 65 à 74 ans,Retraité,De 20 000 $ à 39 999 $,Féminin,Locataire,8
+126,De 55 à 64 ans,Retraité,De 80 000 $ à 99 999 $,Masculin,Propriétaire,7
+128,De 18 à 24 ans,Étudiant,De 20 000 $ à 39 999 $,Féminin,Locataire,10
+129,De 25 à 34 ans,Temps plein,De 60 000 $ à 79 999 $,Féminin,Locataire,6
+130,De 65 à 74 ans,Retraité,De 80 000 $ à 99 999 $,Féminin,Propriétaire,8
+131,De 18 à 24 ans,Temps plein,De 20 000 $ à 39 999 $,Féminin,Locataire,8
+132,De 65 à 74 ans,Retraité,De 60 000 $ à 79 999 $,Masculin,Propriétaire,7
+133,De 65 à 74 ans,Retraité,De 40 000 $ à 59 999 $,Féminin,Propriétaire,9
+134,De 65 à 74 ans,Retraité,De 80 000 $ à 99 999 $,Masculin,Propriétaire,10
+135,De 45 à 54 ans,Temps plein,De 80 000 $ à 99 999 $,Féminin,Propriétaire,8
+136,De 35 à 44 ans,Temps plein,De 120 000 $ à 139 999 $,Féminin,Propriétaire,7
+137,De 35 à 44 ans,Temps plein,De 120 000 $ à 139 999 $,Féminin,Propriétaire,7
+138,De 35 à 44 ans,Temps plein,Abstention,Féminin,Propriétaire,8
+139,De 45 à 54 ans,Temps plein,De 80 000 $ à 99 999 $,Féminin,Propriétaire,3
+140,De 35 à 44 ans,Temps plein,De 40 000 $ à 59 999 $,Féminin,Locataire,5
+142,De 65 à 74 ans,Retraité,De 140 000 $ à 159 999 $,Féminin,Locataire,7
+143,De 65 à 74 ans,Retraité,De 40 000 $ à 59 999 $,Féminin,Locataire,10
+145,De 65 à 74 ans,Retraité,Abstention,Féminin,Propriétaire,9
+146,De 65 à 74 ans,Retraité,De 100 000 $ à 119 999 $,Féminin,Propriétaire,10
+147,75 ans ou plus,Retraité,De 80 000 $ à 99 999 $,Masculin,Propriétaire,7
+148,De 55 à 64 ans,Retraité,De 20 000 $ à 39 999 $,Féminin,Propriétaire,8
+149,De 18 à 24 ans,Temps plein,De 140 000 $ à 159 999 $,Masculin,Propriétaire,10
+150,De 35 à 44 ans,temps partiel,De 80 000 $ à 99 999 $,Féminin,Locataire,10
+151,75 ans ou plus,Retraité,De 80 000 $ à 99 999 $,Masculin,Propriétaire,8
+152,De 55 à 64 ans,Temps plein,Abstention,Masculin,Propriétaire,8
+153,De 65 à 74 ans,Retraité,Abstention,Masculin,Propriétaire,9
+154,De 18 à 24 ans,Temps plein,De 120 000 $ à 139 999 $,Féminin,Propriétaire,7
+155,De 35 à 44 ans,Temps plein,De 80 000 $ à 99 999 $,Féminin,Propriétaire,8
+156,De 45 à 54 ans,Temps plein,De 140 000 $ à 159 999 $,Masculin,Propriétaire,7
+157,De 25 à 34 ans,Temps plein,De 100 000 $ à 119 999 $,Féminin,Propriétaire,7
+159,De 65 à 74 ans,Retraité,De 40 000 $ à 59 999 $,Masculin,Propriétaire,8
+160,75 ans ou plus,Retraité,19 999 $ et moins,Féminin,Locataire,10
+161,De 35 à 44 ans,Temps plein,160 000 $ et plus,Masculin,Propriétaire,9
+163,De 18 à 24 ans,Temps plein,160 000 $ et plus,Masculin,Locataire,8
+167,De 25 à 34 ans,Temps plein,De 60 000 $ à 79 999 $,Féminin,Propriétaire,6
+168,De 55 à 64 ans,En recherche d’emploi,De 40 000 $ à 59 999 $,Masculin,Locataire,8
+170,De 55 à 64 ans,Temps plein,De 40 000 $ à 59 999 $,Masculin,Locataire,7
+171,De 55 à 64 ans,Temps plein,De 80 000 $ à 99 999 $,Féminin,Propriétaire,8
+172,De 55 à 64 ans,Temps plein,De 100 000 $ à 119 999 $,Masculin,Propriétaire,7
+173,De 55 à 64 ans,Retraité,Abstention,Féminin,Propriétaire,8
+174,75 ans ou plus,Retraité,De 20 000 $ à 39 999 $,Masculin,Locataire,8
+175,De 18 à 24 ans,Étudiant,De 140 000 $ à 159 999 $,Féminin,Locataire,7
+177,De 65 à 74 ans,Retraité,De 80 000 $ à 99 999 $,Féminin,Locataire,10
+178,De 65 à 74 ans,Retraité,De 140 000 $ à 159 999 $,Masculin,Propriétaire,3
+179,De 35 à 44 ans,Temps plein,De 120 000 $ à 139 999 $,Féminin,Locataire,7
+180,De 65 à 74 ans,Retraité,De 40 000 $ à 59 999 $,Féminin,Locataire,8
+182,De 45 à 54 ans,Travailleur autonome,Abstention,Masculin,Propriétaire,10
+183,De 65 à 74 ans,Retraité,De 40 000 $ à 59 999 $,Masculin,Propriétaire,9
+184,De 25 à 34 ans,Temps plein,De 20 000 $ à 39 999 $,Masculin,Locataire,7
+185,De 65 à 74 ans,Retraité,Abstention,Masculin,Locataire,5
+186,De 25 à 34 ans,Temps plein,De 40 000 $ à 59 999 $,Masculin,Locataire,7
+187,De 55 à 64 ans,Temps plein,De 120 000 $ à 139 999 $,Masculin,Propriétaire,6
+189,75 ans ou plus,Retraité,De 100 000 $ à 119 999 $,Masculin,Propriétaire,9
+190,De 55 à 64 ans,Retraité,Abstention,Féminin,Propriétaire,8
+191,De 45 à 54 ans,Au foyer,De 100 000 $ à 119 999 $,Féminin,Propriétaire,9
+192,De 55 à 64 ans,Au foyer,De 40 000 $ à 59 999 $,Féminin,Propriétaire,9
+193,De 35 à 44 ans,Temps plein,De 40 000 $ à 59 999 $,Masculin,Locataire,5
+194,De 18 à 24 ans,Temps plein,De 20 000 $ à 39 999 $,Féminin,Locataire,8
+195,De 65 à 74 ans,Retraité,De 60 000 $ à 79 999 $,Masculin,Locataire,10
+196,De 55 à 64 ans,Retraité,Abstention,Féminin,Propriétaire,8
+197,De 55 à 64 ans,Retraité,De 40 000 $ à 59 999 $,Masculin,Propriétaire,9
+198,75 ans ou plus,Retraité,De 100 000 $ à 119 999 $,Masculin,Propriétaire,9
+199,De 25 à 34 ans,Temps plein,De 100 000 $ à 119 999 $,Féminin,Locataire,10
+201,De 55 à 64 ans,Retraité,Abstention,Féminin,Propriétaire,7
+202,De 18 à 24 ans,Étudiant,160 000 $ et plus,Féminin,Locataire,7
+203,De 25 à 34 ans,Temps plein,De 40 000 $ à 59 999 $,Féminin,Locataire,9
+205,De 25 à 34 ans,Temps plein,De 60 000 $ à 79 999 $,Masculin,Propriétaire,9
+206,De 18 à 24 ans,Temps plein,De 20 000 $ à 39 999 $,Masculin,Locataire,7
+207,De 55 à 64 ans,Temps plein,De 40 000 $ à 59 999 $,Féminin,Locataire,8
+208,De 55 à 64 ans,Retraité,Abstention,Féminin,Propriétaire,7
+209,De 45 à 54 ans,Temps plein,160 000 $ et plus,Masculin,Propriétaire,7
+210,De 35 à 44 ans,Temps plein,De 140 000 $ à 159 999 $,Féminin,Propriétaire,7
+211,De 25 à 34 ans,Temps plein,De 80 000 $ à 99 999 $,Féminin,Locataire,10
+212,De 25 à 34 ans,Temps plein,De 100 000 $ à 119 999 $,Féminin,Propriétaire,9
+213,De 45 à 54 ans,Temps plein,De 120 000 $ à 139 999 $,Féminin,Locataire,9
+214,De 65 à 74 ans,Retraité,De 40 000 $ à 59 999 $,Masculin,Propriétaire,7
+215,De 18 à 24 ans,Étudiant,De 40 000 $ à 59 999 $,Féminin,Locataire,7
+216,De 45 à 54 ans,Temps plein,De 120 000 $ à 139 999 $,Masculin,Propriétaire,10
+217,De 45 à 54 ans,Temps plein,160 000 $ et plus,Féminin,Propriétaire,9
+218,De 25 à 34 ans,Temps plein,De 60 000 $ à 79 999 $,Masculin,Propriétaire,10
+220,De 55 à 64 ans,Retraité,19 999 $ et moins,Féminin,Locataire,7
+222,De 35 à 44 ans,Temps plein,De 80 000 $ à 99 999 $,Masculin,Propriétaire,7
+223,De 45 à 54 ans,Temps plein,De 100 000 $ à 119 999 $,Masculin,Propriétaire,5
+224,75 ans ou plus,Retraité,De 20 000 $ à 39 999 $,Féminin,Locataire,
+225,De 45 à 54 ans,Temps plein,160 000 $ et plus,Masculin,Propriétaire,9
+226,De 55 à 64 ans,Retraité,De 80 000 $ à 99 999 $,Masculin,Propriétaire,8
+227,De 65 à 74 ans,Retraité,De 100 000 $ à 119 999 $,Masculin,Propriétaire,8
+228,75 ans ou plus,Retraité,De 100 000 $ à 119 999 $,Masculin,Propriétaire,5
+229,De 45 à 54 ans,Temps plein,De 80 000 $ à 99 999 $,Masculin,Propriétaire,7
+230,De 25 à 34 ans,Étudiant,De 20 000 $ à 39 999 $,Masculin,Locataire,7
+232,75 ans ou plus,Travailleur autonome,De 80 000 $ à 99 999 $,Masculin,Propriétaire,8
+233,De 35 à 44 ans,En recherche d’emploi,De 40 000 $ à 59 999 $,Masculin,Propriétaire,9
+234,De 45 à 54 ans,Temps plein,De 140 000 $ à 159 999 $,Féminin,Propriétaire,8
+235,De 55 à 64 ans,Temps plein,De 100 000 $ à 119 999 $,Féminin,Propriétaire,4
+236,De 25 à 34 ans,Temps plein,De 40 000 $ à 59 999 $,Masculin,Locataire,7
+237,De 25 à 34 ans,Temps plein,De 20 000 $ à 39 999 $,Féminin,Locataire,7
+238,De 45 à 54 ans,En recherche d’emploi,Abstention,Masculin,Locataire,8
+240,De 35 à 44 ans,Temps plein,Abstention,Féminin,Locataire,8
+241,De 45 à 54 ans,En recherche d’emploi,De 40 000 $ à 59 999 $,Féminin,Propriétaire,5
+242,De 25 à 34 ans,Temps plein,De 100 000 $ à 119 999 $,Féminin,Propriétaire,7
+243,De 25 à 34 ans,Temps plein,De 40 000 $ à 59 999 $,Féminin,Locataire,6
+244,De 18 à 24 ans,Étudiant,19 999 $ et moins,Masculin,Propriétaire,7
+245,De 18 à 24 ans,Temps plein,De 100 000 $ à 119 999 $,Féminin,Locataire,8
+246,De 25 à 34 ans,Temps plein,De 40 000 $ à 59 999 $,Masculin,Propriétaire,8
+247,75 ans ou plus,Retraité,De 60 000 $ à 79 999 $,Masculin,Locataire,9
+248,De 25 à 34 ans,Temps plein,De 120 000 $ à 139 999 $,Féminin,Propriétaire,8
+249,De 25 à 34 ans,Temps plein,Abstention,Féminin,Propriétaire,8
+250,De 45 à 54 ans,Temps plein,De 120 000 $ à 139 999 $,Masculin,Propriétaire,7
+251,75 ans ou plus,Retraité,De 20 000 $ à 39 999 $,Masculin,Locataire,10
+252,75 ans ou plus,Retraité,De 120 000 $ à 139 999 $,Masculin,Propriétaire,7
+253,De 35 à 44 ans,Temps plein,De 20 000 $ à 39 999 $,Féminin,Locataire,9
+254,De 25 à 34 ans,Temps plein,De 60 000 $ à 79 999 $,Féminin,Locataire,8
+256,De 35 à 44 ans,Temps plein,De 100 000 $ à 119 999 $,Féminin,Propriétaire,8
+257,De 55 à 64 ans,Temps plein,160 000 $ et plus,Masculin,Propriétaire,8
+258,75 ans ou plus,Retraité,De 20 000 $ à 39 999 $,Féminin,Propriétaire,8
+259,De 55 à 64 ans,Retraité,Abstention,Masculin,Locataire,6
+260,De 35 à 44 ans,Temps plein,De 20 000 $ à 39 999 $,Féminin,Locataire,8
+262,De 35 à 44 ans,Temps plein,De 100 000 $ à 119 999 $,Masculin,Propriétaire,6
+263,De 45 à 54 ans,Temps plein,Abstention,Féminin,Locataire,7
+264,De 55 à 64 ans,Retraité,De 20 000 $ à 39 999 $,Féminin,Locataire,5
+265,De 18 à 24 ans,temps partiel,De 100 000 $ à 119 999 $,Féminin,Propriétaire,6
+266,De 45 à 54 ans,Temps plein,Abstention,Féminin,Propriétaire,6
+267,De 55 à 64 ans,Retraité,De 80 000 $ à 99 999 $,Masculin,Propriétaire,8
+268,De 25 à 34 ans,Temps plein,160 000 $ et plus,Féminin,Locataire,9
+269,De 18 à 24 ans,En recherche d’emploi,19 999 $ et moins,Féminin,Locataire,8
+270,De 45 à 54 ans,Temps plein,De 140 000 $ à 159 999 $,Masculin,Propriétaire,7
+271,De 55 à 64 ans,Abstention,De 40 000 $ à 59 999 $,Masculin,Propriétaire,7
+272,De 45 à 54 ans,Temps plein,De 80 000 $ à 99 999 $,Masculin,Propriétaire,4
+273,De 45 à 54 ans,En recherche d’emploi,De 20 000 $ à 39 999 $,Féminin,Locataire,4
+274,De 35 à 44 ans,Temps plein,160 000 $ et plus,Masculin,Locataire,8
+275,De 55 à 64 ans,Temps plein,De 100 000 $ à 119 999 $,Féminin,Propriétaire,8
+276,De 25 à 34 ans,En recherche d’emploi,De 60 000 $ à 79 999 $,Masculin,Locataire,7
+277,De 55 à 64 ans,Retraité,De 80 000 $ à 99 999 $,Féminin,Propriétaire,8
+279,De 45 à 54 ans,Temps plein,De 80 000 $ à 99 999 $,Masculin,Propriétaire,6
+280,De 35 à 44 ans,Temps plein,De 40 000 $ à 59 999 $,Masculin,Locataire,6
+281,75 ans ou plus,Retraité,De 40 000 $ à 59 999 $,Masculin,Propriétaire,10
+282,De 25 à 34 ans,Temps plein,De 100 000 $ à 119 999 $,Féminin,Propriétaire,9
+283,De 55 à 64 ans,Retraité,De 60 000 $ à 79 999 $,Masculin,Propriétaire,8
+285,De 25 à 34 ans,Temps plein,De 20 000 $ à 39 999 $,Féminin,Locataire,8
+286,De 35 à 44 ans,Temps plein,De 40 000 $ à 59 999 $,Féminin,Locataire,8
+288,De 55 à 64 ans,Temps plein,De 40 000 $ à 59 999 $,Féminin,Locataire,6
+289,De 25 à 34 ans,Temps plein,De 120 000 $ à 139 999 $,Féminin,Propriétaire,7
+290,De 25 à 34 ans,Étudiant,De 60 000 $ à 79 999 $,Féminin,Locataire,8
+291,De 18 à 24 ans,Étudiant,160 000 $ et plus,Masculin,Propriétaire,9
+292,De 45 à 54 ans,Temps plein,De 80 000 $ à 99 999 $,Féminin,Propriétaire,7
+293,De 65 à 74 ans,Retraité,De 80 000 $ à 99 999 $,Masculin,Propriétaire,8
+295,De 18 à 24 ans,Étudiant,19 999 $ et moins,Féminin,Locataire,10
+296,De 35 à 44 ans,Temps plein,De 100 000 $ à 119 999 $,Masculin,Propriétaire,6
+297,De 45 à 54 ans,Temps plein,160 000 $ et plus,Masculin,Propriétaire,6
+298,De 65 à 74 ans,Retraité,De 140 000 $ à 159 999 $,Féminin,Propriétaire,6
+300,De 65 à 74 ans,Temps plein,De 140 000 $ à 159 999 $,Masculin,Propriétaire,7
+302,De 18 à 24 ans,Étudiant,De 60 000 $ à 79 999 $,Féminin,Locataire,8
+304,De 45 à 54 ans,Temps plein,De 140 000 $ à 159 999 $,Masculin,Propriétaire,7
+305,De 25 à 34 ans,Temps plein,160 000 $ et plus,Féminin,Propriétaire,9
+306,De 25 à 34 ans,Temps plein,Abstention,Masculin,Locataire,8
+307,De 35 à 44 ans,Temps plein,De 40 000 $ à 59 999 $,Masculin,Locataire,8
+309,De 35 à 44 ans,Temps plein,De 80 000 $ à 99 999 $,Masculin,Propriétaire,8
+310,De 25 à 34 ans,Temps plein,De 40 000 $ à 59 999 $,Masculin,Locataire,7
+311,De 35 à 44 ans,temps partiel,De 100 000 $ à 119 999 $,Féminin,Propriétaire,4
+312,75 ans ou plus,Retraité,De 40 000 $ à 59 999 $,Masculin,Propriétaire,7
+313,De 18 à 24 ans,Temps plein,De 20 000 $ à 39 999 $,Féminin,Locataire,8
+314,De 18 à 24 ans,Étudiant,De 40 000 $ à 59 999 $,Féminin,Locataire,5
+315,De 35 à 44 ans,Temps plein,De 80 000 $ à 99 999 $,Masculin,Locataire,8
+316,De 45 à 54 ans,Travailleur autonome,Abstention,Féminin,Propriétaire,10
+317,De 65 à 74 ans,Retraité,De 40 000 $ à 59 999 $,Féminin,Propriétaire,8
+318,De 25 à 34 ans,Temps plein,De 140 000 $ à 159 999 $,Féminin,Propriétaire,7
+319,De 55 à 64 ans,Temps plein,Abstention,Masculin,Locataire,3
+320,De 45 à 54 ans,temps partiel,160 000 $ et plus,Féminin,Locataire,8
+321,De 65 à 74 ans,Retraité,Abstention,Masculin,Propriétaire,7
+322,De 65 à 74 ans,Retraité,Abstention,Masculin,Propriétaire,5
+323,De 45 à 54 ans,En recherche d’emploi,De 60 000 $ à 79 999 $,Masculin,Locataire,7
+324,De 35 à 44 ans,Temps plein,De 100 000 $ à 119 999 $,Féminin,Propriétaire,4
+325,De 65 à 74 ans,Retraité,De 60 000 $ à 79 999 $,Masculin,Propriétaire,8
+326,De 55 à 64 ans,Travailleur autonome,De 40 000 $ à 59 999 $,Féminin,Propriétaire,5
+327,De 45 à 54 ans,Temps plein,De 120 000 $ à 139 999 $,Masculin,Propriétaire,2
+328,De 25 à 34 ans,Temps plein,De 60 000 $ à 79 999 $,Féminin,Propriétaire,9
+329,De 45 à 54 ans,Temps plein,De 60 000 $ à 79 999 $,Masculin,Locataire,7
+331,De 45 à 54 ans,En recherche d’emploi,19 999 $ et moins,Masculin,Locataire,3
+332,De 25 à 34 ans,Temps plein,De 100 000 $ à 119 999 $,Masculin,Propriétaire,5
+333,De 65 à 74 ans,Retraité,De 80 000 $ à 99 999 $,Masculin,Propriétaire,9
+334,De 25 à 34 ans,Temps plein,De 80 000 $ à 99 999 $,Féminin,Propriétaire,8
+335,De 45 à 54 ans,Temps plein,De 40 000 $ à 59 999 $,Féminin,Propriétaire,5
+336,De 55 à 64 ans,Au foyer,19 999 $ et moins,Féminin,Locataire,7
+337,De 35 à 44 ans,En recherche d’emploi,De 40 000 $ à 59 999 $,Masculin,Locataire,8
+338,De 18 à 24 ans,Temps plein,De 40 000 $ à 59 999 $,Masculin,Propriétaire,9
+339,De 55 à 64 ans,Retraité,160 000 $ et plus,Féminin,Propriétaire,8
+340,De 18 à 24 ans,Temps plein,19 999 $ et moins,Féminin,Locataire,7
+342,De 25 à 34 ans,temps partiel,De 40 000 $ à 59 999 $,Masculin,Locataire,7
+343,De 55 à 64 ans,Retraité,De 20 000 $ à 39 999 $,Féminin,Propriétaire,8
+344,De 18 à 24 ans,Étudiant,160 000 $ et plus,Masculin,Propriétaire,10
+346,De 55 à 64 ans,Retraité,De 120 000 $ à 139 999 $,Masculin,Propriétaire,7
+347,De 18 à 24 ans,En recherche d’emploi,19 999 $ et moins,Féminin,Locataire,7
+348,De 45 à 54 ans,Temps plein,De 140 000 $ à 159 999 $,Féminin,Propriétaire,7
+349,De 25 à 34 ans,Temps plein,160 000 $ et plus,Féminin,Propriétaire,8
+350,75 ans ou plus,Retraité,De 80 000 $ à 99 999 $,Masculin,Propriétaire,7
+351,De 25 à 34 ans,Temps plein,De 40 000 $ à 59 999 $,Féminin,Propriétaire,7
+353,De 65 à 74 ans,Retraité,De 60 000 $ à 79 999 $,Féminin,Propriétaire,8
+354,De 45 à 54 ans,Abstention,De 20 000 $ à 39 999 $,Féminin,Locataire,7
+355,De 18 à 24 ans,Étudiant,De 20 000 $ à 39 999 $,Féminin,Locataire,6
+356,75 ans ou plus,Retraité,De 40 000 $ à 59 999 $,Masculin,Propriétaire,6
+357,De 45 à 54 ans,Temps plein,De 40 000 $ à 59 999 $,Masculin,Locataire,7
+364,De 55 à 64 ans,Temps plein,De 100 000 $ à 119 999 $,Masculin,Propriétaire,10
+397,De 18 à 24 ans,Étudiant,De 60 000 $ à 79 999 $,Féminin,Locataire,8
+398,De 25 à 34 ans,Temps plein,De 140 000 $ à 159 999 $,Masculin,Propriétaire,9
+432,De 25 à 34 ans,Temps plein,De 60 000 $ à 79 999 $,Féminin,Propriétaire,7
+433,De 35 à 44 ans,Temps plein,De 60 000 $ à 79 999 $,Masculin,Locataire,9
+434,De 35 à 44 ans,Temps plein,De 120 000 $ à 139 999 $,Féminin,Propriétaire,7
+435,De 18 à 24 ans,Étudiant,De 100 000 $ à 119 999 $,Masculin,Propriétaire,8
+439,De 25 à 34 ans,Temps plein,De 100 000 $ à 119 999 $,Masculin,Propriétaire,8
+440,De 55 à 64 ans,Retraité,19 999 $ et moins,Féminin,Locataire,5
+441,De 65 à 74 ans,Retraité,De 80 000 $ à 99 999 $,Masculin,Propriétaire,4
+442,De 45 à 54 ans,Temps plein,De 140 000 $ à 159 999 $,Féminin,Propriétaire,8
+443,De 65 à 74 ans,Retraité,De 40 000 $ à 59 999 $,Masculin,Locataire,9
+444,De 55 à 64 ans,Temps plein,160 000 $ et plus,Masculin,Propriétaire,9
+445,De 35 à 44 ans,Temps plein,De 120 000 $ à 139 999 $,Féminin,Propriétaire,2
+446,De 45 à 54 ans,Temps plein,De 80 000 $ à 99 999 $,Féminin,Propriétaire,6
+447,De 55 à 64 ans,Retraité,De 20 000 $ à 39 999 $,Féminin,Propriétaire,7
+449,De 45 à 54 ans,Temps plein,De 120 000 $ à 139 999 $,Féminin,Propriétaire,8
+450,De 65 à 74 ans,Retraité,De 20 000 $ à 39 999 $,Féminin,Propriétaire,8
+451,De 45 à 54 ans,Temps plein,De 120 000 $ à 139 999 $,Féminin,Propriétaire,8
+452,De 18 à 24 ans,Étudiant,De 120 000 $ à 139 999 $,Masculin,Propriétaire,8
+454,De 55 à 64 ans,temps partiel,De 60 000 $ à 79 999 $,Masculin,Propriétaire,5
+455,De 55 à 64 ans,Temps plein,De 80 000 $ à 99 999 $,Masculin,Propriétaire,10
+456,De 65 à 74 ans,Retraité,De 40 000 $ à 59 999 $,Féminin,Locataire,10
+457,De 35 à 44 ans,Temps plein,Abstention,Féminin,Propriétaire,8
+458,De 35 à 44 ans,Temps plein,De 60 000 $ à 79 999 $,Féminin,Propriétaire,10
+459,De 55 à 64 ans,En recherche d’emploi,19 999 $ et moins,Féminin,Locataire,7
+460,De 25 à 34 ans,Temps plein,De 100 000 $ à 119 999 $,Masculin,Propriétaire,8
+462,De 25 à 34 ans,Temps plein,De 20 000 $ à 39 999 $,Féminin,Locataire,7
+463,De 35 à 44 ans,Temps plein,De 120 000 $ à 139 999 $,Féminin,Propriétaire,7
+464,De 55 à 64 ans,Retraité,De 100 000 $ à 119 999 $,Masculin,Propriétaire,7
+465,De 55 à 64 ans,Temps plein,Abstention,Féminin,Propriétaire,8
+466,De 65 à 74 ans,Retraité,De 60 000 $ à 79 999 $,Masculin,Locataire,6
+467,De 18 à 24 ans,temps partiel,Abstention,Féminin,Propriétaire,8
+468,De 25 à 34 ans,Au foyer,De 60 000 $ à 79 999 $,Féminin,Locataire,6
+469,De 25 à 34 ans,En recherche d’emploi,De 20 000 $ à 39 999 $,Féminin,Locataire,9
+470,De 18 à 24 ans,Étudiant,19 999 $ et moins,Féminin,Locataire,
+471,De 65 à 74 ans,Retraité,De 100 000 $ à 119 999 $,Masculin,Propriétaire,8
+473,De 65 à 74 ans,Retraité,De 60 000 $ à 79 999 $,Féminin,Propriétaire,9
+475,De 45 à 54 ans,Travailleur autonome,160 000 $ et plus,Masculin,Propriétaire,8
+476,De 35 à 44 ans,Temps plein,De 120 000 $ à 139 999 $,Féminin,Propriétaire,9
+477,De 55 à 64 ans,Temps plein,160 000 $ et plus,Masculin,Propriétaire,9
+479,De 55 à 64 ans,Retraité,Abstention,Féminin,Propriétaire,6
+480,De 45 à 54 ans,Retraité,De 40 000 $ à 59 999 $,Masculin,Propriétaire,5
+481,De 25 à 34 ans,Temps plein,De 80 000 $ à 99 999 $,Féminin,Locataire,7
+482,De 55 à 64 ans,Temps plein,De 40 000 $ à 59 999 $,Féminin,Propriétaire,8
+483,De 25 à 34 ans,Temps plein,De 100 000 $ à 119 999 $,Masculin,Locataire,8
+484,De 25 à 34 ans,Temps plein,De 100 000 $ à 119 999 $,Féminin,Locataire,10
+485,De 65 à 74 ans,Retraité,Abstention,Féminin,Propriétaire,7
+486,De 35 à 44 ans,Temps plein,De 120 000 $ à 139 999 $,Féminin,Propriétaire,8
+487,De 55 à 64 ans,Retraité,De 60 000 $ à 79 999 $,Féminin,Propriétaire,8
+488,De 55 à 64 ans,En recherche d’emploi,De 80 000 $ à 99 999 $,Masculin,Propriétaire,8
+489,De 25 à 34 ans,Temps plein,De 140 000 $ à 159 999 $,Masculin,Propriétaire,7
+490,De 45 à 54 ans,Temps plein,Abstention,Féminin,Propriétaire,6
+491,De 55 à 64 ans,Temps plein,Abstention,Masculin,Propriétaire,7
+492,De 25 à 34 ans,Temps plein,De 40 000 $ à 59 999 $,Masculin,Propriétaire,5
+493,De 55 à 64 ans,Retraité,De 40 000 $ à 59 999 $,Masculin,Propriétaire,6
+494,De 65 à 74 ans,Retraité,De 80 000 $ à 99 999 $,Masculin,Propriétaire,10
+495,De 25 à 34 ans,Temps plein,De 60 000 $ à 79 999 $,Féminin,Propriétaire,8
+496,De 25 à 34 ans,temps partiel,De 80 000 $ à 99 999 $,Féminin,Propriétaire,8
+497,De 55 à 64 ans,En recherche d’emploi,19 999 $ et moins,Masculin,Locataire,7
+498,De 35 à 44 ans,Temps plein,De 60 000 $ à 79 999 $,Masculin,Propriétaire,8
+499,De 55 à 64 ans,Temps plein,160 000 $ et plus,Masculin,Propriétaire,0
+500,De 55 à 64 ans,Retraité,De 60 000 $ à 79 999 $,Féminin,Propriétaire,6
+501,De 45 à 54 ans,Temps plein,De 80 000 $ à 99 999 $,Féminin,Propriétaire,7
+502,De 45 à 54 ans,Temps plein,Abstention,Masculin,Propriétaire,8
+503,De 25 à 34 ans,Temps plein,De 100 000 $ à 119 999 $,Féminin,Propriétaire,8
+505,De 65 à 74 ans,Retraité,De 60 000 $ à 79 999 $,Féminin,Propriétaire,10
+506,De 65 à 74 ans,Retraité,De 40 000 $ à 59 999 $,Féminin,Propriétaire,9
+507,De 55 à 64 ans,Temps plein,De 40 000 $ à 59 999 $,Féminin,Locataire,8
+508,De 55 à 64 ans,Temps plein,160 000 $ et plus,Masculin,Propriétaire,10
+510,De 65 à 74 ans,Retraité,De 80 000 $ à 99 999 $,Masculin,Locataire,8
+511,De 35 à 44 ans,Temps plein,De 100 000 $ à 119 999 $,Féminin,Propriétaire,8
+512,De 35 à 44 ans,Temps plein,De 40 000 $ à 59 999 $,Féminin,Propriétaire,6
+513,De 35 à 44 ans,Temps plein,De 80 000 $ à 99 999 $,Masculin,Propriétaire,9
+515,De 65 à 74 ans,Retraité,De 80 000 $ à 99 999 $,Masculin,Propriétaire,8
+516,De 55 à 64 ans,Retraité,De 40 000 $ à 59 999 $,Masculin,Locataire,10
+518,De 18 à 24 ans,Étudiant,De 80 000 $ à 99 999 $,Féminin,Propriétaire,6
+519,75 ans ou plus,Retraité,De 100 000 $ à 119 999 $,Masculin,Propriétaire,7
+522,De 55 à 64 ans,Retraité,160 000 $ et plus,Féminin,Propriétaire,5
+524,De 35 à 44 ans,Temps plein,De 120 000 $ à 139 999 $,Féminin,Propriétaire,7
+525,75 ans ou plus,Retraité,Abstention,Masculin,Propriétaire,8
+527,De 18 à 24 ans,Temps plein,De 140 000 $ à 159 999 $,Féminin,Locataire,8
+528,De 65 à 74 ans,Retraité,De 60 000 $ à 79 999 $,Masculin,Propriétaire,10
+529,De 65 à 74 ans,Retraité,Abstention,Masculin,Propriétaire,7
+530,De 45 à 54 ans,Temps plein,De 60 000 $ à 79 999 $,Féminin,Propriétaire,6
+531,De 55 à 64 ans,Retraité,De 20 000 $ à 39 999 $,Féminin,Locataire,7
+532,De 45 à 54 ans,Temps plein,Abstention,Féminin,Locataire,4
+533,De 55 à 64 ans,Temps plein,De 120 000 $ à 139 999 $,Féminin,Propriétaire,7
+534,De 65 à 74 ans,Retraité,De 60 000 $ à 79 999 $,Féminin,Locataire,8
+535,De 65 à 74 ans,Abstention,Abstention,Féminin,Propriétaire,8
+536,De 18 à 24 ans,Étudiant,De 80 000 $ à 99 999 $,Féminin,Locataire,7
+538,De 65 à 74 ans,Retraité,De 60 000 $ à 79 999 $,Masculin,Locataire,5
+539,De 18 à 24 ans,Temps plein,De 40 000 $ à 59 999 $,Féminin,Locataire,8
+540,De 25 à 34 ans,Temps plein,De 40 000 $ à 59 999 $,Féminin,Locataire,7
+541,De 45 à 54 ans,Temps plein,De 140 000 $ à 159 999 $,Masculin,Propriétaire,7
+542,De 45 à 54 ans,Temps plein,De 40 000 $ à 59 999 $,Masculin,Locataire,2
+543,De 65 à 74 ans,Retraité,De 80 000 $ à 99 999 $,Masculin,Propriétaire,9
+545,De 18 à 24 ans,Étudiant,Abstention,Féminin,Propriétaire,8
+546,De 45 à 54 ans,Temps plein,De 40 000 $ à 59 999 $,Masculin,Locataire,8
+547,De 65 à 74 ans,Retraité,De 20 000 $ à 39 999 $,Féminin,Propriétaire,9
+548,De 65 à 74 ans,Retraité,De 40 000 $ à 59 999 $,Masculin,Propriétaire,8
+549,De 55 à 64 ans,Abstention,De 60 000 $ à 79 999 $,Féminin,Propriétaire,
+550,75 ans ou plus,Retraité,De 60 000 $ à 79 999 $,Masculin,Locataire,8
+551,De 35 à 44 ans,Temps plein,160 000 $ et plus,Masculin,Propriétaire,8
+552,De 65 à 74 ans,Retraité,De 60 000 $ à 79 999 $,Masculin,Propriétaire,8
+553,De 18 à 24 ans,Temps plein,De 40 000 $ à 59 999 $,Féminin,Locataire,7
+554,75 ans ou plus,Retraité,Abstention,Masculin,Propriétaire,8
+555,De 18 à 24 ans,Étudiant,De 60 000 $ à 79 999 $,Masculin,Locataire,4
+556,De 35 à 44 ans,Au foyer,De 100 000 $ à 119 999 $,Féminin,Propriétaire,10
+558,De 65 à 74 ans,Retraité,De 40 000 $ à 59 999 $,Féminin,Locataire,10
+559,De 25 à 34 ans,Abstention,Abstention,Féminin,Locataire,8
+562,75 ans ou plus,Retraité,Abstention,Masculin,Locataire,7
+563,De 65 à 74 ans,Retraité,De 120 000 $ à 139 999 $,Masculin,Propriétaire,7
+565,De 45 à 54 ans,Temps plein,Abstention,Féminin,Propriétaire,7
+567,De 35 à 44 ans,Temps plein,De 80 000 $ à 99 999 $,Féminin,Propriétaire,9
+569,De 25 à 34 ans,Temps plein,De 60 000 $ à 79 999 $,Masculin,Locataire,7
+571,De 55 à 64 ans,Temps plein,De 100 000 $ à 119 999 $,Masculin,Propriétaire,7
+572,De 55 à 64 ans,Temps plein,De 140 000 $ à 159 999 $,Masculin,Propriétaire,8
+573,De 35 à 44 ans,temps partiel,160 000 $ et plus,Féminin,Propriétaire,8
+574,De 18 à 24 ans,Étudiant,De 120 000 $ à 139 999 $,Féminin,Locataire,8
+575,De 65 à 74 ans,Retraité,De 20 000 $ à 39 999 $,Masculin,Locataire,7
+576,De 65 à 74 ans,Retraité,De 100 000 $ à 119 999 $,Féminin,Propriétaire,8
+577,De 55 à 64 ans,En recherche d’emploi,Abstention,Féminin,Locataire,6
+578,De 25 à 34 ans,Temps plein,De 60 000 $ à 79 999 $,Féminin,Propriétaire,7
+579,De 65 à 74 ans,Temps plein,De 60 000 $ à 79 999 $,Masculin,Locataire,5
+580,De 18 à 24 ans,Temps plein,De 40 000 $ à 59 999 $,Féminin,Locataire,8
+584,De 25 à 34 ans,Temps plein,De 140 000 $ à 159 999 $,Féminin,Propriétaire,6
+585,De 35 à 44 ans,Temps plein,160 000 $ et plus,Masculin,Propriétaire,7
+586,De 35 à 44 ans,Temps plein,De 140 000 $ à 159 999 $,Féminin,Propriétaire,8
+588,De 35 à 44 ans,Temps plein,De 100 000 $ à 119 999 $,Féminin,Locataire,8
+589,75 ans ou plus,Retraité,De 60 000 $ à 79 999 $,Féminin,Propriétaire,9
+590,De 45 à 54 ans,Temps plein,160 000 $ et plus,Masculin,Propriétaire,7
+591,75 ans ou plus,Retraité,Abstention,Féminin,Locataire,7
+592,De 45 à 54 ans,Temps plein,De 80 000 $ à 99 999 $,Masculin,Propriétaire,10
+593,De 65 à 74 ans,Retraité,De 40 000 $ à 59 999 $,Masculin,Locataire,6
+594,De 25 à 34 ans,Temps plein,De 140 000 $ à 159 999 $,Féminin,Propriétaire,7
+596,De 25 à 34 ans,Temps plein,De 20 000 $ à 39 999 $,Féminin,Locataire,9
+597,De 25 à 34 ans,Temps plein,De 60 000 $ à 79 999 $,Féminin,Propriétaire,
+598,75 ans ou plus,Retraité,Abstention,Féminin,Propriétaire,5
+599,De 65 à 74 ans,Retraité,De 80 000 $ à 99 999 $,Masculin,Propriétaire,7
+600,De 65 à 74 ans,Retraité,Abstention,Masculin,Propriétaire,8
+601,De 45 à 54 ans,Temps plein,160 000 $ et plus,Féminin,Propriétaire,9
+603,De 45 à 54 ans,Temps plein,De 120 000 $ à 139 999 $,Masculin,Propriétaire,5
+604,De 25 à 34 ans,Travailleur autonome,De 60 000 $ à 79 999 $,Masculin,Propriétaire,8
+605,De 55 à 64 ans,Temps plein,De 60 000 $ à 79 999 $,Féminin,Propriétaire,7
+606,75 ans ou plus,Retraité,160 000 $ et plus,Masculin,Propriétaire,9
+607,75 ans ou plus,Retraité,De 40 000 $ à 59 999 $,Féminin,Locataire,8
+608,De 35 à 44 ans,Travailleur autonome,De 100 000 $ à 119 999 $,Féminin,Propriétaire,2
+609,De 65 à 74 ans,Retraité,Abstention,Féminin,Locataire,3
+610,De 65 à 74 ans,Retraité,De 40 000 $ à 59 999 $,Masculin,Propriétaire,10
+611,De 55 à 64 ans,Temps plein,De 80 000 $ à 99 999 $,Masculin,Propriétaire,5
+612,De 18 à 24 ans,Temps plein,Abstention,Féminin,Propriétaire,10
+613,De 25 à 34 ans,Travailleur autonome,De 80 000 $ à 99 999 $,Masculin,Propriétaire,8
+614,De 45 à 54 ans,Travailleur autonome,De 20 000 $ à 39 999 $,Féminin,Propriétaire,8
+615,De 55 à 64 ans,Retraité,Abstention,Féminin,Locataire,7
+617,75 ans ou plus,Retraité,De 80 000 $ à 99 999 $,Masculin,Propriétaire,7
+618,De 25 à 34 ans,temps partiel,De 60 000 $ à 79 999 $,Féminin,Propriétaire,7
+619,De 35 à 44 ans,Temps plein,160 000 $ et plus,Masculin,Propriétaire,8
+620,De 55 à 64 ans,temps partiel,De 40 000 $ à 59 999 $,Masculin,Locataire,6
+621,De 18 à 24 ans,Abstention,19 999 $ et moins,Féminin,Locataire,9
+622,De 65 à 74 ans,Temps plein,De 40 000 $ à 59 999 $,Féminin,Locataire,8
+623,De 55 à 64 ans,temps partiel,De 20 000 $ à 39 999 $,Féminin,Propriétaire,10
+624,De 18 à 24 ans,Étudiant,160 000 $ et plus,Masculin,Propriétaire,8
+625,De 55 à 64 ans,Travailleur autonome,De 140 000 $ à 159 999 $,Masculin,Locataire,7
+626,De 55 à 64 ans,Retraité,Abstention,Masculin,Propriétaire,8
+627,De 25 à 34 ans,Temps plein,De 80 000 $ à 99 999 $,Féminin,Locataire,5
+628,De 65 à 74 ans,Retraité,Abstention,Féminin,Propriétaire,8
+629,De 65 à 74 ans,Retraité,160 000 $ et plus,Masculin,Propriétaire,8
+630,De 18 à 24 ans,temps partiel,160 000 $ et plus,Féminin,Propriétaire,7
+633,De 35 à 44 ans,Temps plein,De 60 000 $ à 79 999 $,Féminin,Locataire,8
+634,De 35 à 44 ans,Temps plein,De 80 000 $ à 99 999 $,Féminin,Locataire,7
+635,De 55 à 64 ans,En recherche d’emploi,De 40 000 $ à 59 999 $,Féminin,Propriétaire,8
+636,De 55 à 64 ans,Retraité,De 40 000 $ à 59 999 $,Féminin,Propriétaire,9
+637,De 35 à 44 ans,Temps plein,De 100 000 $ à 119 999 $,Féminin,Locataire,3
+638,De 45 à 54 ans,Temps plein,De 80 000 $ à 99 999 $,Féminin,Propriétaire,7
+639,De 45 à 54 ans,En recherche d’emploi,De 100 000 $ à 119 999 $,Féminin,Propriétaire,8
+640,De 35 à 44 ans,Temps plein,De 120 000 $ à 139 999 $,Masculin,Locataire,7
+641,De 25 à 34 ans,temps partiel,De 60 000 $ à 79 999 $,Masculin,Propriétaire,7
+642,De 65 à 74 ans,Retraité,De 80 000 $ à 99 999 $,Masculin,Propriétaire,5
+643,75 ans ou plus,Retraité,De 20 000 $ à 39 999 $,Féminin,Locataire,8
+645,De 25 à 34 ans,Temps plein,De 100 000 $ à 119 999 $,Masculin,Propriétaire,9
+646,De 45 à 54 ans,En recherche d’emploi,19 999 $ et moins,Masculin,Locataire,7
+647,De 55 à 64 ans,Temps plein,Abstention,Féminin,Propriétaire,8
+648,De 25 à 34 ans,Temps plein,De 60 000 $ à 79 999 $,Féminin,Locataire,7
+650,De 45 à 54 ans,Temps plein,De 60 000 $ à 79 999 $,Féminin,Locataire,10
+651,De 25 à 34 ans,Étudiant,De 40 000 $ à 59 999 $,Masculin,Locataire,8
+652,De 45 à 54 ans,Temps plein,De 100 000 $ à 119 999 $,Masculin,Locataire,0
+653,De 35 à 44 ans,Temps plein,Abstention,Féminin,Locataire,9
+654,De 45 à 54 ans,Temps plein,De 100 000 $ à 119 999 $,Féminin,Propriétaire,8
+655,De 18 à 24 ans,Temps plein,De 20 000 $ à 39 999 $,Féminin,Locataire,6
+656,De 55 à 64 ans,Temps plein,De 40 000 $ à 59 999 $,Masculin,Locataire,7
+657,De 25 à 34 ans,Temps plein,De 60 000 $ à 79 999 $,Masculin,Propriétaire,8
+658,De 25 à 34 ans,Temps plein,De 40 000 $ à 59 999 $,Féminin,Locataire,7
+659,De 25 à 34 ans,Temps plein,De 60 000 $ à 79 999 $,Féminin,Locataire,8
+660,75 ans ou plus,Retraité,De 60 000 $ à 79 999 $,Masculin,Propriétaire,3
+661,De 45 à 54 ans,Abstention,De 100 000 $ à 119 999 $,Féminin,Propriétaire,6
+663,De 18 à 24 ans,Temps plein,De 60 000 $ à 79 999 $,Masculin,Locataire,7
+664,De 45 à 54 ans,Temps plein,160 000 $ et plus,Masculin,Propriétaire,7
+665,De 18 à 24 ans,Étudiant,De 20 000 $ à 39 999 $,Féminin,Locataire,7
+666,De 55 à 64 ans,Retraité,De 20 000 $ à 39 999 $,Féminin,Propriétaire,8
+667,De 45 à 54 ans,Temps plein,De 140 000 $ à 159 999 $,Masculin,Propriétaire,8
+668,De 55 à 64 ans,temps partiel,De 60 000 $ à 79 999 $,Féminin,Locataire,7
+669,De 65 à 74 ans,Retraité,Abstention,Masculin,Propriétaire,8
+670,De 55 à 64 ans,Temps plein,De 120 000 $ à 139 999 $,Masculin,Propriétaire,7
+671,De 65 à 74 ans,Retraité,De 100 000 $ à 119 999 $,Masculin,Locataire,8
+672,De 55 à 64 ans,Temps plein,De 40 000 $ à 59 999 $,Féminin,Locataire,6
+673,De 45 à 54 ans,Temps plein,De 80 000 $ à 99 999 $,Masculin,Propriétaire,7
+674,De 35 à 44 ans,Au foyer,De 80 000 $ à 99 999 $,Masculin,Propriétaire,7
+675,De 25 à 34 ans,Temps plein,De 100 000 $ à 119 999 $,Féminin,Locataire,7
+677,De 35 à 44 ans,Temps plein,De 80 000 $ à 99 999 $,Féminin,Propriétaire,7
+678,De 35 à 44 ans,Temps plein,160 000 $ et plus,Masculin,Propriétaire,6
+679,De 55 à 64 ans,Retraité,De 60 000 $ à 79 999 $,Masculin,Propriétaire,7
+680,De 35 à 44 ans,Temps plein,De 80 000 $ à 99 999 $,Masculin,Propriétaire,9
+682,De 25 à 34 ans,Temps plein,De 40 000 $ à 59 999 $,Féminin,Locataire,8
+683,De 65 à 74 ans,Retraité,De 100 000 $ à 119 999 $,Masculin,Propriétaire,8
+684,De 25 à 34 ans,En recherche d’emploi,De 80 000 $ à 99 999 $,Masculin,Locataire,8
+685,De 65 à 74 ans,Retraité,De 20 000 $ à 39 999 $,Féminin,Locataire,9
+686,De 55 à 64 ans,temps partiel,160 000 $ et plus,Féminin,Propriétaire,6
+688,De 35 à 44 ans,Temps plein,Abstention,Féminin,Propriétaire,7
+689,De 35 à 44 ans,Temps plein,160 000 $ et plus,Féminin,Propriétaire,8
+690,De 25 à 34 ans,Temps plein,De 40 000 $ à 59 999 $,Féminin,Locataire,10
+691,De 65 à 74 ans,Retraité,19 999 $ et moins,Masculin,Locataire,3
+693,De 35 à 44 ans,Temps plein,Abstention,Féminin,Propriétaire,7
+694,75 ans ou plus,Retraité,Abstention,Masculin,Locataire,9
+695,75 ans ou plus,Retraité,De 60 000 $ à 79 999 $,Masculin,Locataire,9
+696,75 ans ou plus,Retraité,De 20 000 $ à 39 999 $,Masculin,Propriétaire,7
+697,De 65 à 74 ans,Retraité,De 60 000 $ à 79 999 $,Féminin,Locataire,10
+698,De 55 à 64 ans,Retraité,19 999 $ et moins,Masculin,Locataire,8
+699,De 55 à 64 ans,Retraité,De 60 000 $ à 79 999 $,Féminin,Locataire,8
+700,De 45 à 54 ans,Temps plein,De 120 000 $ à 139 999 $,Féminin,Propriétaire,4
+701,De 45 à 54 ans,Temps plein,De 120 000 $ à 139 999 $,Masculin,Propriétaire,10
+702,De 65 à 74 ans,Retraité,De 80 000 $ à 99 999 $,Féminin,Propriétaire,8
+703,De 25 à 34 ans,Travailleur autonome,De 100 000 $ à 119 999 $,Féminin,Propriétaire,8
+705,De 35 à 44 ans,Temps plein,De 140 000 $ à 159 999 $,Féminin,Propriétaire,7
+706,De 18 à 24 ans,Étudiant,De 40 000 $ à 59 999 $,Féminin,Locataire,10
+708,De 55 à 64 ans,Temps plein,De 40 000 $ à 59 999 $,Masculin,Locataire,10
+709,De 45 à 54 ans,temps partiel,De 80 000 $ à 99 999 $,Féminin,Propriétaire,6
+712,De 65 à 74 ans,Retraité,19 999 $ et moins,Féminin,Locataire,9
+713,De 25 à 34 ans,Temps plein,De 100 000 $ à 119 999 $,Féminin,Propriétaire,8
+714,De 55 à 64 ans,Retraité,De 100 000 $ à 119 999 $,Féminin,Propriétaire,7
+715,De 65 à 74 ans,Retraité,De 40 000 $ à 59 999 $,Féminin,Propriétaire,8
+716,De 18 à 24 ans,Temps plein,De 100 000 $ à 119 999 $,Féminin,Propriétaire,5
+717,De 25 à 34 ans,Temps plein,De 80 000 $ à 99 999 $,Féminin,Locataire,6
+718,De 65 à 74 ans,Retraité,De 20 000 $ à 39 999 $,Féminin,Propriétaire,10
+719,De 35 à 44 ans,Au foyer,19 999 $ et moins,Féminin,Locataire,10
+720,De 25 à 34 ans,Temps plein,De 100 000 $ à 119 999 $,Féminin,Propriétaire,7
+721,De 25 à 34 ans,Étudiant,De 80 000 $ à 99 999 $,Féminin,Propriétaire,5
+723,De 25 à 34 ans,Temps plein,De 60 000 $ à 79 999 $,Masculin,Propriétaire,7
+724,De 45 à 54 ans,Temps plein,De 20 000 $ à 39 999 $,Masculin,Propriétaire,6
+725,De 35 à 44 ans,temps partiel,19 999 $ et moins,Masculin,Locataire,6
+726,De 65 à 74 ans,Retraité,De 60 000 $ à 79 999 $,Féminin,Propriétaire,9
+728,De 18 à 24 ans,Temps plein,De 40 000 $ à 59 999 $,Féminin,Locataire,
+729,De 65 à 74 ans,Retraité,De 40 000 $ à 59 999 $,Masculin,Locataire,7
+730,De 55 à 64 ans,Retraité,De 40 000 $ à 59 999 $,Féminin,Propriétaire,3
+732,De 25 à 34 ans,Temps plein,De 40 000 $ à 59 999 $,Féminin,Locataire,8
+733,De 35 à 44 ans,Temps plein,De 60 000 $ à 79 999 $,Masculin,Propriétaire,7
+734,75 ans ou plus,Retraité,De 60 000 $ à 79 999 $,Masculin,Locataire,10
+735,De 55 à 64 ans,Retraité,De 40 000 $ à 59 999 $,Masculin,Propriétaire,6
+736,De 55 à 64 ans,Temps plein,De 80 000 $ à 99 999 $,Masculin,Locataire,7
+737,De 35 à 44 ans,Temps plein,160 000 $ et plus,Masculin,Propriétaire,10
+738,De 25 à 34 ans,Temps plein,De 100 000 $ à 119 999 $,Féminin,Propriétaire,9
+739,De 55 à 64 ans,Temps plein,De 20 000 $ à 39 999 $,Féminin,Locataire,8
+740,De 55 à 64 ans,Retraité,De 20 000 $ à 39 999 $,Féminin,Propriétaire,8
+741,De 65 à 74 ans,Retraité,De 60 000 $ à 79 999 $,Masculin,Locataire,10
+742,De 18 à 24 ans,Étudiant,Abstention,Féminin,Locataire,8
+743,75 ans ou plus,Retraité,De 80 000 $ à 99 999 $,Masculin,Propriétaire,9
+744,De 35 à 44 ans,Temps plein,De 140 000 $ à 159 999 $,Féminin,Propriétaire,9
+745,De 18 à 24 ans,Étudiant,De 60 000 $ à 79 999 $,Féminin,Locataire,8
+746,De 45 à 54 ans,Temps plein,De 120 000 $ à 139 999 $,Masculin,Propriétaire,6
+747,De 25 à 34 ans,Temps plein,De 60 000 $ à 79 999 $,Féminin,Locataire,6
+749,De 25 à 34 ans,Temps plein,De 120 000 $ à 139 999 $,Féminin,Propriétaire,7
+750,De 35 à 44 ans,Temps plein,De 40 000 $ à 59 999 $,Masculin,Propriétaire,7
+751,De 18 à 24 ans,temps partiel,19 999 $ et moins,Féminin,Locataire,7
+753,De 65 à 74 ans,Retraité,De 140 000 $ à 159 999 $,Masculin,Propriétaire,8
+755,De 18 à 24 ans,Étudiant,De 80 000 $ à 99 999 $,Masculin,Propriétaire,8
+756,De 25 à 34 ans,Temps plein,De 60 000 $ à 79 999 $,Féminin,Locataire,8
+757,De 35 à 44 ans,Temps plein,De 60 000 $ à 79 999 $,Masculin,Locataire,8
+758,De 65 à 74 ans,Retraité,De 60 000 $ à 79 999 $,Masculin,Locataire,8
+759,De 55 à 64 ans,temps partiel,De 80 000 $ à 99 999 $,Féminin,Propriétaire,7
+760,De 35 à 44 ans,Temps plein,De 120 000 $ à 139 999 $,Féminin,Propriétaire,8
+761,De 45 à 54 ans,Temps plein,De 20 000 $ à 39 999 $,Féminin,Locataire,5
+763,De 25 à 34 ans,Temps plein,Abstention,Féminin,Locataire,6
+764,De 35 à 44 ans,Temps plein,De 60 000 $ à 79 999 $,Féminin,Propriétaire,7
+765,De 55 à 64 ans,Retraité,De 40 000 $ à 59 999 $,Masculin,Locataire,8
+766,De 35 à 44 ans,Travailleur autonome,Abstention,Masculin,Propriétaire,6
+767,De 25 à 34 ans,Temps plein,De 100 000 $ à 119 999 $,Féminin,Propriétaire,6
+769,De 25 à 34 ans,Temps plein,160 000 $ et plus,Féminin,Propriétaire,8
+793,De 65 à 74 ans,Retraité,De 100 000 $ à 119 999 $,Féminin,Propriétaire,7
+859,De 25 à 34 ans,Travailleur autonome,De 100 000 $ à 119 999 $,Féminin,Locataire,7
+892,De 45 à 54 ans,Temps plein,De 140 000 $ à 159 999 $,Masculin,Propriétaire,8
+893,De 35 à 44 ans,Temps plein,De 80 000 $ à 99 999 $,Féminin,Propriétaire,7
+894,De 18 à 24 ans,temps partiel,160 000 $ et plus,Féminin,Locataire,8
+895,De 25 à 34 ans,Temps plein,De 60 000 $ à 79 999 $,Féminin,Locataire,7
+896,De 55 à 64 ans,Travailleur autonome,160 000 $ et plus,Masculin,Propriétaire,5
+898,De 25 à 34 ans,Étudiant,De 80 000 $ à 99 999 $,Féminin,Locataire,8
+899,De 55 à 64 ans,Temps plein,De 60 000 $ à 79 999 $,Masculin,Propriétaire,8
+900,De 55 à 64 ans,Retraité,De 80 000 $ à 99 999 $,Masculin,Propriétaire,8
+901,De 35 à 44 ans,Travailleur autonome,Abstention,Masculin,Locataire,7
+902,De 35 à 44 ans,Temps plein,De 40 000 $ à 59 999 $,Féminin,Propriétaire,7
+903,75 ans ou plus,Retraité,De 40 000 $ à 59 999 $,Masculin,Locataire,8
+904,De 45 à 54 ans,Temps plein,De 60 000 $ à 79 999 $,Masculin,Propriétaire,1
+905,De 25 à 34 ans,Temps plein,De 60 000 $ à 79 999 $,Masculin,Locataire,7
+906,75 ans ou plus,Retraité,De 20 000 $ à 39 999 $,Féminin,Propriétaire,5
+907,De 18 à 24 ans,Temps plein,De 20 000 $ à 39 999 $,Féminin,Locataire,10
+908,De 35 à 44 ans,Temps plein,De 100 000 $ à 119 999 $,Masculin,Propriétaire,8
+910,75 ans ou plus,Retraité,De 100 000 $ à 119 999 $,Masculin,Propriétaire,7
+911,De 18 à 24 ans,Étudiant,De 20 000 $ à 39 999 $,Féminin,Locataire,9
+912,De 65 à 74 ans,Retraité,De 100 000 $ à 119 999 $,Masculin,Propriétaire,7
+913,De 35 à 44 ans,Temps plein,De 60 000 $ à 79 999 $,Féminin,Locataire,8
+914,De 45 à 54 ans,Temps plein,De 80 000 $ à 99 999 $,Féminin,Propriétaire,8
+915,De 35 à 44 ans,Temps plein,De 60 000 $ à 79 999 $,Masculin,Propriétaire,8
+916,De 25 à 34 ans,Temps plein,De 60 000 $ à 79 999 $,Féminin,Locataire,5
+918,De 18 à 24 ans,Étudiant,19 999 $ et moins,Féminin,Locataire,8
+919,De 35 à 44 ans,Temps plein,De 80 000 $ à 99 999 $,Masculin,Locataire,7
+920,De 35 à 44 ans,Temps plein,De 80 000 $ à 99 999 $,Féminin,Propriétaire,8
+921,De 55 à 64 ans,Retraité,De 40 000 $ à 59 999 $,Féminin,Propriétaire,8
+922,De 18 à 24 ans,Temps plein,De 60 000 $ à 79 999 $,Féminin,Locataire,8
+923,De 35 à 44 ans,Temps plein,Abstention,Féminin,Propriétaire,
+924,De 25 à 34 ans,Au foyer,Abstention,Féminin,Propriétaire,6
+925,De 18 à 24 ans,Étudiant,De 40 000 $ à 59 999 $,Féminin,Locataire,9
+926,De 35 à 44 ans,Temps plein,De 40 000 $ à 59 999 $,Féminin,Propriétaire,7
+927,De 35 à 44 ans,Temps plein,De 80 000 $ à 99 999 $,Féminin,Propriétaire,10
+928,De 25 à 34 ans,Temps plein,De 20 000 $ à 39 999 $,Masculin,Locataire,10
+929,De 18 à 24 ans,Étudiant,19 999 $ et moins,Féminin,Locataire,9
+930,De 65 à 74 ans,Retraité,De 40 000 $ à 59 999 $,Féminin,Propriétaire,8
+931,De 65 à 74 ans,Retraité,Abstention,Féminin,Propriétaire,7
+932,De 18 à 24 ans,Temps plein,De 100 000 $ à 119 999 $,Féminin,Locataire,8
+933,De 25 à 34 ans,temps partiel,De 40 000 $ à 59 999 $,Féminin,Propriétaire,7
+934,De 55 à 64 ans,Temps plein,De 120 000 $ à 139 999 $,Masculin,Propriétaire,8
+936,De 55 à 64 ans,temps partiel,De 20 000 $ à 39 999 $,Masculin,Locataire,4
+937,De 18 à 24 ans,Temps plein,De 80 000 $ à 99 999 $,Féminin,Propriétaire,8
+938,De 35 à 44 ans,Temps plein,160 000 $ et plus,Masculin,Propriétaire,7
+940,De 18 à 24 ans,Temps plein,De 40 000 $ à 59 999 $,Féminin,Locataire,8
+941,De 18 à 24 ans,temps partiel,De 40 000 $ à 59 999 $,Féminin,Locataire,9
+942,De 25 à 34 ans,Temps plein,De 120 000 $ à 139 999 $,Féminin,Locataire,10
+944,De 25 à 34 ans,Temps plein,De 80 000 $ à 99 999 $,Féminin,Propriétaire,9
+945,De 65 à 74 ans,Retraité,19 999 $ et moins,Féminin,Locataire,4
+946,De 55 à 64 ans,Au foyer,19 999 $ et moins,Féminin,Locataire,8
+947,De 65 à 74 ans,Retraité,De 80 000 $ à 99 999 $,Masculin,Propriétaire,8
+948,De 25 à 34 ans,Temps plein,De 120 000 $ à 139 999 $,Féminin,Propriétaire,6
+949,De 55 à 64 ans,Retraité,De 60 000 $ à 79 999 $,Féminin,Propriétaire,7
+950,De 55 à 64 ans,Retraité,De 60 000 $ à 79 999 $,Masculin,Propriétaire,4
+951,De 35 à 44 ans,Temps plein,De 140 000 $ à 159 999 $,Féminin,Propriétaire,7
+952,De 18 à 24 ans,Étudiant,De 140 000 $ à 159 999 $,Féminin,Propriétaire,6
+953,De 65 à 74 ans,Retraité,19 999 $ et moins,Féminin,Locataire,8
+954,75 ans ou plus,Retraité,Abstention,Féminin,Locataire,6
+955,De 55 à 64 ans,Retraité,19 999 $ et moins,Masculin,Locataire,8
+956,De 55 à 64 ans,En recherche d’emploi,De 60 000 $ à 79 999 $,Masculin,Propriétaire,7
+957,De 25 à 34 ans,Temps plein,De 80 000 $ à 99 999 $,Féminin,Locataire,9
+958,De 65 à 74 ans,Retraité,De 20 000 $ à 39 999 $,Féminin,Locataire,9
+962,De 55 à 64 ans,Retraité,De 20 000 $ à 39 999 $,Féminin,Propriétaire,4
+964,De 25 à 34 ans,Temps plein,De 140 000 $ à 159 999 $,Féminin,Propriétaire,10
+965,De 25 à 34 ans,Au foyer,Abstention,Féminin,Propriétaire,7
+966,De 55 à 64 ans,Retraité,De 20 000 $ à 39 999 $,Féminin,Propriétaire,6
+967,75 ans ou plus,Retraité,De 60 000 $ à 79 999 $,Masculin,Propriétaire,10
+968,De 65 à 74 ans,Retraité,De 40 000 $ à 59 999 $,Féminin,Propriétaire,
+970,De 65 à 74 ans,Retraité,De 40 000 $ à 59 999 $,Féminin,Locataire,8
+971,De 55 à 64 ans,Temps plein,De 40 000 $ à 59 999 $,Masculin,Locataire,8
+973,De 55 à 64 ans,Travailleur autonome,De 20 000 $ à 39 999 $,Masculin,Locataire,8
+975,De 55 à 64 ans,Temps plein,De 40 000 $ à 59 999 $,Masculin,Propriétaire,4
+977,De 45 à 54 ans,Travailleur autonome,De 20 000 $ à 39 999 $,Masculin,Locataire,7
+978,De 25 à 34 ans,Temps plein,De 40 000 $ à 59 999 $,Masculin,Locataire,
+979,De 25 à 34 ans,Étudiant,De 80 000 $ à 99 999 $,Féminin,Locataire,7
+981,De 65 à 74 ans,Retraité,De 80 000 $ à 99 999 $,Masculin,Propriétaire,9
+982,De 55 à 64 ans,Retraité,De 20 000 $ à 39 999 $,Masculin,Propriétaire,7
+983,De 45 à 54 ans,Temps plein,160 000 $ et plus,Masculin,Locataire,5
+984,De 65 à 74 ans,Retraité,De 120 000 $ à 139 999 $,Masculin,Propriétaire,7
+985,75 ans ou plus,Retraité,De 80 000 $ à 99 999 $,Masculin,Propriétaire,8
+986,De 25 à 34 ans,Temps plein,De 40 000 $ à 59 999 $,Féminin,Locataire,2
+987,De 55 à 64 ans,Temps plein,De 140 000 $ à 159 999 $,Masculin,Propriétaire,7
+988,De 55 à 64 ans,Retraité,De 80 000 $ à 99 999 $,Féminin,Propriétaire,9
+989,De 55 à 64 ans,Temps plein,De 60 000 $ à 79 999 $,Féminin,Locataire,9
+990,De 25 à 34 ans,Temps plein,Abstention,Féminin,Locataire,8
+993,De 45 à 54 ans,Temps plein,De 80 000 $ à 99 999 $,Féminin,Propriétaire,8
+994,De 35 à 44 ans,Temps plein,De 100 000 $ à 119 999 $,Féminin,Locataire,8
+995,De 25 à 34 ans,Temps plein,De 60 000 $ à 79 999 $,Féminin,Locataire,10
+996,De 35 à 44 ans,Temps plein,De 100 000 $ à 119 999 $,Masculin,Propriétaire,4
+998,De 55 à 64 ans,Temps plein,De 100 000 $ à 119 999 $,Féminin,Propriétaire,7
+1000,De 65 à 74 ans,Retraité,Abstention,Féminin,Propriétaire,8
+1001,De 45 à 54 ans,Temps plein,De 100 000 $ à 119 999 $,Féminin,Propriétaire,8
+1004,75 ans ou plus,Retraité,De 20 000 $ à 39 999 $,Féminin,Locataire,6
+1005,De 25 à 34 ans,Temps plein,De 80 000 $ à 99 999 $,Féminin,Locataire,6
+1006,De 35 à 44 ans,Temps plein,De 60 000 $ à 79 999 $,Masculin,Propriétaire,7
+1007,De 55 à 64 ans,Retraité,De 20 000 $ à 39 999 $,Féminin,Propriétaire,7
+1009,75 ans ou plus,Retraité,De 40 000 $ à 59 999 $,Masculin,Locataire,9
+1011,De 65 à 74 ans,Retraité,De 20 000 $ à 39 999 $,Féminin,Locataire,7
+1012,De 25 à 34 ans,Temps plein,De 40 000 $ à 59 999 $,Masculin,Locataire,6
+1013,De 45 à 54 ans,temps partiel,De 80 000 $ à 99 999 $,Féminin,Propriétaire,7
+1015,De 65 à 74 ans,Retraité,De 80 000 $ à 99 999 $,Masculin,Propriétaire,8
+1016,De 25 à 34 ans,En recherche d’emploi,De 20 000 $ à 39 999 $,Féminin,Locataire,8
+1017,De 45 à 54 ans,Travailleur autonome,De 100 000 $ à 119 999 $,Masculin,Propriétaire,9
+1018,De 45 à 54 ans,temps partiel,Abstention,Féminin,Locataire,6
+1019,De 55 à 64 ans,Retraité,De 140 000 $ à 159 999 $,Féminin,Propriétaire,8
+1020,De 25 à 34 ans,Temps plein,De 80 000 $ à 99 999 $,Féminin,Locataire,7
+1022,De 35 à 44 ans,Abstention,Abstention,Féminin,Locataire,7
+1023,De 65 à 74 ans,Retraité,Abstention,Masculin,Propriétaire,6
+1024,De 65 à 74 ans,Retraité,Abstention,Féminin,Propriétaire,9
+1025,De 25 à 34 ans,Temps plein,De 60 000 $ à 79 999 $,Féminin,Locataire,8
+1026,De 65 à 74 ans,Retraité,Abstention,Féminin,Locataire,7
+1028,De 45 à 54 ans,Temps plein,De 100 000 $ à 119 999 $,Masculin,Locataire,6
+1029,De 45 à 54 ans,Temps plein,De 40 000 $ à 59 999 $,Féminin,Propriétaire,8
+1031,De 35 à 44 ans,Temps plein,160 000 $ et plus,Masculin,Propriétaire,8
+1032,De 25 à 34 ans,Temps plein,De 140 000 $ à 159 999 $,Masculin,Propriétaire,9
+1033,De 65 à 74 ans,Retraité,De 20 000 $ à 39 999 $,Féminin,Locataire,7
+1035,De 25 à 34 ans,Temps plein,De 60 000 $ à 79 999 $,Féminin,Locataire,8
+1036,De 25 à 34 ans,En recherche d’emploi,De 40 000 $ à 59 999 $,Féminin,Locataire,7
+1039,De 45 à 54 ans,Temps plein,160 000 $ et plus,Masculin,Propriétaire,5
+1040,De 45 à 54 ans,Temps plein,Abstention,Féminin,Propriétaire,8
+1043,De 65 à 74 ans,Retraité,De 120 000 $ à 139 999 $,Masculin,Propriétaire,8
+1044,De 65 à 74 ans,Retraité,Abstention,Masculin,Propriétaire,8
+1046,De 55 à 64 ans,temps partiel,De 80 000 $ à 99 999 $,Masculin,Propriétaire,8
+1048,De 35 à 44 ans,Temps plein,De 20 000 $ à 39 999 $,Féminin,Propriétaire,8
+1050,De 35 à 44 ans,Temps plein,De 100 000 $ à 119 999 $,Féminin,Propriétaire,8
+1051,De 35 à 44 ans,Temps plein,De 80 000 $ à 99 999 $,Masculin,Propriétaire,8
+1052,De 45 à 54 ans,Temps plein,De 40 000 $ à 59 999 $,Masculin,Propriétaire,6
+1053,De 25 à 34 ans,Au foyer,De 20 000 $ à 39 999 $,Féminin,Locataire,8
+1054,75 ans ou plus,Retraité,19 999 $ et moins,Féminin,Locataire,8
+1055,75 ans ou plus,Retraité,De 60 000 $ à 79 999 $,Féminin,Propriétaire,5
+1056,De 55 à 64 ans,Au foyer,Abstention,Féminin,Propriétaire,8
+1057,De 65 à 74 ans,Retraité,De 60 000 $ à 79 999 $,Féminin,Locataire,8
+1058,De 65 à 74 ans,Retraité,De 60 000 $ à 79 999 $,Masculin,Propriétaire,8
+1059,De 65 à 74 ans,Retraité,De 40 000 $ à 59 999 $,Masculin,Propriétaire,7
+1061,De 55 à 64 ans,Au foyer,19 999 $ et moins,Féminin,Propriétaire,8
+1062,De 25 à 34 ans,Étudiant,19 999 $ et moins,Masculin,Locataire,0
+1063,75 ans ou plus,Retraité,De 20 000 $ à 39 999 $,Féminin,Locataire,9
+1090,De 18 à 24 ans,Étudiant,19 999 $ et moins,Féminin,Propriétaire,7
+1156,De 25 à 34 ans,Temps plein,Abstention,Féminin,Locataire,
+1157,De 35 à 44 ans,Abstention,De 20 000 $ à 39 999 $,Masculin,Locataire,10
+1190,De 35 à 44 ans,Temps plein,De 140 000 $ à 159 999 $,Féminin,Propriétaire,7
+1191,75 ans ou plus,Retraité,De 40 000 $ à 59 999 $,Masculin,Locataire,8
+1192,De 55 à 64 ans,Retraité,De 120 000 $ à 139 999 $,Masculin,Propriétaire,8
+1193,De 55 à 64 ans,Temps plein,Abstention,Féminin,Propriétaire,8
+1196,De 55 à 64 ans,temps partiel,160 000 $ et plus,Féminin,Propriétaire,8
+1197,De 35 à 44 ans,Retraité,De 40 000 $ à 59 999 $,Féminin,Propriétaire,7
+1198,De 45 à 54 ans,Temps plein,Abstention,Féminin,Locataire,9
+1201,De 25 à 34 ans,Temps plein,De 40 000 $ à 59 999 $,Masculin,Locataire,9
+1202,De 25 à 34 ans,Abstention,De 120 000 $ à 139 999 $,Féminin,Propriétaire,9
+1203,De 65 à 74 ans,Retraité,De 20 000 $ à 39 999 $,Féminin,Propriétaire,7
+1204,De 35 à 44 ans,Temps plein,160 000 $ et plus,Masculin,Propriétaire,8
+1205,De 55 à 64 ans,Retraité,Abstention,Masculin,Propriétaire,7
+1206,De 55 à 64 ans,Retraité,De 40 000 $ à 59 999 $,Masculin,Propriétaire,5
+1207,De 35 à 44 ans,Temps plein,De 80 000 $ à 99 999 $,Féminin,Propriétaire,9
+1208,De 65 à 74 ans,Retraité,De 120 000 $ à 139 999 $,Masculin,Propriétaire,7
+1210,De 35 à 44 ans,Temps plein,De 60 000 $ à 79 999 $,Féminin,Locataire,9
+1211,De 35 à 44 ans,Temps plein,De 100 000 $ à 119 999 $,Féminin,Propriétaire,9
+1212,De 35 à 44 ans,Travailleur autonome,De 60 000 $ à 79 999 $,Masculin,Propriétaire,9
+1213,De 35 à 44 ans,Travailleur autonome,De 80 000 $ à 99 999 $,Masculin,Propriétaire,8
+1214,De 55 à 64 ans,temps partiel,Abstention,Masculin,Propriétaire,8
+1215,De 25 à 34 ans,Temps plein,De 80 000 $ à 99 999 $,Masculin,Propriétaire,9
+1216,De 55 à 64 ans,Retraité,De 80 000 $ à 99 999 $,Féminin,Locataire,8
+1217,De 25 à 34 ans,Temps plein,De 80 000 $ à 99 999 $,Masculin,Locataire,7
+1218,De 18 à 24 ans,Étudiant,19 999 $ et moins,Féminin,Propriétaire,9
+1219,De 25 à 34 ans,Travailleur autonome,160 000 $ et plus,Masculin,Propriétaire,8
+1222,De 18 à 24 ans,Étudiant,De 40 000 $ à 59 999 $,Féminin,Locataire,7
+1223,De 25 à 34 ans,Temps plein,De 40 000 $ à 59 999 $,Féminin,Locataire,7
+1224,De 25 à 34 ans,En recherche d’emploi,19 999 $ et moins,Féminin,Locataire,3
+1225,De 18 à 24 ans,Étudiant,De 60 000 $ à 79 999 $,Féminin,Locataire,6
+1226,De 35 à 44 ans,Temps plein,De 80 000 $ à 99 999 $,Masculin,Locataire,8
+1227,De 45 à 54 ans,Temps plein,De 20 000 $ à 39 999 $,Féminin,Locataire,10
+1228,De 25 à 34 ans,Temps plein,De 20 000 $ à 39 999 $,Masculin,Locataire,9
+1229,75 ans ou plus,Retraité,De 80 000 $ à 99 999 $,Féminin,Locataire,8
+1230,De 65 à 74 ans,Retraité,De 120 000 $ à 139 999 $,Féminin,Locataire,7
+1231,De 55 à 64 ans,Retraité,De 120 000 $ à 139 999 $,Masculin,Propriétaire,8
+1233,De 55 à 64 ans,Temps plein,De 60 000 $ à 79 999 $,Masculin,Propriétaire,7
+1234,75 ans ou plus,Retraité,De 80 000 $ à 99 999 $,Féminin,Locataire,8
+1235,De 65 à 74 ans,Travailleur autonome,De 100 000 $ à 119 999 $,Masculin,Propriétaire,10
+1236,De 55 à 64 ans,Retraité,De 60 000 $ à 79 999 $,Féminin,Propriétaire,7
+1237,De 65 à 74 ans,Travailleur autonome,De 20 000 $ à 39 999 $,Masculin,Propriétaire,6
+1238,De 65 à 74 ans,Retraité,De 40 000 $ à 59 999 $,Féminin,Propriétaire,10
+1239,De 25 à 34 ans,Temps plein,De 100 000 $ à 119 999 $,Masculin,Locataire,6
+1241,De 25 à 34 ans,Temps plein,De 40 000 $ à 59 999 $,Féminin,Locataire,6
+1242,De 45 à 54 ans,Temps plein,De 100 000 $ à 119 999 $,Masculin,Propriétaire,8
+1243,De 45 à 54 ans,Temps plein,De 60 000 $ à 79 999 $,Féminin,Propriétaire,7
+1245,De 65 à 74 ans,Retraité,De 80 000 $ à 99 999 $,Masculin,Propriétaire,8
+1246,De 25 à 34 ans,Temps plein,De 100 000 $ à 119 999 $,Féminin,Propriétaire,7
+1247,De 45 à 54 ans,Temps plein,De 20 000 $ à 39 999 $,Masculin,Locataire,0
+1248,De 55 à 64 ans,Retraité,De 20 000 $ à 39 999 $,Féminin,Propriétaire,6
+1249,75 ans ou plus,Retraité,De 40 000 $ à 59 999 $,Masculin,Locataire,7
+1251,75 ans ou plus,Retraité,160 000 $ et plus,Masculin,Propriétaire,8
+1252,De 65 à 74 ans,temps partiel,De 40 000 $ à 59 999 $,Féminin,Locataire,6
+1253,75 ans ou plus,Retraité,De 40 000 $ à 59 999 $,Masculin,Propriétaire,9
+1254,75 ans ou plus,Retraité,De 140 000 $ à 159 999 $,Masculin,Propriétaire,9
+1256,De 55 à 64 ans,Temps plein,De 60 000 $ à 79 999 $,Masculin,Propriétaire,6
+1259,De 35 à 44 ans,Temps plein,De 140 000 $ à 159 999 $,Féminin,Propriétaire,8
+1260,De 55 à 64 ans,Au foyer,Abstention,Féminin,Propriétaire,7
+1261,75 ans ou plus,Retraité,De 40 000 $ à 59 999 $,Masculin,Locataire,8
+1262,De 45 à 54 ans,Temps plein,De 120 000 $ à 139 999 $,Masculin,Propriétaire,7
+1263,De 65 à 74 ans,Retraité,De 40 000 $ à 59 999 $,Féminin,Propriétaire,8
+1264,De 35 à 44 ans,Temps plein,De 100 000 $ à 119 999 $,Féminin,Propriétaire,6
+1266,De 55 à 64 ans,Temps plein,De 40 000 $ à 59 999 $,Masculin,Propriétaire,
+1267,De 65 à 74 ans,Retraité,De 40 000 $ à 59 999 $,Masculin,Propriétaire,6
+1268,De 45 à 54 ans,Temps plein,De 140 000 $ à 159 999 $,Masculin,Propriétaire,2
+1269,De 25 à 34 ans,Temps plein,De 80 000 $ à 99 999 $,Masculin,Propriétaire,7
+1270,De 45 à 54 ans,Temps plein,De 100 000 $ à 119 999 $,Féminin,Propriétaire,
+1272,De 55 à 64 ans,Temps plein,De 40 000 $ à 59 999 $,Masculin,Propriétaire,5
+1273,De 18 à 24 ans,Étudiant,De 100 000 $ à 119 999 $,Féminin,Locataire,5
+1274,75 ans ou plus,Retraité,19 999 $ et moins,Féminin,Locataire,9
+1275,De 65 à 74 ans,Retraité,De 80 000 $ à 99 999 $,Masculin,Propriétaire,6
+1276,De 65 à 74 ans,Retraité,De 40 000 $ à 59 999 $,Féminin,Propriétaire,8
+1277,75 ans ou plus,Retraité,De 140 000 $ à 159 999 $,Masculin,Propriétaire,7
+1278,De 18 à 24 ans,Étudiant,Abstention,Masculin,Propriétaire,8
+1279,De 65 à 74 ans,Retraité,De 60 000 $ à 79 999 $,Féminin,Propriétaire,7
+1280,De 45 à 54 ans,Travailleur autonome,160 000 $ et plus,Masculin,Propriétaire,6
+1283,De 35 à 44 ans,Temps plein,De 100 000 $ à 119 999 $,Masculin,Propriétaire,9
+1284,De 35 à 44 ans,Temps plein,De 120 000 $ à 139 999 $,Féminin,Propriétaire,8
+1285,De 35 à 44 ans,Temps plein,De 40 000 $ à 59 999 $,Masculin,Locataire,6
+1286,De 65 à 74 ans,Retraité,De 80 000 $ à 99 999 $,Masculin,Propriétaire,9
+1287,De 65 à 74 ans,Retraité,De 100 000 $ à 119 999 $,Féminin,Locataire,6
+1288,De 65 à 74 ans,Retraité,De 40 000 $ à 59 999 $,Féminin,Propriétaire,9
+1289,De 65 à 74 ans,Retraité,Abstention,Féminin,Propriétaire,9
+1290,De 25 à 34 ans,Temps plein,De 20 000 $ à 39 999 $,Féminin,Locataire,8
+1291,De 35 à 44 ans,Temps plein,De 40 000 $ à 59 999 $,Masculin,Locataire,4
+1292,De 65 à 74 ans,Retraité,De 40 000 $ à 59 999 $,Féminin,Locataire,9
+1293,De 18 à 24 ans,Temps plein,19 999 $ et moins,Féminin,Locataire,7
+1294,75 ans ou plus,Retraité,De 40 000 $ à 59 999 $,Masculin,Propriétaire,8
+1295,De 35 à 44 ans,Temps plein,De 120 000 $ à 139 999 $,Masculin,Propriétaire,8
+1296,De 25 à 34 ans,Temps plein,De 20 000 $ à 39 999 $,Masculin,Locataire,8
+1297,De 55 à 64 ans,Retraité,De 40 000 $ à 59 999 $,Masculin,Propriétaire,6
+1299,De 55 à 64 ans,Retraité,De 80 000 $ à 99 999 $,Féminin,Propriétaire,10
+1300,De 65 à 74 ans,Retraité,De 40 000 $ à 59 999 $,Masculin,Propriétaire,8
+1301,De 65 à 74 ans,Retraité,De 60 000 $ à 79 999 $,Masculin,Propriétaire,8
+1302,De 65 à 74 ans,Retraité,De 80 000 $ à 99 999 $,Féminin,Propriétaire,8
+1303,De 65 à 74 ans,Retraité,De 20 000 $ à 39 999 $,Masculin,Locataire,8
+1304,De 65 à 74 ans,Retraité,De 100 000 $ à 119 999 $,Masculin,Propriétaire,9
+1305,De 35 à 44 ans,Temps plein,De 140 000 $ à 159 999 $,Féminin,Propriétaire,8
+1306,De 35 à 44 ans,Temps plein,De 120 000 $ à 139 999 $,Féminin,Propriétaire,6
+1308,De 55 à 64 ans,Temps plein,De 40 000 $ à 59 999 $,Féminin,Locataire,
+1309,De 35 à 44 ans,Temps plein,De 40 000 $ à 59 999 $,Masculin,Propriétaire,8
+1310,De 55 à 64 ans,Retraité,De 80 000 $ à 99 999 $,Féminin,Propriétaire,5
+1312,De 65 à 74 ans,Retraité,De 40 000 $ à 59 999 $,Féminin,Propriétaire,5
+1313,De 65 à 74 ans,Retraité,De 100 000 $ à 119 999 $,Masculin,Propriétaire,6
+1314,De 45 à 54 ans,Temps plein,De 40 000 $ à 59 999 $,Féminin,Locataire,8
+1316,De 25 à 34 ans,Temps plein,De 80 000 $ à 99 999 $,Masculin,Locataire,7
+1317,De 55 à 64 ans,Temps plein,De 80 000 $ à 99 999 $,Féminin,Propriétaire,7
+1318,De 55 à 64 ans,Temps plein,De 60 000 $ à 79 999 $,Féminin,Propriétaire,10
+1319,De 25 à 34 ans,Étudiant,De 40 000 $ à 59 999 $,Féminin,Locataire,8
+1320,De 55 à 64 ans,Retraité,De 20 000 $ à 39 999 $,Féminin,Locataire,8
+1321,75 ans ou plus,Au foyer,19 999 $ et moins,Féminin,Locataire,9
+1323,De 55 à 64 ans,Temps plein,Abstention,Masculin,Propriétaire,8
+1324,De 18 à 24 ans,Étudiant,Abstention,Féminin,Locataire,8
+1326,De 18 à 24 ans,temps partiel,De 20 000 $ à 39 999 $,Féminin,Propriétaire,8
+1327,De 55 à 64 ans,Retraité,De 80 000 $ à 99 999 $,Féminin,Propriétaire,8
+1328,De 18 à 24 ans,Étudiant,160 000 $ et plus,Féminin,Propriétaire,8
+1331,De 25 à 34 ans,Temps plein,De 80 000 $ à 99 999 $,Féminin,Locataire,8
+1333,De 65 à 74 ans,Retraité,De 40 000 $ à 59 999 $,Masculin,Locataire,7
+1335,75 ans ou plus,Retraité,Abstention,Féminin,Propriétaire,
+1336,75 ans ou plus,Retraité,De 80 000 $ à 99 999 $,Masculin,Propriétaire,8
+1337,De 55 à 64 ans,Temps plein,De 60 000 $ à 79 999 $,Féminin,Propriétaire,10
+1338,De 18 à 24 ans,Étudiant,De 140 000 $ à 159 999 $,Féminin,Locataire,
+1341,75 ans ou plus,Retraité,De 40 000 $ à 59 999 $,Féminin,Propriétaire,7
+1342,De 35 à 44 ans,En recherche d’emploi,De 40 000 $ à 59 999 $,Féminin,Propriétaire,8
+1343,De 35 à 44 ans,Temps plein,De 120 000 $ à 139 999 $,Masculin,Propriétaire,6
+1344,75 ans ou plus,Retraité,De 20 000 $ à 39 999 $,Masculin,Propriétaire,5
+1345,De 18 à 24 ans,temps partiel,De 40 000 $ à 59 999 $,Féminin,Locataire,6
+1346,De 45 à 54 ans,Temps plein,De 80 000 $ à 99 999 $,Féminin,Locataire,8
+1347,De 25 à 34 ans,temps partiel,De 100 000 $ à 119 999 $,Féminin,Propriétaire,7
+1348,De 55 à 64 ans,Temps plein,De 20 000 $ à 39 999 $,Féminin,Locataire,7
+1350,De 25 à 34 ans,En recherche d’emploi,De 40 000 $ à 59 999 $,Féminin,Propriétaire,7
+1351,De 65 à 74 ans,Retraité,De 40 000 $ à 59 999 $,Féminin,Locataire,7
+1352,De 35 à 44 ans,Temps plein,De 20 000 $ à 39 999 $,Masculin,Locataire,9
+1354,De 35 à 44 ans,Temps plein,De 80 000 $ à 99 999 $,Féminin,Propriétaire,8
+1355,De 65 à 74 ans,Retraité,De 80 000 $ à 99 999 $,Féminin,Propriétaire,7
+1356,De 45 à 54 ans,Temps plein,De 140 000 $ à 159 999 $,Masculin,Propriétaire,8
+1357,De 45 à 54 ans,Temps plein,De 80 000 $ à 99 999 $,Féminin,Locataire,8
+1358,De 35 à 44 ans,Temps plein,160 000 $ et plus,Masculin,Propriétaire,8
+1359,De 35 à 44 ans,Temps plein,De 60 000 $ à 79 999 $,Masculin,Propriétaire,9
+1360,De 35 à 44 ans,Temps plein,Abstention,Féminin,Locataire,6
+1361,De 35 à 44 ans,Temps plein,De 100 000 $ à 119 999 $,Masculin,Locataire,5
+1362,De 18 à 24 ans,Étudiant,Abstention,Féminin,Locataire,8
+1363,De 55 à 64 ans,Temps plein,Abstention,Masculin,Propriétaire,8
+1365,De 18 à 24 ans,En recherche d’emploi,19 999 $ et moins,Féminin,Locataire,7
+1367,De 35 à 44 ans,Temps plein,De 80 000 $ à 99 999 $,Masculin,Propriétaire,8
+1369,De 65 à 74 ans,Retraité,De 20 000 $ à 39 999 $,Féminin,Locataire,7
+1371,De 45 à 54 ans,Temps plein,Abstention,Féminin,Propriétaire,9
+1373,De 65 à 74 ans,Retraité,De 60 000 $ à 79 999 $,Masculin,Propriétaire,6
+1387,De 18 à 24 ans,Étudiant,160 000 $ et plus,Féminin,Propriétaire,7
+1420,De 25 à 34 ans,Temps plein,160 000 $ et plus,Féminin,Propriétaire,9
+1421,De 55 à 64 ans,Retraité,Abstention,Féminin,Locataire,6
+1422,De 35 à 44 ans,Travailleur autonome,De 40 000 $ à 59 999 $,Féminin,Locataire,10
+1423,De 55 à 64 ans,Temps plein,De 40 000 $ à 59 999 $,Féminin,Propriétaire,8
+1424,De 65 à 74 ans,Retraité,Abstention,Féminin,Propriétaire,8
+1425,De 65 à 74 ans,Retraité,Abstention,Masculin,Locataire,5
+1426,De 65 à 74 ans,Retraité,De 80 000 $ à 99 999 $,Féminin,Propriétaire,8
+1427,De 35 à 44 ans,Temps plein,160 000 $ et plus,Masculin,Propriétaire,9
+1428,De 65 à 74 ans,Retraité,De 60 000 $ à 79 999 $,Masculin,Propriétaire,6
+1429,De 55 à 64 ans,Temps plein,De 120 000 $ à 139 999 $,Féminin,Propriétaire,8
+1431,De 55 à 64 ans,Temps plein,De 40 000 $ à 59 999 $,Masculin,Locataire,3
+1432,75 ans ou plus,Retraité,De 80 000 $ à 99 999 $,Masculin,Locataire,7
+1434,De 18 à 24 ans,Étudiant,De 20 000 $ à 39 999 $,Féminin,Propriétaire,6
+1435,De 65 à 74 ans,Au foyer,De 40 000 $ à 59 999 $,Féminin,Locataire,8
+1436,De 45 à 54 ans,Temps plein,De 80 000 $ à 99 999 $,Masculin,Propriétaire,8
+1438,De 18 à 24 ans,Étudiant,De 140 000 $ à 159 999 $,Féminin,Locataire,9
+1439,De 55 à 64 ans,temps partiel,De 20 000 $ à 39 999 $,Féminin,Locataire,10
+1441,De 35 à 44 ans,Temps plein,Abstention,Masculin,Locataire,7
+1442,De 25 à 34 ans,Travailleur autonome,De 60 000 $ à 79 999 $,Féminin,Locataire,8
+1443,De 18 à 24 ans,temps partiel,De 120 000 $ à 139 999 $,Masculin,Locataire,9
+1444,De 45 à 54 ans,temps partiel,De 20 000 $ à 39 999 $,Masculin,Locataire,10
+1446,De 35 à 44 ans,Temps plein,De 100 000 $ à 119 999 $,Masculin,Propriétaire,8
+1447,De 18 à 24 ans,Étudiant,160 000 $ et plus,Féminin,Propriétaire,7
+1449,De 55 à 64 ans,Retraité,De 20 000 $ à 39 999 $,Féminin,Propriétaire,5
+1450,De 18 à 24 ans,Étudiant,De 80 000 $ à 99 999 $,Féminin,Locataire,8
+1452,De 35 à 44 ans,Temps plein,De 80 000 $ à 99 999 $,Féminin,Propriétaire,6
+1453,De 35 à 44 ans,Temps plein,De 80 000 $ à 99 999 $,Masculin,Locataire,9
+1454,De 25 à 34 ans,Temps plein,De 100 000 $ à 119 999 $,Féminin,Propriétaire,5
+1455,De 18 à 24 ans,Étudiant,De 60 000 $ à 79 999 $,Féminin,Locataire,9
+1456,De 35 à 44 ans,Temps plein,De 40 000 $ à 59 999 $,Féminin,Locataire,10
+1460,De 35 à 44 ans,Temps plein,Abstention,Féminin,Locataire,7
+1461,De 45 à 54 ans,Temps plein,De 40 000 $ à 59 999 $,Féminin,Locataire,7
+1462,De 35 à 44 ans,Temps plein,De 60 000 $ à 79 999 $,Féminin,Propriétaire,7
+1464,De 35 à 44 ans,Temps plein,Abstention,Masculin,Locataire,9
+1486,De 35 à 44 ans,Temps plein,De 120 000 $ à 139 999 $,Masculin,Propriétaire,6
+1487,De 25 à 34 ans,Abstention,De 80 000 $ à 99 999 $,Féminin,Locataire,7
+1488,De 25 à 34 ans,Temps plein,De 80 000 $ à 99 999 $,Féminin,Propriétaire,7
+1489,De 25 à 34 ans,Temps plein,De 80 000 $ à 99 999 $,Masculin,Propriétaire,8
+1490,De 65 à 74 ans,temps partiel,De 40 000 $ à 59 999 $,Féminin,Locataire,3
+1491,75 ans ou plus,Retraité,De 20 000 $ à 39 999 $,Masculin,Locataire,8
+1492,De 18 à 24 ans,Temps plein,De 20 000 $ à 39 999 $,Féminin,Propriétaire,6
+1493,De 35 à 44 ans,Temps plein,De 100 000 $ à 119 999 $,Féminin,Propriétaire,7
+1494,De 18 à 24 ans,Étudiant,160 000 $ et plus,Féminin,Locataire,8
+1495,De 25 à 34 ans,Temps plein,De 60 000 $ à 79 999 $,Masculin,Propriétaire,8
+1496,De 55 à 64 ans,Temps plein,De 100 000 $ à 119 999 $,Masculin,Propriétaire,8
+1497,De 18 à 24 ans,Étudiant,De 80 000 $ à 99 999 $,Féminin,Locataire,7
+1498,De 55 à 64 ans,Retraité,De 20 000 $ à 39 999 $,Féminin,Propriétaire,9
+1500,De 25 à 34 ans,Temps plein,De 20 000 $ à 39 999 $,Masculin,Locataire,7
+1502,De 45 à 54 ans,Temps plein,160 000 $ et plus,Féminin,Propriétaire,10
+1504,De 55 à 64 ans,Temps plein,De 40 000 $ à 59 999 $,Féminin,Locataire,8
+1505,De 25 à 34 ans,temps partiel,De 40 000 $ à 59 999 $,Masculin,Propriétaire,9
+1507,De 55 à 64 ans,Temps plein,De 80 000 $ à 99 999 $,Féminin,Propriétaire,7
+1511,De 18 à 24 ans,Étudiant,De 80 000 $ à 99 999 $,Féminin,Locataire,9
+1512,De 35 à 44 ans,Temps plein,De 140 000 $ à 159 999 $,Masculin,Propriétaire,9
+1513,De 55 à 64 ans,Retraité,De 60 000 $ à 79 999 $,Féminin,Locataire,7
+1514,De 55 à 64 ans,Temps plein,De 120 000 $ à 139 999 $,Masculin,Propriétaire,7
+1515,75 ans ou plus,Retraité,De 60 000 $ à 79 999 $,Masculin,Propriétaire,8
+1518,De 25 à 34 ans,Temps plein,De 80 000 $ à 99 999 $,Masculin,Locataire,9
+1519,De 35 à 44 ans,Temps plein,De 80 000 $ à 99 999 $,Masculin,Propriétaire,8
+1520,De 25 à 34 ans,Temps plein,De 20 000 $ à 39 999 $,Féminin,Locataire,6
+1522,De 65 à 74 ans,Retraité,De 40 000 $ à 59 999 $,Masculin,Locataire,7
+1523,De 45 à 54 ans,Travailleur autonome,De 100 000 $ à 119 999 $,Féminin,Propriétaire,9
+1524,De 65 à 74 ans,Retraité,De 60 000 $ à 79 999 $,Masculin,Locataire,9
+1525,De 55 à 64 ans,Temps plein,De 100 000 $ à 119 999 $,Masculin,Propriétaire,5
+1526,De 25 à 34 ans,Temps plein,De 60 000 $ à 79 999 $,Féminin,Locataire,8
+1528,De 45 à 54 ans,Temps plein,De 100 000 $ à 119 999 $,Masculin,Propriétaire,8
+1530,De 25 à 34 ans,Étudiant,19 999 $ et moins,Féminin,Locataire,10
+1532,De 55 à 64 ans,Retraité,De 60 000 $ à 79 999 $,Féminin,Propriétaire,9
+1533,De 25 à 34 ans,Temps plein,De 40 000 $ à 59 999 $,Féminin,Locataire,8
+1534,De 65 à 74 ans,Travailleur autonome,Abstention,Masculin,Propriétaire,5
+1535,De 55 à 64 ans,Retraité,De 80 000 $ à 99 999 $,Masculin,Propriétaire,8
+1536,De 35 à 44 ans,Temps plein,De 80 000 $ à 99 999 $,Masculin,Propriétaire,7
+1537,De 25 à 34 ans,Travailleur autonome,De 140 000 $ à 159 999 $,Féminin,Propriétaire,8
+1538,De 55 à 64 ans,Temps plein,De 60 000 $ à 79 999 $,Masculin,Locataire,7
+1539,De 65 à 74 ans,Retraité,Abstention,Féminin,Propriétaire,5
+1541,De 25 à 34 ans,Temps plein,De 100 000 $ à 119 999 $,Féminin,Propriétaire,8
+1542,De 65 à 74 ans,Retraité,De 60 000 $ à 79 999 $,Féminin,Propriétaire,9
+1543,De 35 à 44 ans,Temps plein,De 100 000 $ à 119 999 $,Féminin,Propriétaire,8
+1545,De 25 à 34 ans,Temps plein,De 20 000 $ à 39 999 $,Féminin,Locataire,7
+1546,De 45 à 54 ans,Temps plein,De 40 000 $ à 59 999 $,Féminin,Propriétaire,8
+1547,De 25 à 34 ans,Temps plein,De 100 000 $ à 119 999 $,Féminin,Propriétaire,8
+1548,De 25 à 34 ans,Temps plein,De 120 000 $ à 139 999 $,Féminin,Propriétaire,
+1549,De 25 à 34 ans,Temps plein,Abstention,Féminin,Locataire,7
+1550,De 35 à 44 ans,Temps plein,Abstention,Féminin,Locataire,7
+1552,De 45 à 54 ans,Temps plein,De 120 000 $ à 139 999 $,Masculin,Locataire,7
+1553,De 55 à 64 ans,temps partiel,De 80 000 $ à 99 999 $,Féminin,Propriétaire,7
+1556,De 65 à 74 ans,Temps plein,160 000 $ et plus,Féminin,Propriétaire,9
+1560,De 25 à 34 ans,Temps plein,De 60 000 $ à 79 999 $,Féminin,Locataire,4
+1562,De 45 à 54 ans,Temps plein,De 100 000 $ à 119 999 $,Masculin,Propriétaire,5
+1563,De 25 à 34 ans,Étudiant,De 100 000 $ à 119 999 $,Féminin,Locataire,7
+1567,De 35 à 44 ans,Temps plein,De 120 000 $ à 139 999 $,Masculin,Propriétaire,7
+1568,75 ans ou plus,Retraité,19 999 $ et moins,Féminin,Locataire,8
+1569,De 55 à 64 ans,Retraité,De 60 000 $ à 79 999 $,Féminin,Propriétaire,7
+1570,De 55 à 64 ans,Retraité,De 60 000 $ à 79 999 $,Masculin,Propriétaire,8
+1573,De 25 à 34 ans,Temps plein,De 80 000 $ à 99 999 $,Masculin,Locataire,5
+1575,De 65 à 74 ans,Retraité,Abstention,Féminin,Locataire,7
+1576,De 18 à 24 ans,Temps plein,De 20 000 $ à 39 999 $,Féminin,Locataire,7
+1579,De 25 à 34 ans,Travailleur autonome,De 120 000 $ à 139 999 $,Féminin,Propriétaire,7
+1581,De 65 à 74 ans,Retraité,De 20 000 $ à 39 999 $,Féminin,Locataire,9
+1582,De 18 à 24 ans,Temps plein,De 20 000 $ à 39 999 $,Féminin,Propriétaire,10
+1583,De 45 à 54 ans,Temps plein,De 100 000 $ à 119 999 $,Féminin,Propriétaire,4
+1584,De 55 à 64 ans,Temps plein,De 80 000 $ à 99 999 $,Féminin,Propriétaire,7
+1585,De 65 à 74 ans,Retraité,Abstention,Masculin,Propriétaire,7
+1586,De 55 à 64 ans,Temps plein,De 120 000 $ à 139 999 $,Féminin,Propriétaire,7
+1587,De 25 à 34 ans,Temps plein,De 140 000 $ à 159 999 $,Féminin,Propriétaire,8
+1588,De 18 à 24 ans,Temps plein,De 140 000 $ à 159 999 $,Féminin,Propriétaire,10
+1589,75 ans ou plus,Retraité,Abstention,Féminin,Propriétaire,
+1590,De 45 à 54 ans,Temps plein,De 140 000 $ à 159 999 $,Féminin,Propriétaire,7
+1591,De 45 à 54 ans,Temps plein,De 80 000 $ à 99 999 $,Féminin,Propriétaire,8
+1594,De 45 à 54 ans,Temps plein,De 100 000 $ à 119 999 $,Féminin,Propriétaire,7
+1595,De 55 à 64 ans,Travailleur autonome,De 140 000 $ à 159 999 $,Masculin,Propriétaire,8
+1596,De 55 à 64 ans,Retraité,Abstention,Masculin,Propriétaire,8
+1597,De 55 à 64 ans,Temps plein,De 100 000 $ à 119 999 $,Féminin,Propriétaire,9
+1598,De 55 à 64 ans,En recherche d’emploi,De 40 000 $ à 59 999 $,Masculin,Locataire,8
+1599,De 18 à 24 ans,Étudiant,19 999 $ et moins,Féminin,Locataire,7
+1600,De 18 à 24 ans,Étudiant,De 120 000 $ à 139 999 $,Féminin,Propriétaire,7
+1601,De 25 à 34 ans,En recherche d’emploi,De 20 000 $ à 39 999 $,Féminin,Locataire,9
+1602,75 ans ou plus,Retraité,De 80 000 $ à 99 999 $,Masculin,Propriétaire,7
+1604,De 35 à 44 ans,Travailleur autonome,De 60 000 $ à 79 999 $,Masculin,Propriétaire,8
+1607,De 35 à 44 ans,Temps plein,160 000 $ et plus,Féminin,Propriétaire,9
+1608,De 65 à 74 ans,Retraité,De 20 000 $ à 39 999 $,Masculin,Locataire,8
+1609,De 65 à 74 ans,Retraité,De 40 000 $ à 59 999 $,Masculin,Propriétaire,8
+1610,De 55 à 64 ans,Retraité,De 40 000 $ à 59 999 $,Féminin,Locataire,8
+1611,De 55 à 64 ans,Temps plein,De 20 000 $ à 39 999 $,Masculin,Locataire,10
+1612,75 ans ou plus,Retraité,19 999 $ et moins,Féminin,Propriétaire,8
+1613,De 25 à 34 ans,Travailleur autonome,De 60 000 $ à 79 999 $,Féminin,Locataire,9
+1614,De 45 à 54 ans,Travailleur autonome,Abstention,Féminin,Propriétaire,5
+1619,De 55 à 64 ans,Temps plein,De 20 000 $ à 39 999 $,Masculin,Propriétaire,0
+1620,De 65 à 74 ans,Retraité,De 60 000 $ à 79 999 $,Masculin,Propriétaire,9
+1621,De 35 à 44 ans,Temps plein,De 80 000 $ à 99 999 $,Féminin,Propriétaire,9
+1623,De 35 à 44 ans,Temps plein,De 40 000 $ à 59 999 $,Masculin,Locataire,4
+1625,De 25 à 34 ans,Au foyer,De 140 000 $ à 159 999 $,Féminin,Propriétaire,7
+1627,De 65 à 74 ans,Retraité,De 20 000 $ à 39 999 $,Féminin,Propriétaire,8
+1628,De 65 à 74 ans,Travailleur autonome,Abstention,Masculin,Propriétaire,8
+1629,De 35 à 44 ans,Travailleur autonome,160 000 $ et plus,Féminin,Propriétaire,7
+1630,De 55 à 64 ans,Temps plein,De 60 000 $ à 79 999 $,Féminin,Propriétaire,3
+1634,De 45 à 54 ans,Temps plein,De 140 000 $ à 159 999 $,Masculin,Propriétaire,4
+1635,De 45 à 54 ans,Au foyer,De 80 000 $ à 99 999 $,Féminin,Locataire,10
+1636,De 35 à 44 ans,Temps plein,De 20 000 $ à 39 999 $,Masculin,Locataire,5
+1637,De 65 à 74 ans,Retraité,De 40 000 $ à 59 999 $,Féminin,Propriétaire,5
+1638,De 35 à 44 ans,temps partiel,De 20 000 $ à 39 999 $,Féminin,Locataire,9
+1639,De 55 à 64 ans,Retraité,Abstention,Féminin,Propriétaire,7
+1643,De 35 à 44 ans,Temps plein,De 40 000 $ à 59 999 $,Féminin,Locataire,7
+1644,De 25 à 34 ans,Étudiant,19 999 $ et moins,Féminin,Locataire,7
