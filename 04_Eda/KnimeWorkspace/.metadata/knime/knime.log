@@ -1,0 +1,77 @@
+2022-09-09 15:35:11,908 : ERROR : main :  : MAEFileUtils :  :  : Schrodinger Knime plugins: Neither SCHRODINGER environment nor preference is set. You can set SCHRODINGER installation location in the Schrodinger Preferences.
+2022-09-09 15:35:11,910 : WARN  : main :  : SchrodFileUtils :  :  : SCHRODINGER is not set properly.
+2022-09-09 15:35:11,924 : WARN  : Thread-11 :  : PythonService :  :  : PythonService is not initilized
+2022-09-09 15:35:11,924 : WARN  : Thread-11 :  : PythonService :  :  : Failed to start python service.
+2022-09-09 15:36:18,792 : WARN  : ForkJoinPool.commonPool-worker-1 :  : MoePreferencePage :  :  : Path to MOE not set in Preferences. Please check!
+2022-10-06 19:32:39,006 : WARN  : main :  : Node : CSV Reader : 3:1 : Please specify a file
+2022-10-06 19:32:39,313 : WARN  : main :  : FontStore :  :  : Using the system default font for annotations: Font {139931984038224}
+2022-10-06 19:43:44,601 : ERROR : main :  : MAEFileUtils :  :  : Schrodinger Knime plugins: Neither SCHRODINGER environment nor preference is set. You can set SCHRODINGER installation location in the Schrodinger Preferences.
+2022-10-06 19:43:44,603 : WARN  : main :  : SchrodFileUtils :  :  : SCHRODINGER is not set properly.
+2022-10-06 19:43:44,615 : WARN  : Thread-8 :  : PythonService :  :  : PythonService is not initilized
+2022-10-06 19:43:44,615 : WARN  : Thread-8 :  : PythonService :  :  : Failed to start python service.
+2022-10-06 19:44:12,522 : WARN  : ForkJoinPool.commonPool-worker-1 :  : MoePreferencePage :  :  : Path to MOE not set in Preferences. Please check!
+2022-10-06 19:44:13,160 : WARN  : main :  : FontStore :  :  : Using the system default font for annotations: Font {139761125548320}
+2022-10-06 19:47:21,212 : WARN  : main :  : Node : Rank Correlation : 3:4 : Auto configuration: Using all suitable columns (in total 4)
+2022-10-06 20:05:28,514 : WARN  : main :  : Node : CSV Reader : 4:1 : Please specify a file
+2022-10-06 20:06:24,009 : WARN  : main :  : Node : Row Sampling : 4:2 : No sampling method selected
+2022-10-06 20:09:52,598 : WARN  : main :  : Node : Column Merger : 4:4 : No settings available
+2022-10-06 20:11:38,125 : WARN  : main :  : Node : Column Combiner : 4:5 : No settings available.
+2022-10-06 20:13:02,874 : WARN  : main :  : WrappedNodeDialog : Column Combiner : 4:5 : failed to apply settings: Quote field is empty
+org.knime.core.node.InvalidSettingsException: Quote field is empty
+	at org.knime.base.node.preproc.colcombine2.ColCombine2NodeDialog.saveSettingsTo(ColCombine2NodeDialog.java:251)
+	at org.knime.core.node.NodeDialogPane.internalSaveSettingsTo(NodeDialogPane.java:540)
+	at org.knime.core.node.NodeDialogPane$4.run(NodeDialogPane.java:779)
+	at org.knime.core.node.util.ViewUtils$3.run(ViewUtils.java:353)
+	at org.knime.core.node.util.ViewUtils$2.run(ViewUtils.java:155)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+2022-10-06 20:19:11,956 : WARN  : main :  : Node : CSV Reader : 5:1 : Please specify a file
+2022-10-08 09:34:00,518 : WARN  : main :  : Node : CSV Reader : 6:1 : Please specify a file
+2022-10-08 10:36:38,328 : WARN  : main :  : Node : Rank Correlation : 6:4 : Auto configuration: Using all suitable columns (in total 20)
+2022-10-08 10:36:41,923 : WARN  : main :  : Node : Linear Correlation : 6:5 : Auto configuration: Using all suitable columns (in total 20)
+2022-10-08 10:38:13,046 : WARN  : KNIME-Worker-28-Rank Correlation 6:4 :  : Node : Rank Correlation : 6:4 : Rows containing missing values are filtered. Please resolve them with the Missing Value node.
+2022-10-08 10:38:46,823 : WARN  : KNIME-Worker-29-Linear Correlation 6:5 :  : Node : Linear Correlation : 6:5 : Some numeric column(s) contained missing values: "EauLavage", "RendementLitrePerKg", "TempsPressageHeure", "ProductionLitre", <2 more>...
+2022-10-08 10:40:56,449 : WARN  : main :  : Node : Correlation Filter : 6:3 : No such column in input table: PommesTraitesKg
+2022-10-08 10:53:31,311 : WARN  : main :  : Node : Numeric Outliers : 6:6 : Auto configuration: Outlier Selection uses all suitable columns (in total 13).
+2022-10-08 11:10:01,519 : WARN  : main :  : Node : Feature Selection Loop Start (1:1) : 6:7 : No constant columns selected. Are you sure you don't need a target column?
+2022-10-08 11:18:19,463 : WARN  : KNIME-Worker-39-Scatter Plot 6:8 :  : Node : Scatter Plot : 6:8 : Table contains missing or unsupported values - these values will be omitted.
+2022-10-08 11:23:47,795 : WARN  : KNIME-Worker-41-Histogram 6:9 :  : Node : Histogram : 6:9 : The following data columns have missing values, which were ignored during the aggregation:
+    RendementLitrePerKg [Binned] - 3 missing value(s)
+2022-10-08 11:25:47,580 : WARN  : KNIME-Worker-43-Bar Chart 6:10 :  : Node : Bar Chart : 6:10 : The following data columns have missing values, which were ignored during the aggregation:
+    RendementLitrePerKg - 3 missing value(s)
+2022-10-08 16:45:35,487 : ERROR : KNIME-Worker-54-GroupBy Bar Chart (JFreeChart) 6:13 :  : Node : GroupBy Bar Chart (JFreeChart) : 6:13 : Execute failed: The values in the x-Column are not unique
+org.knime.core.node.InvalidSettingsException: The values in the x-Column are not unique
+	at org.knime.ext.jfc.node.groupbarchart.JfcGroupBarChartNodeModel.createBarChartDataset(JfcGroupBarChartNodeModel.java:307)
+	at org.knime.ext.jfc.node.groupbarchart.JfcGroupBarChartNodeModel.createChart(JfcGroupBarChartNodeModel.java:190)
+	at org.knime.ext.jfc.node.base.JfcBaseNodeModel.createChart(JfcBaseNodeModel.java:82)
+	at org.knime.ext.jfc.node.base.JfcGenericBaseNodeModel.execute(JfcGenericBaseNodeModel.java:273)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:549)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1267)
+	at org.knime.core.node.Node.execute(Node.java:1041)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:595)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:95)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:201)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2022-10-08 16:55:52,945 : WARN  : main :  : Node : GroupBy : 6:15 : No grouping column included. Aggregate complete table.
+2022-10-08 16:55:52,946 : WARN  : main :  : Node : GroupBy : 6:15 : No aggregation column defined
+2022-10-08 16:55:52,946 : WARN  : main :  : Node : GroupBy : 6:15 : No aggregation column defined
+2022-10-08 16:55:52,946 : WARN  : main :  : Node : GroupBy : 6:15 : Please select at least one group or aggregation column
+2022-10-08 17:21:21,614 : WARN  : main :  : Node : Math Formula (Multi Column) : 6:16 : No configuration available
+2022-10-08 23:40:08,307 : WARN  : main :  : Node : CSV Reader : 6:17 : Please specify a file
