@@ -1,3 +1,5 @@
+/home/hadoop/Git_Ia/CegepSteFoy_IA/04_Eda/Data/TP01/only_numeric.csv
+/home/hadoop/Git_Ia/CegepSteFoy_IA/04_Eda/Data/TP01/v_operFournisseurs_no_null.csv
 /home/hadoop/Git_Ia/CegepSteFoy_IA/04_Eda/Data/TP01/out.csv
 /home/hadoop/Git_Ia/CegepSteFoy_IA/05_Eda/Data/TP01/v_operFournisseur.csv
 /home/hadoop/Git_Ia/CegepSteFoy_IA/05_Eda/Data/Fichiers06/ProductiviteAgricolev0r2.csv

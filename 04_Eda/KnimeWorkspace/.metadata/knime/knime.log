@@ -75,3 +75,74 @@ org.knime.core.node.InvalidSettingsException: The values in the x-Column are not
 2022-10-08 16:55:52,946 : WARN  : main :  : Node : GroupBy : 6:15 : Please select at least one group or aggregation column
 2022-10-08 17:21:21,614 : WARN  : main :  : Node : Math Formula (Multi Column) : 6:16 : No configuration available
 2022-10-08 23:40:08,307 : WARN  : main :  : Node : CSV Reader : 6:17 : Please specify a file
+2022-10-09 11:12:59,522 : ERROR : main :  : MAEFileUtils :  :  : Schrodinger Knime plugins: Neither SCHRODINGER environment nor preference is set. You can set SCHRODINGER installation location in the Schrodinger Preferences.
+2022-10-09 11:12:59,524 : WARN  : main :  : SchrodFileUtils :  :  : SCHRODINGER is not set properly.
+2022-10-09 11:12:59,529 : WARN  : Thread-10 :  : PythonService :  :  : PythonService is not initilized
+2022-10-09 11:12:59,530 : WARN  : Thread-10 :  : PythonService :  :  : Failed to start python service.
+2022-10-09 11:14:12,908 : WARN  : ForkJoinPool.commonPool-worker-1 :  : MoePreferencePage :  :  : Path to MOE not set in Preferences. Please check!
+2022-10-09 11:14:16,917 : WARN  : main :  : FontStore :  :  : Using the system default font for annotations: Font {140160019487104}
+2022-10-09 11:14:53,038 : WARN  : main :  : Node : CSV Reader : 5:1 : Please specify a file
+2022-10-09 22:58:08,273 : ERROR : main :  : MAEFileUtils :  :  : Schrodinger Knime plugins: Neither SCHRODINGER environment nor preference is set. You can set SCHRODINGER installation location in the Schrodinger Preferences.
+2022-10-09 22:58:08,296 : WARN  : main :  : SchrodFileUtils :  :  : SCHRODINGER is not set properly.
+2022-10-09 22:58:08,309 : WARN  : Thread-11 :  : PythonService :  :  : PythonService is not initilized
+2022-10-09 22:58:08,309 : WARN  : Thread-11 :  : PythonService :  :  : Failed to start python service.
+2022-10-09 23:02:00,684 : WARN  : ForkJoinPool.commonPool-worker-1 :  : MoePreferencePage :  :  : Path to MOE not set in Preferences. Please check!
+2022-10-09 23:04:55,391 : WARN  : main :  : FontStore :  :  : Using the system default font for annotations: Font {140093584512528}
+2022-10-09 23:10:37,038 : WARN  : main :  : Node : Rank Correlation : 3:4 : Auto configuration: Using all suitable columns (in total 19)
+2022-10-11 19:11:27,374 : WARN  : main :  : Node : Interactive Histogram (local) : 3:7 : No column compatible with this node. Column needs to be nominal or numeric and must contain a valid domain. In order to compute the domain of a column use the DomainCalculator or ColumnFilter node.
+2022-10-11 19:11:32,820 : ERROR : KNIME-Worker-16-CSV Reader 3:1 :  : Node : CSV Reader : 3:1 : Execute failed: Row with ID 'Row0' can't be converted to the configured data types. Increasing the number of scanned rows or changing the target types might resolve the issue. Content of row: [99995, 3.9, 2000.5, 1, 59969.0, 0.6, 4.04, 0, 4, 2012, 100, 93.8, 6.2, 0.0, 0.0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0]
+org.knime.filehandling.core.node.table.reader.type.mapping.MappingRuntimeException: Row with ID 'Row0' can't be converted to the configured data types. Increasing the number of scanned rows or changing the target types might resolve the issue. Content of row: [99995, 3.9, 2000.5, 1, 59969.0, 0.6, 4.04, 0, 4, 2012, 100, 93.8, 6.2, 0.0, 0.0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0]
+	at org.knime.filehandling.core.node.table.reader.DefaultMultiTableRead.processAndThrowTypeMapperException(DefaultMultiTableRead.java:169)
+	at org.knime.filehandling.core.node.table.reader.DefaultMultiTableRead.fillRowOutput(DefaultMultiTableRead.java:137)
+	at org.knime.filehandling.core.node.table.reader.MultiTableReader.fillRowOutput(MultiTableReader.java:90)
+	at org.knime.filehandling.core.node.table.reader.MultiTableReader.readTable(MultiTableReader.java:173)
+	at org.knime.filehandling.core.node.table.reader.TableReaderNodeModel.execute(TableReaderNodeModel.java:160)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:549)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1267)
+	at org.knime.core.node.Node.execute(Node.java:1041)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:595)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:95)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:201)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+Caused by: org.knime.filehandling.core.node.table.reader.type.mapping.TypeMapperException: java.lang.NumberFormatException: For input string: "2000.5"
+	at org.knime.filehandling.core.node.table.reader.type.mapping.DefaultTypeMapper.map(DefaultTypeMapper.java:107)
+	at org.knime.filehandling.core.node.table.reader.DefaultIndividualTableReader.toRow(DefaultIndividualTableReader.java:108)
+	at org.knime.filehandling.core.node.table.reader.DefaultIndividualTableReader.fillOutputWithProgress(DefaultIndividualTableReader.java:146)
+	at org.knime.filehandling.core.node.table.reader.DefaultIndividualTableReader.fillOutput(DefaultIndividualTableReader.java:121)
+	at org.knime.filehandling.core.node.table.reader.DefaultMultiTableRead.fillRowOutput(DefaultMultiTableRead.java:135)
+	... 16 more
+Caused by: java.lang.NumberFormatException: For input string: "2000.5"
+	at java.base/java.lang.NumberFormatException.forInputString(Unknown Source)
+	at java.base/java.lang.Integer.parseInt(Unknown Source)
+	at java.base/java.lang.Integer.parseInt(Unknown Source)
+	at org.knime.base.node.io.filehandling.csv.reader.api.IntegerParser.parseInt(IntegerParser.java:75)
+	at org.knime.base.node.io.filehandling.csv.reader.api.StringReadAdapterFactory$StringToIntCellValueProducer.produceIntCellValue(StringReadAdapterFactory.java:187)
+	at org.knime.base.node.io.filehandling.csv.reader.api.StringReadAdapterFactory$StringToIntCellValueProducer.produceIntCellValue(StringReadAdapterFactory.java:1)
+	at org.knime.core.data.convert.map.IntCellValueProducer.produceCellValue(IntCellValueProducer.java:79)
+	at org.knime.core.data.convert.map.IntCellValueProducer.produceCellValue(IntCellValueProducer.java:1)
+	at org.knime.core.data.convert.map.DefaultDataRowProducer$ObjectMapper.map(DefaultDataRowProducer.java:428)
+	at org.knime.core.data.convert.map.DefaultDataRowProducer.produceDataRow(DefaultDataRowProducer.java:283)
+	at org.knime.filehandling.core.node.table.reader.type.mapping.DefaultTypeMapper.map(DefaultTypeMapper.java:105)
+	... 20 more
+2022-10-11 19:11:32,838 : WARN  : KNIME-Worker-16-CSV Reader 3:1 :  : Node : Interactive Histogram (local) : 3:7 : No column compatible with this node. Column needs to be nominal or numeric and must contain a valid domain. In order to compute the domain of a column use the DomainCalculator or ColumnFilter node.
+2022-10-11 19:12:43,693 : WARN  : main :  : Node : Interactive Histogram (local) : 3:7 : No column compatible with this node. Column needs to be nominal or numeric and must contain a valid domain. In order to compute the domain of a column use the DomainCalculator or ColumnFilter node.
+2022-10-11 19:12:45,896 : WARN  : main :  : Node : Interactive Histogram (local) : 3:7 : No column compatible with this node. Column needs to be nominal or numeric and must contain a valid domain. In order to compute the domain of a column use the DomainCalculator or ColumnFilter node.
+2022-10-11 19:16:34,210 : WARN  : main :  : Node : Interactive Histogram (local) : 3:7 : No column compatible with this node. Column needs to be nominal or numeric and must contain a valid domain. In order to compute the domain of a column use the DomainCalculator or ColumnFilter node.
+2022-10-11 19:16:37,550 : WARN  : KNIME-Worker-20-CSV Reader 3:1 :  : Node : Interactive Histogram (local) : 3:7 : 11 columns without a valid domain will be ignored. In order to calculate the domain use the Nominal Values or Domain Calculator node.
+2022-10-11 19:17:30,338 : WARN  : main :  : Node : Interactive Histogram (local) : 3:7 : 11 columns without a valid domain will be ignored. In order to calculate the domain use the Nominal Values or Domain Calculator node.
+2022-10-11 19:20:30,985 : WARN  : main :  : Node : Interactive Histogram (local) : 3:7 : No column compatible with this node. Column needs to be nominal or numeric and must contain a valid domain. In order to compute the domain of a column use the DomainCalculator or ColumnFilter node.
+2022-10-11 19:20:32,918 : WARN  : main :  : Node : Interactive Histogram (local) : 3:7 : No column compatible with this node. Column needs to be nominal or numeric and must contain a valid domain. In order to compute the domain of a column use the DomainCalculator or ColumnFilter node.
+2022-10-11 21:35:59,595 : WARN  : main :  : Node : Numeric Outliers : 3:8 : Auto configuration: Outlier Selection uses all suitable columns (in total 26).
+2022-10-12 20:13:41,155 : ERROR : main :  : MAEFileUtils :  :  : Schrodinger Knime plugins: Neither SCHRODINGER environment nor preference is set. You can set SCHRODINGER installation location in the Schrodinger Preferences.
+2022-10-12 20:13:41,161 : WARN  : main :  : SchrodFileUtils :  :  : SCHRODINGER is not set properly.
+2022-10-12 20:13:41,171 : WARN  : Thread-9 :  : PythonService :  :  : PythonService is not initilized
+2022-10-12 20:13:41,172 : WARN  : Thread-9 :  : PythonService :  :  : Failed to start python service.
+2022-10-12 20:14:35,216 : WARN  : ForkJoinPool.commonPool-worker-1 :  : MoePreferencePage :  :  : Path to MOE not set in Preferences. Please check!
+2022-10-12 20:14:38,118 : WARN  : main :  : FontStore :  :  : Using the system default font for annotations: Font {139998422338896}
+2022-10-12 21:50:51,182 : WARN  : main :  : Node : Histogram (local) : 3:12 : Please define the binning column.
