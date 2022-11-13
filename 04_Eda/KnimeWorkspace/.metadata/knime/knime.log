@@ -146,3 +146,80 @@ Caused by: java.lang.NumberFormatException: For input string: "2000.5"
 2022-10-12 20:14:35,216 : WARN  : ForkJoinPool.commonPool-worker-1 :  : MoePreferencePage :  :  : Path to MOE not set in Preferences. Please check!
 2022-10-12 20:14:38,118 : WARN  : main :  : FontStore :  :  : Using the system default font for annotations: Font {139998422338896}
 2022-10-12 21:50:51,182 : WARN  : main :  : Node : Histogram (local) : 3:12 : Please define the binning column.
+2022-11-06 08:20:50,961 : ERROR : main :  : MAEFileUtils :  :  : Schrodinger Knime plugins: Neither SCHRODINGER environment nor preference is set. You can set SCHRODINGER installation location in the Schrodinger Preferences.
+2022-11-06 08:20:50,993 : WARN  : main :  : SchrodFileUtils :  :  : SCHRODINGER is not set properly.
+2022-11-06 08:20:51,012 : WARN  : Thread-9 :  : PythonService :  :  : PythonService is not initilized
+2022-11-06 08:20:51,013 : WARN  : Thread-9 :  : PythonService :  :  : Failed to start python service.
+2022-11-06 08:21:49,829 : WARN  : ForkJoinPool.commonPool-worker-1 :  : MoePreferencePage :  :  : Path to MOE not set in Preferences. Please check!
+2022-11-06 08:22:19,496 : WARN  : main :  : FontStore :  :  : Using the system default font for annotations: Font {140160018001712}
+2022-11-06 08:23:26,951 : WARN  : main :  : Node : CSV Reader : 3:1 : Please specify a file
+2022-11-06 08:26:51,334 : WARN  : main :  : Node : Row Filter : 3:3 : No row filter specified
+2022-11-06 08:26:56,026 : WARN  : KNIME-Worker-7-CSV Reader 3:1 :  : Node : Row Filter : 3:3 : No row filter specified
+2022-11-06 08:27:30,434 : WARN  : main :  : Node : Row Filter : 3:3 : No row filter specified
+2022-11-06 08:41:25,032 : WARN  : main :  : Node : Column Splitter : 3:4 : No settings available, passing all columns to top output port.
+2022-11-06 08:41:25,033 : WARN  : main :  : Node : Column Splitter : 3:4 : All columns in top partition.
+2022-11-06 08:41:29,499 : WARN  : KNIME-Worker-11-Row Filter 3:3 :  : Node : Column Splitter : 3:4 : All columns in top partition.
+2022-11-06 08:42:38,572 : WARN  : main :  : Node : Cell Splitter : 3:4 : Specify the column to split.
+2022-11-06 08:47:53,445 : WARN  : main :  : Node : String Manipulation : 3:5 : No expression has been set.
+2022-11-06 08:56:09,014 : ERROR : main :  : MAEFileUtils :  :  : Schrodinger Knime plugins: Neither SCHRODINGER environment nor preference is set. You can set SCHRODINGER installation location in the Schrodinger Preferences.
+2022-11-06 08:56:09,016 : WARN  : main :  : SchrodFileUtils :  :  : SCHRODINGER is not set properly.
+2022-11-06 08:56:09,038 : WARN  : Thread-7 :  : PythonService :  :  : PythonService is not initilized
+2022-11-06 08:56:09,039 : WARN  : Thread-7 :  : PythonService :  :  : Failed to start python service.
+2022-11-06 08:56:33,476 : WARN  : ForkJoinPool.commonPool-worker-1 :  : MoePreferencePage :  :  : Path to MOE not set in Preferences. Please check!
+2022-11-06 08:56:58,401 : WARN  : main :  : Node : CSV Reader : 3:1 : Please specify a file
+2022-11-06 08:56:58,510 : WARN  : main :  : FontStore :  :  : Using the system default font for annotations: Font {140193710422368}
+2022-11-06 09:00:14,342 : WARN  : main :  : Node : String Manipulation : 3:2 : No expression has been set.
+2022-11-06 09:03:36,295 : WARN  : main :  : Node : Cell Splitter : 3:3 : Specify the column to split.
+2022-11-06 09:05:42,417 : WARN  : main :  : Node : Column Rename : 3:4 : No configuration available
+2022-11-06 09:09:32,852 : WARN  : main :  : Node : Math Formula : 3:5 : No configuration available
+2022-11-06 09:16:53,273 : WARN  : main :  : Node : Interactive Histogram (local) : 3:6 : 2 columns without a valid domain will be ignored. In order to calculate the domain use the Nominal Values or Domain Calculator node.
+2022-11-06 09:16:54,387 : WARN  : main :  : Node : Interactive Histogram (local) : 3:6 : 2 columns without a valid domain will be ignored. In order to calculate the domain use the Nominal Values or Domain Calculator node.
+2022-11-06 09:18:21,398 : WARN  : main :  : Node : Row Filter : 3:7 : No row filter specified
+2022-11-06 09:18:47,325 : WARN  : KNIME-Worker-12-Math Formula 3:5 :  : Node : Interactive Histogram (local) : 3:6 : Column Description contains no valid domain an will be ignored. In order to calculate the domain use the Nominal Values or Domain Calculator node.
+2022-11-06 09:22:43,724 : ERROR : KNIME-Worker-17-GroupBy Bar Chart (JFreeChart) 3:9 :  : Node : GroupBy Bar Chart (JFreeChart) : 3:9 : Execute failed: The values in the x-Column are not unique
+org.knime.core.node.InvalidSettingsException: The values in the x-Column are not unique
+	at org.knime.ext.jfc.node.groupbarchart.JfcGroupBarChartNodeModel.createBarChartDataset(JfcGroupBarChartNodeModel.java:307)
+	at org.knime.ext.jfc.node.groupbarchart.JfcGroupBarChartNodeModel.createChart(JfcGroupBarChartNodeModel.java:190)
+	at org.knime.ext.jfc.node.base.JfcBaseNodeModel.createChart(JfcBaseNodeModel.java:82)
+	at org.knime.ext.jfc.node.base.JfcGenericBaseNodeModel.execute(JfcGenericBaseNodeModel.java:273)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:549)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1267)
+	at org.knime.core.node.Node.execute(Node.java:1041)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:595)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:95)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:201)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2022-11-06 09:23:41,271 : ERROR : KNIME-Worker-18-GroupBy Bar Chart (JFreeChart) 3:9 :  : Node : GroupBy Bar Chart (JFreeChart) : 3:9 : Execute failed: The values in the x-Column are not unique
+org.knime.core.node.InvalidSettingsException: The values in the x-Column are not unique
+	at org.knime.ext.jfc.node.groupbarchart.JfcGroupBarChartNodeModel.createBarChartDataset(JfcGroupBarChartNodeModel.java:307)
+	at org.knime.ext.jfc.node.groupbarchart.JfcGroupBarChartNodeModel.createChart(JfcGroupBarChartNodeModel.java:190)
+	at org.knime.ext.jfc.node.base.JfcBaseNodeModel.createChart(JfcBaseNodeModel.java:82)
+	at org.knime.ext.jfc.node.base.JfcGenericBaseNodeModel.execute(JfcGenericBaseNodeModel.java:273)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:549)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1267)
+	at org.knime.core.node.Node.execute(Node.java:1041)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:595)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:95)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:201)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2022-11-06 09:25:10,016 : WARN  : main :  : Node : Histogram (local) : 3:9 : Please define the binning column.
+2022-11-06 09:26:14,814 : WARN  : main :  : Node : Histogram (local) : 3:9 : Column Description contains no valid domain an will be ignored. In order to calculate the domain use the Nominal Values or Domain Calculator node.
+2022-11-06 09:26:16,040 : WARN  : main :  : Node : Histogram (local) : 3:9 : Column Description contains no valid domain an will be ignored. In order to calculate the domain use the Nominal Values or Domain Calculator node.
+2022-11-06 09:28:02,426 : WARN  : main :  : Node : Histogram (local) : 3:9 : Column Description contains no valid domain an will be ignored. In order to calculate the domain use the Nominal Values or Domain Calculator node.
+2022-11-06 09:28:03,670 : WARN  : main :  : Node : Histogram (local) : 3:9 : Column Description contains no valid domain an will be ignored. In order to calculate the domain use the Nominal Values or Domain Calculator node.
+2022-11-06 09:29:20,347 : WARN  : main :  : Node : Histogram (local) : 3:9 : Column Description contains no valid domain an will be ignored. In order to calculate the domain use the Nominal Values or Domain Calculator node.
+2022-11-06 09:29:26,131 : WARN  : main :  : Node : Histogram (local) : 3:9 : Column Description contains no valid domain an will be ignored. In order to calculate the domain use the Nominal Values or Domain Calculator node.
+2022-11-06 09:29:26,691 : WARN  : main :  : Node : Histogram (local) : 3:9 : Column Description contains no valid domain an will be ignored. In order to calculate the domain use the Nominal Values or Domain Calculator node.
+2022-11-06 09:31:36,838 : WARN  : main :  : Node : Histogram (local) : 3:9 : Column Description contains no valid domain an will be ignored. In order to calculate the domain use the Nominal Values or Domain Calculator node.
