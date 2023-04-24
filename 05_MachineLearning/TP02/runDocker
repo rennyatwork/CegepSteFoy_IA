@@ -1,0 +1,3 @@
+sudo docker run -it -p 8888:8888 -v $(pwd):/notebooks  420-a52-sf
+
+#sudo docker run -it -p 8888:8888 -v $(pwd):/notebooks c297e3d438a2
