@@ -1,0 +1,55 @@
+---
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+**420-A58-SF - Algorithmes d'apprentissage non supervisé - Hiver 2023 - Spécialisation technique en Intelligence Artificielle**
+MIT License - Copyright (c) 2023 Mikaël Swawola
+
+```{r 04-02-tp-banner, echo=FALSE, fig.cap="", out.width='100%'}
+knitr::include_graphics("static/02-05-A2-banner.png")
+```
+
+**Objectif: Utiliser les paquets `arules` et `arulesViz` pour découvrir et visualiser les règles d'association du jeu de données `tweets_prc_basket`**
+
+### Librairies
+
+```{r libraries}
+# Charger les bibliothèques logicielles arules et arulesViz
+
+```
+
+
+### Exercice 1-1
+**En vous référant à la documentation de la bibliothèque `arules`, charger les transactions contenues dans le fichier `tweets_prc_basket` et stocker celles-ci dans la variable `tweetsTransactions`. Visualiser le sommaire de la variable obtenue.**
+```{r ex1_1}
+# Votre code ici ~ lignes de code
+
+```
+
+
+### Exercice 1-2
+**Toujours en vous référant à la documentation, recherchez les règles d'association.**
+```{r ex1_2}
+# Votre code ici ~ 1-2 lignes de code
+
+```
+
+
+### Exercice 1-3
+**À l'aide de la fonction `sort`, classer les règles d'association par support décroissant.**
+```{r ex1_3}
+# Votre code ici ~ 2 lignes de code
+
+```
+
+
+### Exercice 1-4
+**Utilisez la bibilothèque `arulesViz` pour visualiser graphiquement les règles d'association obtenues ci-dessus. Êtes-vous en mesure d'identifier une règle d'association inusitée ?**
+```{r ex1_4}
+# Votre code ici ~ 1 ligne de code
+
+```
