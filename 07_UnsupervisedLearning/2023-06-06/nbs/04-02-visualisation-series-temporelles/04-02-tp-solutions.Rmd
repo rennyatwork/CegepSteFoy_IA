@@ -1,0 +1,73 @@
+---
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+**420-A58-SF - Algorithmes d'apprentissage non supervisé - Été 2020 - Spécialisation technique en Intelligence Artificielle**
+MIT License - Copyright (c) 2020 Mikaël Swawola
+
+```{r 04-02-tp-banner, echo=FALSE, fig.cap="", out.width='100%'}
+knitr::include_graphics("static/04-02-tp-banner.png")
+```
+
+**Objectif: Charger et afficher des séries chronologiques sous R et décomposer ces séries en composantes. Tracé d'autocorrélogramme**
+
+### Librairies
+
+```{r libraries}
+# Compléter les librairies au fur et à mesure du TP ~ 2 librairies requises
+library(forecast)
+library(ggplot2)
+```
+
+
+### Exercice 1-1
+**Importez le fichier "tute1.csv". Il s’agit de ventes trimestrielles d’une petite compagnie (variable "Ventes") entre 1981 et 1995. Il y a aussi une variable Budget Publicitaire ("BudgPubl") et le Produit Intérieur Brut ("PIB").**
+```{r ex1_1}
+# Votre code ici ~ 1-2 lignes de code
+tute1 <- read.csv("../../data/tute1.csv", header=TRUE)
+View(tute1)
+```
+
+
+### Exercice 1-2
+**Convertissez les 3 variables en séries temporelles, après avoir ôté la première colonne inutile ici.**
+```{r ex1_2}
+# Votre code ici ~ 2-3 lignes de code
+myts <- ts(tute1[,-1], start=1981, frequency=4)
+summary(myts)
+myts
+```
+
+
+### Exercice 1-3
+**Tracez les trois séries temporelles correspondantes**
+```{r ex1_3}
+# Votre code ici ~ 1 ligne de code
+autoplot(myts, facets=F) # ou autoplot(myts,facets=TRUE)
+```
+
+
+### Exercice 1-4
+**Décomposez la série `Ventes` en tendance, saison et résidus.**
+```{r ex1_4}
+# Votre code ici ~ 4-5 lignes de code
+Ventes<- ts(tute1$Ventes, start=1981, frequency=4)
+Ventes
+# ventes2 <- myts[,'Ventes']
+Ventes |>
+  decompose(type="additive") |>
+    autoplot() + xlab("Années") +
+    ggtitle("Décomposition additive de la série Ventes")
+```
+
+
+### Exercice 1-5
+**Tracez l’autocorrélogramme de la séries `Ventes`**
+```{r ex1_5}
+# Votre code ici ~ 1 ligne de code
+ggAcf(Ventes)
+```
