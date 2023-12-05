@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -113,3 +114,17 @@ venv.bak/
 packages/regression_model/regression_model/datasets/*.csv
 packages/regression_model/regression_model/datasets/*.zip
 packages/regression_model/regression_model/datasets/*.txt
+=======
+04_Eda/.ipynb_checkpoints/Untitled1-checkpoint.ipynb
+04_Eda/Data/TP01/.~lock.only_numeric.csv#
+*checkpoint.ipynb
+*checkpoint*
+*.pdf
+*.swp
+*.zip
+*.gz
+*.jpg
+*.jpeg
+*.png
+*LICENSE*
+>>>>>>> origin/main

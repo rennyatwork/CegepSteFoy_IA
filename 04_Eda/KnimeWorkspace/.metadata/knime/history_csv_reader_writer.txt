@@ -1,0 +1,8 @@
+/home/hadoop/Documents/Questrade/2022/Activities_for_01Jan2022_to_31Oct2022.csv
+/home/hadoop/Git_Ia/CegepSteFoy_IA/04_Eda/Data/TP01/only_numeric.csv
+/home/hadoop/Git_Ia/CegepSteFoy_IA/04_Eda/Data/TP01/v_operFournisseurs_no_null.csv
+/home/hadoop/Git_Ia/CegepSteFoy_IA/04_Eda/Data/TP01/out.csv
+/home/hadoop/Git_Ia/CegepSteFoy_IA/05_Eda/Data/TP01/v_operFournisseur.csv
+/home/hadoop/Git_Ia/CegepSteFoy_IA/05_Eda/Data/Fichiers06/ProductiviteAgricolev0r2.csv
+/home/hadoop/Git_Ia/CegepSteFoy_IA/05_Eda/Data/Fichiers06/CartesAjouerv0r1.csv
+/home/hadoop/Git_Ia/CegepSteFoy_IA/05_Eda/Data/Fichiers06/Pourboiresv0r2.csv

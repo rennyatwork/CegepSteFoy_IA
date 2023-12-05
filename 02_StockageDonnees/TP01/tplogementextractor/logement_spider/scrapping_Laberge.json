@@ -1,0 +1,1624 @@
+[
+  {
+    "0": {
+      "adresse": "2910, boulevard Mgr Gauthier,",
+      "appartements": [
+        [
+          {
+            "disponibilite": "Août 2022",
+            "etage": "2",
+            "lien": "http://laberge.qc.ca/complexe/le-2910-canardiere/appartement/2910-22",
+            "prix": "840",
+            "typeApp": "4½"
+          }
+        ]
+      ],
+      "codePostal": "G1E 2V2",
+      "lien": "http://laberge.qc.ca/complexe/le-2910-canardiere",
+      "nom": "Le 2910 Canardière",
+      "ville": "Québec"
+    }
+  },
+  {
+    "0": {
+      "adresse": "2100, avenue Louise-Cloutier,",
+      "appartements": [
+        [
+          {
+            "disponibilite": "Août 2022",
+            "etage": "3",
+            "lien": "http://laberge.qc.ca/complexe/le-charleroi/appartement/2961-5",
+            "prix": "1 005",
+            "typeApp": "5½"
+          }
+        ]
+      ],
+      "codePostal": "G1E 3S1",
+      "lien": "http://laberge.qc.ca/complexe/le-charleroi",
+      "nom": "Le Charleroi",
+      "ville": "Québec"
+    }
+  },
+  {
+    "0": {
+      "adresse": "2495, rue Évangéline,",
+      "appartements": [
+        [
+          {
+            "disponibilite": "Maintenant",
+            "etage": "SS",
+            "lien": "http://laberge.qc.ca/complexe/l-evangeline/appartement/2495-3",
+            "prix": "505",
+            "typeApp": "1½"
+          }
+        ]
+      ],
+      "codePostal": "G1E 1M8",
+      "lien": "http://laberge.qc.ca/complexe/l-evangeline",
+      "nom": "L'Évangéline",
+      "ville": "Québec"
+    }
+  },
+  {
+    "0": {
+      "adresse": "2850, rue Anne-Mayrand,",
+      "appartements": [
+        [
+          {
+            "disponibilite": "Maintenant",
+            "etage": "3",
+            "lien": "http://laberge.qc.ca/complexe/place-anne-mayrand/appartement/2850-301",
+            "prix": "1 170",
+            "typeApp": "4½"
+          }
+        ],
+        [
+          {
+            "disponibilite": "Juillet 2022",
+            "etage": "3",
+            "lien": "http://laberge.qc.ca/complexe/place-anne-mayrand/appartement/2850-311",
+            "prix": "1 170",
+            "typeApp": "4½"
+          }
+        ]
+      ],
+      "codePostal": "G1E 7G2",
+      "lien": "http://laberge.qc.ca/complexe/place-anne-mayrand",
+      "nom": "Place Anne-Mayrand",
+      "ville": "Québec"
+    }
+  },
+  {
+    "0": {
+      "adresse": "2760, chemin de la Canardière,",
+      "appartements": [
+        [
+          {
+            "disponibilite": "Maintenant",
+            "etage": "5",
+            "lien": "http://laberge.qc.ca/complexe/place-canardiere/appartement/2055-501",
+            "prix": "1 050",
+            "typeApp": "4½"
+          }
+        ],
+        [
+          {
+            "disponibilite": "Juillet 2022",
+            "etage": "RDC",
+            "lien": "http://laberge.qc.ca/complexe/place-canardiere/appartement/2760-101",
+            "prix": "830",
+            "typeApp": "3½"
+          }
+        ],
+        [
+          {
+            "disponibilite": "Août 2022",
+            "etage": "6",
+            "lien": "http://laberge.qc.ca/complexe/place-canardiere/appartement/2760-602",
+            "prix": "830",
+            "typeApp": "3½"
+          }
+        ]
+      ],
+      "codePostal": "G1J 2G5",
+      "lien": "http://laberge.qc.ca/complexe/place-canardiere",
+      "nom": "Place Canardière",
+      "ville": "Québec"
+    }
+  },
+  {
+    "0": {
+      "adresse": "42, avenue Juchereau,",
+      "appartements": [
+        [
+          {
+            "disponibilite": "Août 2022",
+            "etage": "3",
+            "lien": "http://laberge.qc.ca/complexe/place-juchereau/appartement/42-5",
+            "prix": "860",
+            "typeApp": "4½"
+          }
+        ]
+      ],
+      "codePostal": "G1E 2M1",
+      "lien": "http://laberge.qc.ca/complexe/place-juchereau",
+      "nom": "Place Juchereau",
+      "ville": "Québec"
+    }
+  },
+  {
+    "0": {
+      "adresse": "2024, avenue du Santuaire,",
+      "appartements": [
+        [
+          {
+            "disponibilite": "Octobre 2022",
+            "etage": "RDC",
+            "lien": "http://laberge.qc.ca/complexe/place-mgr-gauthier/appartement/2055-1",
+            "prix": "530",
+            "typeApp": "1½"
+          }
+        ]
+      ],
+      "codePostal": "G1E 4E3",
+      "lien": "http://laberge.qc.ca/complexe/place-mgr-gauthier",
+      "nom": "Place Mgr Gauthier",
+      "ville": "Québec"
+    }
+  },
+  {
+    "0": {
+      "adresse": "1805, avenue Poulin,",
+      "appartements": [
+        [
+          {
+            "disponibilite": "Décembre 2022",
+            "etage": "4",
+            "lien": "http://laberge.qc.ca/complexe/place-poulin/appartement/1815-20",
+            "prix": "805",
+            "typeApp": "4½"
+          }
+        ]
+      ],
+      "codePostal": "G1E 3S6",
+      "lien": "http://laberge.qc.ca/complexe/place-poulin",
+      "nom": "Place Poulin",
+      "ville": "Québec"
+    }
+  },
+  {
+    "0": {
+      "adresse": "226, rue Seigneuriale,",
+      "appartements": [
+        [
+          {
+            "disponibilite": "Juillet 2022",
+            "etage": "RDC",
+            "lien": "http://laberge.qc.ca/complexe/plateau-des-dominicaines/appartement/226-101",
+            "prix": "915",
+            "typeApp": "3½"
+          }
+        ]
+      ],
+      "codePostal": "G1E 7C2",
+      "lien": "http://laberge.qc.ca/complexe/plateau-des-dominicaines",
+      "nom": "Plateau des Dominicaines",
+      "ville": "Québec"
+    }
+  },
+  {
+    "0": {
+      "adresse": "4208, rue des Cyprès,",
+      "appartements": [
+        [
+          {
+            "disponibilite": "Juillet 2022",
+            "etage": "3",
+            "lien": "http://laberge.qc.ca/complexe/place-des-cypres/appartement/4208-14",
+            "prix": "850",
+            "typeApp": "4½"
+          }
+        ],
+        [
+          {
+            "disponibilite": "Juillet 2022",
+            "etage": "3",
+            "lien": "http://laberge.qc.ca/complexe/place-des-cypres/appartement/4208-16",
+            "prix": "850",
+            "typeApp": "4½"
+          }
+        ]
+      ],
+      "codePostal": "G1G 1S5",
+      "lien": "http://laberge.qc.ca/complexe/place-des-cypres",
+      "nom": "Place des Cyprès",
+      "ville": "Québec"
+    }
+  },
+  {
+    "0": {
+      "adresse": "5795, avenue Sir Walter Scott,",
+      "appartements": [
+        [
+          {
+            "disponibilite": "Maintenant",
+            "etage": "2",
+            "lien": "http://laberge.qc.ca/complexe/le-oakridge/appartement/5795-212",
+            "prix": "1 090",
+            "typeApp": "3½"
+          }
+        ]
+      ],
+      "codePostal": "H4W 2T7",
+      "lien": "http://laberge.qc.ca/complexe/le-oakridge",
+      "nom": "Le Oakridge",
+      "ville": "Côte St-Luc"
+    }
+  },
+  {
+    "0": {
+      "adresse": "6600, chemin Kildare,",
+      "appartements": [
+        [
+          {
+            "disponibilite": "Maintenant",
+            "etage": "RDC",
+            "lien": "http://laberge.qc.ca/complexe/seasons/appartement/6600-103",
+            "prix": "1 595",
+            "typeApp": "4½"
+          }
+        ],
+        [
+          {
+            "disponibilite": "Maintenant",
+            "etage": "10",
+            "lien": "http://laberge.qc.ca/complexe/seasons/appartement/6600-1007",
+            "prix": "1 190",
+            "typeApp": "3½"
+          }
+        ],
+        [
+          {
+            "disponibilite": "Maintenant",
+            "etage": "12",
+            "lien": "http://laberge.qc.ca/complexe/seasons/appartement/6600-1203",
+            "prix": "1 595",
+            "typeApp": "4½"
+          }
+        ]
+      ],
+      "codePostal": "H4W 1B7",
+      "lien": "http://laberge.qc.ca/complexe/seasons",
+      "nom": "Seasons",
+      "ville": "Côte St-Luc"
+    }
+  },
+  {
+    "0": {
+      "adresse": "7485, terrasse Bourdeau,",
+      "appartements": [
+        [
+          {
+            "disponibilite": "Août 2022",
+            "etage": "2",
+            "lien": "http://laberge.qc.ca/complexe/terrasse-angrignon/appartement/7485-206",
+            "prix": "1 060",
+            "typeApp": "3½"
+          }
+        ],
+        [
+          {
+            "disponibilite": "Août 2022",
+            "etage": "2",
+            "lien": "http://laberge.qc.ca/complexe/terrasse-angrignon/appartement/7493-207",
+            "prix": "1 060",
+            "typeApp": "3½"
+          }
+        ],
+        [
+          {
+            "disponibilite": "Octobre 2022",
+            "etage": "4",
+            "lien": "http://laberge.qc.ca/complexe/terrasse-angrignon/appartement/1051-400",
+            "prix": "1 060",
+            "typeApp": "3½"
+          }
+        ]
+      ],
+      "codePostal": "H8N 2K9",
+      "lien": "http://laberge.qc.ca/complexe/terrasse-angrignon",
+      "nom": "Terrasse Angrignon",
+      "ville": "LaSalle"
+    }
+  },
+  {
+    "0": {
+      "adresse": "4420, boulevard Père-Lelièvre,",
+      "appartements": [
+        [
+          {
+            "disponibilite": "Août 2022",
+            "etage": "RDC",
+            "lien": "http://laberge.qc.ca/complexe/place-henri-iv/appartement/4420-206",
+            "prix": "670",
+            "typeApp": "2½"
+          }
+        ],
+        [
+          {
+            "disponibilite": "Septembre 2022",
+            "etage": "3",
+            "lien": "http://laberge.qc.ca/complexe/place-henri-iv/appartement/2675-405",
+            "prix": "940",
+            "typeApp": "4½"
+          }
+        ],
+        [
+          {
+            "disponibilite": "Septembre 2022",
+            "etage": "3",
+            "lien": "http://laberge.qc.ca/complexe/place-henri-iv/appartement/2675-406",
+            "prix": "670",
+            "typeApp": "2½"
+          }
+        ]
+      ],
+      "codePostal": "G1P 2Z4",
+      "lien": "http://laberge.qc.ca/complexe/place-henri-iv",
+      "nom": "Place Henri IV",
+      "ville": "Québec"
+    }
+  },
+  {
+    "0": {
+      "adresse": "4690, boulevard l'Ormière,",
+      "appartements": [
+        [
+          {
+            "disponibilite": "Juillet 2022",
+            "etage": "RDC",
+            "lien": "http://laberge.qc.ca/complexe/place-l-ormiere/appartement/4690-002A",
+            "prix": "770",
+            "typeApp": "3½"
+          }
+        ]
+      ],
+      "codePostal": "G1P 1K5",
+      "lien": "http://laberge.qc.ca/complexe/place-l-ormiere",
+      "nom": "Place l'Ormière",
+      "ville": "Québec"
+    }
+  },
+  {
+    "0": {
+      "adresse": "1, rue Victor-Hugo,",
+      "appartements": [
+        [
+          {
+            "disponibilite": "Maintenant",
+            "etage": "3",
+            "lien": "http://laberge.qc.ca/complexe/place-kennedy/appartement/19-302",
+            "prix": "895",
+            "typeApp": "4½"
+          }
+        ],
+        [
+          {
+            "disponibilite": "Juillet 2022",
+            "etage": "4",
+            "lien": "http://laberge.qc.ca/complexe/place-kennedy/appartement/19-404",
+            "prix": "895",
+            "typeApp": "4½"
+          }
+        ],
+        [
+          {
+            "disponibilite": "Juillet 2022",
+            "etage": "3",
+            "lien": "http://laberge.qc.ca/complexe/place-kennedy/appartement/31-301",
+            "prix": "895",
+            "typeApp": "4½"
+          }
+        ]
+      ],
+      "codePostal": "G6V 6Y9",
+      "lien": "http://laberge.qc.ca/complexe/place-kennedy",
+      "nom": "Place Kennedy",
+      "ville": "Lévis"
+    }
+  },
+  {
+    "0": {
+      "adresse": "10450, rue Maurice-Proulx,",
+      "appartements": [
+        [
+          {
+            "disponibilite": "Maintenant",
+            "etage": "2",
+            "lien": "http://laberge.qc.ca/complexe/place-bastien/appartement/10450-21",
+            "prix": "690",
+            "typeApp": "3½"
+          }
+        ],
+        [
+          {
+            "disponibilite": "Juillet 2022",
+            "etage": "SS",
+            "lien": "http://laberge.qc.ca/complexe/place-bastien/appartement/1882-2",
+            "prix": "830",
+            "typeApp": "4½"
+          }
+        ],
+        [
+          {
+            "disponibilite": "Septembre 2022",
+            "etage": "SS",
+            "lien": "http://laberge.qc.ca/complexe/place-bastien/appartement/1882-3",
+            "prix": "680",
+            "typeApp": "3½"
+          }
+        ]
+      ],
+      "codePostal": "G2A 2A1",
+      "lien": "http://laberge.qc.ca/complexe/place-bastien",
+      "nom": "Place Bastien",
+      "ville": "Québec"
+    }
+  },
+  {
+    "0": {
+      "adresse": "6550, rue Sherbrooke Ouest,",
+      "appartements": [
+        [
+          {
+            "disponibilite": "Maintenant",
+            "etage": "13",
+            "lien": "http://laberge.qc.ca/complexe/le-6550/appartement/6550-1317",
+            "prix": "1 150",
+            "typeApp": "3½"
+          }
+        ],
+        [
+          {
+            "disponibilite": "Maintenant",
+            "etage": "2",
+            "lien": "http://laberge.qc.ca/complexe/le-6550/appartement/6550-217",
+            "prix": "1 150",
+            "typeApp": "3½"
+          }
+        ],
+        [
+          {
+            "disponibilite": "Maintenant",
+            "etage": "4",
+            "lien": "http://laberge.qc.ca/complexe/le-6550/appartement/6550-408",
+            "prix": "1 150",
+            "typeApp": "3½"
+          }
+        ]
+      ],
+      "codePostal": "H4B 1N6",
+      "lien": "http://laberge.qc.ca/complexe/le-6550",
+      "nom": "Le 6550",
+      "ville": "Montréal"
+    }
+  },
+  {
+    "0": {
+      "adresse": "7400, rue Sherbrooke Ouest,",
+      "appartements": [
+        [
+          {
+            "disponibilite": "Maintenant",
+            "etage": "RDC",
+            "lien": "http://laberge.qc.ca/complexe/place-sutton/appartement/7400-108",
+            "prix": "1 015",
+            "typeApp": "3½"
+          }
+        ],
+        [
+          {
+            "disponibilite": "Maintenant",
+            "etage": "6",
+            "lien": "http://laberge.qc.ca/complexe/place-sutton/appartement/7400-617",
+            "prix": "1 015",
+            "typeApp": "3½"
+          }
+        ],
+        [
+          {
+            "disponibilite": "Maintenant",
+            "etage": "4",
+            "lien": "http://laberge.qc.ca/complexe/place-sutton/appartement/7400-402",
+            "prix": "1 015",
+            "typeApp": "3½"
+          }
+        ]
+      ],
+      "codePostal": "H4B 1R8",
+      "lien": "http://laberge.qc.ca/complexe/place-sutton",
+      "nom": "Place Sutton",
+      "ville": "Montréal"
+    }
+  },
+  {
+    "0": {
+      "adresse": "9820, boulevard Gouin O,",
+      "appartements": [
+        [
+          {
+            "disponibilite": "Maintenant",
+            "etage": "2",
+            "lien": "http://laberge.qc.ca/complexe/le-lalande/appartement/9840-219",
+            "prix": "1 185",
+            "typeApp": "4½"
+          }
+        ],
+        [
+          {
+            "disponibilite": "Juillet 2022",
+            "etage": "2",
+            "lien": "http://laberge.qc.ca/complexe/le-lalande/appartement/9820-210",
+            "prix": "1 185",
+            "typeApp": "4½"
+          }
+        ],
+        [
+          {
+            "disponibilite": "Juillet 2022",
+            "etage": "4",
+            "lien": "http://laberge.qc.ca/complexe/le-lalande/appartement/9820-421",
+            "prix": "990",
+            "typeApp": "3½"
+          }
+        ]
+      ],
+      "codePostal": "H8Y 3G7",
+      "lien": "http://laberge.qc.ca/complexe/le-lalande",
+      "nom": "Le Lalande",
+      "ville": "Pierrefonds"
+    }
+  },
+  {
+    "0": {
+      "adresse": "2121, 18e rue,",
+      "appartements": [
+        [
+          {
+            "disponibilite": "Maintenant",
+            "etage": "3",
+            "lien": "http://laberge.qc.ca/complexe/le-cavalier/appartement/2121-23",
+            "prix": "690",
+            "typeApp": "3½"
+          }
+        ]
+      ],
+      "codePostal": "G1J 2A5",
+      "lien": "http://laberge.qc.ca/complexe/le-cavalier",
+      "nom": "Le Cavalier",
+      "ville": "Québec"
+    }
+  },
+  {
+    "0": {
+      "adresse": "2124, boulevard Ste-Anne,",
+      "appartements": [
+        [
+          {
+            "disponibilite": "Août 2022",
+            "etage": "2",
+            "lien": "http://laberge.qc.ca/complexe/le-parisien/appartement/2124-6",
+            "prix": "615",
+            "typeApp": "2½"
+          }
+        ]
+      ],
+      "codePostal": "G1J 1X8",
+      "lien": "http://laberge.qc.ca/complexe/le-parisien",
+      "nom": "Le Parisien",
+      "ville": "Québec"
+    }
+  },
+  {
+    "0": {
+      "adresse": "2225, 2e Avenue,",
+      "appartements": [
+        [
+          {
+            "disponibilite": "Maintenant",
+            "etage": "2",
+            "lien": "http://laberge.qc.ca/complexe/place-2e-avenue/appartement/2255-5",
+            "prix": "630",
+            "typeApp": "1½"
+          }
+        ],
+        [
+          {
+            "disponibilite": "Juillet 2022",
+            "etage": "2",
+            "lien": "http://laberge.qc.ca/complexe/place-2e-avenue/appartement/2225-5",
+            "prix": "1 190",
+            "typeApp": "5½"
+          }
+        ]
+      ],
+      "codePostal": "G1L 3E2",
+      "lien": "http://laberge.qc.ca/complexe/place-2e-avenue",
+      "nom": "Place 2e Avenue",
+      "ville": "Québec"
+    }
+  },
+  {
+    "0": {
+      "adresse": "445, avenue des Pins E,",
+      "appartements": [
+        [
+          {
+            "disponibilite": "Maintenant",
+            "etage": "3",
+            "lien": "http://laberge.qc.ca/complexe/place-des-peupliers/appartement/445-308",
+            "prix": "1 065",
+            "typeApp": "4½"
+          }
+        ],
+        [
+          {
+            "disponibilite": "Septembre 2022",
+            "etage": "RDC",
+            "lien": "http://laberge.qc.ca/complexe/place-des-peupliers/appartement/770-104",
+            "prix": "1 065",
+            "typeApp": "4½"
+          }
+        ]
+      ],
+      "codePostal": "G1J 1J9",
+      "lien": "http://laberge.qc.ca/complexe/place-des-peupliers",
+      "nom": "Place des Peupliers",
+      "ville": "Québec"
+    }
+  },
+  {
+    "0": {
+      "adresse": "98, rue de la Pointe-aux-Lièvres,",
+      "appartements": [
+        [
+          {
+            "disponibilite": "Août 2022",
+            "etage": "2",
+            "lien": "http://laberge.qc.ca/complexe/place-du-havre/appartement/108-206",
+            "prix": "1 235",
+            "typeApp": "4½"
+          }
+        ]
+      ],
+      "codePostal": "G1K 9B5",
+      "lien": "http://laberge.qc.ca/complexe/place-du-havre",
+      "nom": "Place du Hâvre",
+      "ville": "Québec"
+    }
+  },
+  {
+    "0": {
+      "adresse": "2600, avenue Duval,",
+      "appartements": [
+        [
+          {
+            "disponibilite": "Août 2022",
+            "etage": "SS",
+            "lien": "http://laberge.qc.ca/complexe/place-duval/appartement/2600-107",
+            "prix": "665",
+            "typeApp": "3½"
+          }
+        ]
+      ],
+      "codePostal": "G1L 4N9",
+      "lien": "http://laberge.qc.ca/complexe/place-duval",
+      "nom": "Place Duval",
+      "ville": "Québec"
+    }
+  },
+  {
+    "0": {
+      "adresse": "2280, avenue du Mont-Thabor,",
+      "appartements": [
+        [
+          {
+            "disponibilite": "Septembre 2022",
+            "etage": "RDC",
+            "lien": "http://laberge.qc.ca/complexe/place-nathalie/appartement/2280-201",
+            "prix": "555",
+            "typeApp": "1½"
+          }
+        ],
+        [
+          {
+            "disponibilite": "Septembre 2022",
+            "etage": "3",
+            "lien": "http://laberge.qc.ca/complexe/place-nathalie/appartement/2280-412",
+            "prix": "555",
+            "typeApp": "1½"
+          }
+        ],
+        [
+          {
+            "disponibilite": "Octobre 2022",
+            "etage": "3",
+            "lien": "http://laberge.qc.ca/complexe/place-nathalie/appartement/2280-410",
+            "prix": "780",
+            "typeApp": "3½"
+          }
+        ]
+      ],
+      "codePostal": "G1J 3W7",
+      "lien": "http://laberge.qc.ca/complexe/place-nathalie",
+      "nom": "Place Nathalie",
+      "ville": "Québec"
+    }
+  },
+  {
+    "0": {
+      "adresse": "2770, avenue Duval,",
+      "appartements": [
+        [
+          {
+            "disponibilite": "Septembre 2022",
+            "etage": "5",
+            "lien": "http://laberge.qc.ca/complexe/place-sainte-odile/appartement/2770-514",
+            "prix": "950",
+            "typeApp": "4½"
+          }
+        ],
+        [
+          {
+            "disponibilite": "Septembre 2022",
+            "etage": "5",
+            "lien": "http://laberge.qc.ca/complexe/place-sainte-odile/appartement/2770-515",
+            "prix": "1 080",
+            "typeApp": "5½"
+          }
+        ],
+        [
+          {
+            "disponibilite": "Novembre 2022",
+            "etage": "4",
+            "lien": "http://laberge.qc.ca/complexe/place-sainte-odile/appartement/2770-406",
+            "prix": "750",
+            "typeApp": "3½"
+          }
+        ]
+      ],
+      "codePostal": "G1L 4N1",
+      "lien": "http://laberge.qc.ca/complexe/place-sainte-odile",
+      "nom": "Place Sainte-Odile",
+      "ville": "Québec"
+    }
+  },
+  {
+    "0": {
+      "adresse": "3000, chemin des Quatre-Bourgeois,",
+      "appartements": [
+        [
+          {
+            "disponibilite": "Maintenant",
+            "etage": "SS",
+            "lien": "http://laberge.qc.ca/complexe/le-bourgeois/appartement/3000-116",
+            "prix": "1 015",
+            "typeApp": "4½"
+          }
+        ],
+        [
+          {
+            "disponibilite": "Juillet 2022",
+            "etage": "SS",
+            "lien": "http://laberge.qc.ca/complexe/le-bourgeois/appartement/3000-117",
+            "prix": "1 015",
+            "typeApp": "4½"
+          }
+        ],
+        [
+          {
+            "disponibilite": "Juillet 2022",
+            "etage": "2",
+            "lien": "http://laberge.qc.ca/complexe/le-bourgeois/appartement/3000-217",
+            "prix": "1 025",
+            "typeApp": "4½"
+          }
+        ]
+      ],
+      "codePostal": "G1V 4E9",
+      "lien": "http://laberge.qc.ca/complexe/le-bourgeois",
+      "nom": "Le Bourgeois",
+      "ville": "Québec"
+    }
+  },
+  {
+    "0": {
+      "adresse": "3010, chemin des Quatre-Bourgeois,",
+      "appartements": [
+        [
+          {
+            "disponibilite": "Juillet 2022",
+            "etage": "RDC",
+            "lien": "http://laberge.qc.ca/complexe/le-bourgeois-3010/appartement/3010-103",
+            "prix": "815",
+            "typeApp": "2½"
+          }
+        ],
+        [
+          {
+            "disponibilite": "Juillet 2022",
+            "etage": "2",
+            "lien": "http://laberge.qc.ca/complexe/le-bourgeois-3010/appartement/3010-211",
+            "prix": "1 120",
+            "typeApp": "4½"
+          }
+        ],
+        [
+          {
+            "disponibilite": "Juillet 2022",
+            "etage": "4",
+            "lien": "http://laberge.qc.ca/complexe/le-bourgeois-3010/appartement/3010-409",
+            "prix": "815",
+            "typeApp": "2½"
+          }
+        ]
+      ],
+      "codePostal": "G1V 4E9",
+      "lien": "http://laberge.qc.ca/complexe/le-bourgeois-3010",
+      "nom": "Le Bourgeois 3010",
+      "ville": "Québec"
+    }
+  },
+  {
+    "0": {
+      "adresse": "3435, rue Maricourt,",
+      "appartements": [
+        [
+          {
+            "disponibilite": "Juillet 2022",
+            "etage": "RDC",
+            "lien": "http://laberge.qc.ca/complexe/le-maricourt/appartement/3435-5",
+            "prix": "865",
+            "typeApp": "3½"
+          }
+        ]
+      ],
+      "codePostal": "G1W 2M4",
+      "lien": "http://laberge.qc.ca/complexe/le-maricourt",
+      "nom": "Le Maricourt",
+      "ville": "Québec"
+    }
+  },
+  {
+    "0": {
+      "adresse": "3296, rue l'Heureux,",
+      "appartements": [
+        [
+          {
+            "disponibilite": "Octobre 2022",
+            "etage": "3",
+            "lien": "http://laberge.qc.ca/complexe/place-bourgogne-l-heureux/appartement/3290-8",
+            "prix": "1 035",
+            "typeApp": "4½"
+          }
+        ]
+      ],
+      "codePostal": "G1X 1Y6",
+      "lien": "http://laberge.qc.ca/complexe/place-bourgogne-l-heureux",
+      "nom": "Place Bourgogne-L'Heureux",
+      "ville": "Québec"
+    }
+  },
+  {
+    "0": {
+      "adresse": "747, rue du Chanoine-Groulx,",
+      "appartements": [
+        [
+          {
+            "disponibilite": "Juillet 2022",
+            "etage": "RDC",
+            "lien": "http://laberge.qc.ca/complexe/place-rougemont/appartement/747-206",
+            "prix": "1 025",
+            "typeApp": "4½"
+          }
+        ],
+        [
+          {
+            "disponibilite": "Septembre 2022",
+            "etage": "2",
+            "lien": "http://laberge.qc.ca/complexe/place-rougemont/appartement/747-306",
+            "prix": "1 025",
+            "typeApp": "4½"
+          }
+        ],
+        [
+          {
+            "disponibilite": "Septembre 2022",
+            "etage": "SS",
+            "lien": "http://laberge.qc.ca/complexe/place-rougemont/appartement/767-104",
+            "prix": "650",
+            "typeApp": "2½"
+          }
+        ]
+      ],
+      "codePostal": "G1X 3V1",
+      "lien": "http://laberge.qc.ca/complexe/place-rougemont",
+      "nom": "Place Rougemont",
+      "ville": "Québec"
+    }
+  },
+  {
+    "0": {
+      "adresse": "735, avenue Nérée-Tremblay,",
+      "appartements": [
+        [
+          {
+            "disponibilite": "Maintenant",
+            "etage": "3",
+            "lien": "http://laberge.qc.ca/complexe/le-central/appartement/735-304",
+            "prix": "1 000",
+            "typeApp": "4½"
+          }
+        ],
+        [
+          {
+            "disponibilite": "Août 2022",
+            "etage": "RDC",
+            "lien": "http://laberge.qc.ca/complexe/le-central/appartement/735-104",
+            "prix": "830",
+            "typeApp": "3½"
+          }
+        ]
+      ],
+      "codePostal": "G1V 4W5",
+      "lien": "http://laberge.qc.ca/complexe/le-central",
+      "nom": "Le Central",
+      "ville": "Québec"
+    }
+  },
+  {
+    "0": {
+      "adresse": "2240, chemin Sainte-Foy,",
+      "appartements": [
+        [
+          {
+            "disponibilite": "Juillet 2022",
+            "etage": "SS",
+            "lien": "http://laberge.qc.ca/complexe/le-petit-versailles/appartement/2240-4",
+            "prix": "885",
+            "typeApp": "3½"
+          }
+        ],
+        [
+          {
+            "disponibilite": "Juillet 2022",
+            "etage": "4",
+            "lien": "http://laberge.qc.ca/complexe/le-petit-versailles/appartement/2255-409",
+            "prix": "1 105",
+            "typeApp": "4½"
+          }
+        ],
+        [
+          {
+            "disponibilite": "Août 2022",
+            "etage": "2",
+            "lien": "http://laberge.qc.ca/complexe/le-petit-versailles/appartement/2240-211",
+            "prix": "905",
+            "typeApp": "3½"
+          }
+        ]
+      ],
+      "codePostal": "G1V 1S5",
+      "lien": "http://laberge.qc.ca/complexe/le-petit-versailles",
+      "nom": "Le Petit Versailles",
+      "ville": "Québec"
+    }
+  },
+  {
+    "0": {
+      "adresse": "2175, avenue Chapdelaine,",
+      "appartements": [
+        [
+          {
+            "disponibilite": "Maintenant",
+            "etage": "3",
+            "lien": "http://laberge.qc.ca/complexe/place-belmont-bas/appartement/2175-407",
+            "prix": "720",
+            "typeApp": "2½"
+          }
+        ],
+        [
+          {
+            "disponibilite": "Maintenant",
+            "etage": "RDC",
+            "lien": "http://laberge.qc.ca/complexe/place-belmont-bas/appartement/2175-206",
+            "prix": "1 040",
+            "typeApp": "4½"
+          }
+        ],
+        [
+          {
+            "disponibilite": "Juillet 2022",
+            "etage": "2",
+            "lien": "http://laberge.qc.ca/complexe/place-belmont-bas/appartement/2185-308",
+            "prix": "860",
+            "typeApp": "3½"
+          }
+        ]
+      ],
+      "codePostal": "G1V 1M9",
+      "lien": "http://laberge.qc.ca/complexe/place-belmont-bas",
+      "nom": "Place Belmont Bas",
+      "ville": "Québec"
+    }
+  },
+  {
+    "0": {
+      "adresse": "841, route du Vallon,",
+      "appartements": [
+        [
+          {
+            "disponibilite": "Juillet 2022",
+            "etage": "3",
+            "lien": "http://laberge.qc.ca/complexe/place-du-vallon/appartement/841-21",
+            "prix": "1 060",
+            "typeApp": "4½"
+          }
+        ],
+        [
+          {
+            "disponibilite": "Juillet 2022",
+            "etage": "SS",
+            "lien": "http://laberge.qc.ca/complexe/place-du-vallon/appartement/841-25",
+            "prix": "865",
+            "typeApp": "3½"
+          }
+        ]
+      ],
+      "codePostal": "G1V 2X5",
+      "lien": "http://laberge.qc.ca/complexe/place-du-vallon",
+      "nom": "Place du Vallon",
+      "ville": "Québec"
+    }
+  },
+  {
+    "0": {
+      "adresse": "2200, rue Mackay,",
+      "appartements": [
+        [
+          {
+            "disponibilite": "Novembre 2022",
+            "etage": "RDC",
+            "lien": "http://laberge.qc.ca/complexe/place-mackay/appartement/2210-3",
+            "prix": "830",
+            "typeApp": "3½"
+          }
+        ]
+      ],
+      "codePostal": "G1V 2X1",
+      "lien": "http://laberge.qc.ca/complexe/place-mackay",
+      "nom": "Place Mackay",
+      "ville": "Québec"
+    }
+  },
+  {
+    "0": {
+      "adresse": "2280, chemin Sainte-Foy,",
+      "appartements": [
+        [
+          {
+            "disponibilite": "Maintenant",
+            "etage": "RDC",
+            "lien": "http://laberge.qc.ca/complexe/place-versailles/appartement/2272-107",
+            "prix": "940",
+            "typeApp": "3½"
+          }
+        ],
+        [
+          {
+            "disponibilite": "Maintenant",
+            "etage": "5",
+            "lien": "http://laberge.qc.ca/complexe/place-versailles/appartement/2280-609",
+            "prix": "1 180",
+            "typeApp": "4½"
+          }
+        ],
+        [
+          {
+            "disponibilite": "Septembre 2022",
+            "etage": "7",
+            "lien": "http://laberge.qc.ca/complexe/place-versailles/appartement/2272-702",
+            "prix": "940",
+            "typeApp": "3½"
+          }
+        ]
+      ],
+      "codePostal": "G1V 1S8",
+      "lien": "http://laberge.qc.ca/complexe/place-versailles",
+      "nom": "Place Versailles",
+      "ville": "Québec"
+    }
+  },
+  {
+    "0": {
+      "adresse": "498, avenue Bernatchez,",
+      "appartements": [
+        [
+          {
+            "disponibilite": "Maintenant",
+            "etage": "RDC",
+            "lien": "http://laberge.qc.ca/complexe/place-vanier/appartement/524-4",
+            "prix": "850",
+            "typeApp": "4½"
+          }
+        ],
+        [
+          {
+            "disponibilite": "Maintenant",
+            "etage": "SS",
+            "lien": "http://laberge.qc.ca/complexe/place-vanier/appartement/535-1",
+            "prix": "685",
+            "typeApp": "3½"
+          }
+        ],
+        [
+          {
+            "disponibilite": "Novembre 2022",
+            "etage": "SS",
+            "lien": "http://laberge.qc.ca/complexe/place-vanier/appartement/491-1",
+            "prix": "685",
+            "typeApp": "3½"
+          }
+        ]
+      ],
+      "codePostal": "G1M 2B2",
+      "lien": "http://laberge.qc.ca/complexe/place-vanier",
+      "nom": "Place Vanier",
+      "ville": "Québec"
+    }
+  },
+  {
+    "0": {
+      "adresse": "279, chemin Sainte-foy,",
+      "appartements": [],
+      "codePostal": "G1R 1T5",
+      "lien": "http://laberge.qc.ca/complexe/la-passerelle",
+      "nom": "La Passerelle",
+      "ville": "Québec"
+    }
+  },
+  {
+    "0": {
+      "adresse": "572, avenue Royale,",
+      "appartements": [],
+      "codePostal": "G1E 1Y1",
+      "lien": "http://laberge.qc.ca/complexe/le-572",
+      "nom": "Le 572",
+      "ville": "Québec"
+    }
+  },
+  {
+    "0": {
+      "adresse": "697, avenue Royale,",
+      "appartements": [],
+      "codePostal": "G1E 1Z1",
+      "lien": "http://laberge.qc.ca/complexe/le-697",
+      "nom": "Le 697",
+      "ville": "Québec"
+    }
+  },
+  {
+    "0": {
+      "adresse": "2320, avenue du Mont-Thabor,",
+      "appartements": [],
+      "codePostal": "G1J 3W7",
+      "lien": "http://laberge.qc.ca/complexe/le-mont-thabor",
+      "nom": "Le Mont Thabor",
+      "ville": "Québec"
+    }
+  },
+  {
+    "0": {
+      "adresse": "2996, rue du Grand-Voyer,",
+      "appartements": [],
+      "codePostal": "G1W 2P2",
+      "lien": "http://laberge.qc.ca/complexe/les-appartements-montbeillard",
+      "nom": "Les appartements Montbeillard",
+      "ville": "Québec"
+    }
+  },
+  {
+    "0": {
+      "adresse": "2176, chemin Sainte-Foy,",
+      "appartements": [],
+      "codePostal": "G1V 1S3",
+      "lien": "http://laberge.qc.ca/complexe/place-belmont-haut",
+      "nom": "Place Belmont Haut",
+      "ville": "Québec"
+    }
+  },
+  {
+    "0": {
+      "adresse": "1651, rue Cadillac,",
+      "appartements": [],
+      "codePostal": "G1L 3Y3",
+      "lien": "http://laberge.qc.ca/complexe/place-cadillac",
+      "nom": "Place Cadillac",
+      "ville": "Québec"
+    }
+  },
+  {
+    "0": {
+      "adresse": "2281, rue Deblois,",
+      "appartements": [],
+      "codePostal": "G1E 3V9",
+      "lien": "http://laberge.qc.ca/complexe/place-deblois",
+      "nom": "Place Deblois",
+      "ville": "Québec"
+    }
+  },
+  {
+    "0": {
+      "adresse": "1220, rue de la Colline,",
+      "appartements": [],
+      "codePostal": "G2E 3K6",
+      "lien": "http://laberge.qc.ca/complexe/place-de-la-colline",
+      "nom": "Place de la Colline",
+      "ville": "Québec"
+    }
+  },
+  {
+    "0": {
+      "adresse": "16, rue Duchesnay,",
+      "appartements": [],
+      "codePostal": "G1E 4R4",
+      "lien": "http://laberge.qc.ca/complexe/place-duchesnay",
+      "nom": "Place Duchesnay",
+      "ville": "Québec"
+    }
+  },
+  {
+    "0": {
+      "adresse": "3545, rue du Long-Sault,",
+      "appartements": [],
+      "codePostal": "G1E 1H5",
+      "lien": "http://laberge.qc.ca/complexe/place-du-long-sault",
+      "nom": "Place du Long-Sault",
+      "ville": "Québec"
+    }
+  },
+  {
+    "0": {
+      "adresse": "3, rue Francheville,",
+      "appartements": [],
+      "codePostal": "G1E 5Z8",
+      "lien": "http://laberge.qc.ca/complexe/place-francheville",
+      "nom": "Place Francheville",
+      "ville": "Québec"
+    }
+  },
+  {
+    "0": {
+      "adresse": "1840, rue Lortie,",
+      "appartements": [],
+      "codePostal": "G1E 3X2",
+      "lien": "http://laberge.qc.ca/complexe/place-lortie",
+      "nom": "Place Lortie",
+      "ville": "Québec"
+    }
+  },
+  {
+    "0": {
+      "adresse": "9160, rue Saint-Charles,",
+      "appartements": [],
+      "codePostal": "G2B 2L5",
+      "lien": "http://laberge.qc.ca/complexe/place-st-charles",
+      "nom": "Place St-Charles",
+      "ville": "Québec"
+    }
+  },
+  {
+    "0": {
+      "adresse": "27, rue de la Terrasse Orléans,",
+      "appartements": [],
+      "codePostal": "G1E 5Y2",
+      "lien": "http://laberge.qc.ca/complexe/terrasse-orleans",
+      "nom": "Terrasse Orléans",
+      "ville": "Québec"
+    }
+  },
+  {
+    "0": {
+      "adresse": "2910, boulevard Mgr Gauthier,",
+      "appartements": [
+        [
+          {
+            "disponibilite": "Août 2022",
+            "etage": "2",
+            "lien": "http://laberge.qc.ca/complexe/le-2910-canardiere/appartement/2910-22",
+            "prix": "840",
+            "typeApp": "4½"
+          }
+        ]
+      ],
+      "codePostal": "G1E 2V2",
+      "lien": "http://laberge.qc.ca/complexe/le-2910-canardiere",
+      "nom": "Le 2910 Canardière",
+      "ville": "Québec"
+    }
+  },
+  {
+    "0": {
+      "adresse": "2100, avenue Louise-Cloutier,",
+      "appartements": [
+        [
+          {
+            "disponibilite": "Août 2022",
+            "etage": "3",
+            "lien": "http://laberge.qc.ca/complexe/le-charleroi/appartement/2961-5",
+            "prix": "1 005",
+            "typeApp": "5½"
+          }
+        ]
+      ],
+      "codePostal": "G1E 3S1",
+      "lien": "http://laberge.qc.ca/complexe/le-charleroi",
+      "nom": "Le Charleroi",
+      "ville": "Québec"
+    }
+  },
+  {
+    "0": {
+      "adresse": "2495, rue Évangéline,",
+      "appartements": [
+        [
+          {
+            "disponibilite": "Maintenant",
+            "etage": "SS",
+            "lien": "http://laberge.qc.ca/complexe/l-evangeline/appartement/2495-3",
+            "prix": "505",
+            "typeApp": "1½"
+          }
+        ]
+      ],
+      "codePostal": "G1E 1M8",
+      "lien": "http://laberge.qc.ca/complexe/l-evangeline",
+      "nom": "L'Évangéline",
+      "ville": "Québec"
+    }
+  },
+  {
+    "0": {
+      "adresse": "2850, rue Anne-Mayrand,",
+      "appartements": [
+        [
+          {
+            "disponibilite": "Maintenant",
+            "etage": "3",
+            "lien": "http://laberge.qc.ca/complexe/place-anne-mayrand/appartement/2850-301",
+            "prix": "1 170",
+            "typeApp": "4½"
+          }
+        ],
+        [
+          {
+            "disponibilite": "Juillet 2022",
+            "etage": "3",
+            "lien": "http://laberge.qc.ca/complexe/place-anne-mayrand/appartement/2850-311",
+            "prix": "1 170",
+            "typeApp": "4½"
+          }
+        ]
+      ],
+      "codePostal": "G1E 7G2",
+      "lien": "http://laberge.qc.ca/complexe/place-anne-mayrand",
+      "nom": "Place Anne-Mayrand",
+      "ville": "Québec"
+    }
+  },
+  {
+    "0": {
+      "adresse": "2760, chemin de la Canardière,",
+      "appartements": [
+        [
+          {
+            "disponibilite": "Maintenant",
+            "etage": "5",
+            "lien": "http://laberge.qc.ca/complexe/place-canardiere/appartement/2055-501",
+            "prix": "1 050",
+            "typeApp": "4½"
+          }
+        ],
+        [
+          {
+            "disponibilite": "Juillet 2022",
+            "etage": "RDC",
+            "lien": "http://laberge.qc.ca/complexe/place-canardiere/appartement/2760-101",
+            "prix": "830",
+            "typeApp": "3½"
+          }
+        ],
+        [
+          {
+            "disponibilite": "Août 2022",
+            "etage": "6",
+            "lien": "http://laberge.qc.ca/complexe/place-canardiere/appartement/2760-602",
+            "prix": "830",
+            "typeApp": "3½"
+          }
+        ]
+      ],
+      "codePostal": "G1J 2G5",
+      "lien": "http://laberge.qc.ca/complexe/place-canardiere",
+      "nom": "Place Canardière",
+      "ville": "Québec"
+    }
+  },
+  {
+    "0": {
+      "adresse": "42, avenue Juchereau,",
+      "appartements": [
+        [
+          {
+            "disponibilite": "Août 2022",
+            "etage": "3",
+            "lien": "http://laberge.qc.ca/complexe/place-juchereau/appartement/42-5",
+            "prix": "860",
+            "typeApp": "4½"
+          }
+        ]
+      ],
+      "codePostal": "G1E 2M1",
+      "lien": "http://laberge.qc.ca/complexe/place-juchereau",
+      "nom": "Place Juchereau",
+      "ville": "Québec"
+    }
+  },
+  {
+    "0": {
+      "adresse": "2024, avenue du Santuaire,",
+      "appartements": [
+        [
+          {
+            "disponibilite": "Octobre 2022",
+            "etage": "RDC",
+            "lien": "http://laberge.qc.ca/complexe/place-mgr-gauthier/appartement/2055-1",
+            "prix": "530",
+            "typeApp": "1½"
+          }
+        ]
+      ],
+      "codePostal": "G1E 4E3",
+      "lien": "http://laberge.qc.ca/complexe/place-mgr-gauthier",
+      "nom": "Place Mgr Gauthier",
+      "ville": "Québec"
+    }
+  },
+  {
+    "0": {
+      "adresse": "1805, avenue Poulin,",
+      "appartements": [
+        [
+          {
+            "disponibilite": "Décembre 2022",
+            "etage": "4",
+            "lien": "http://laberge.qc.ca/complexe/place-poulin/appartement/1815-20",
+            "prix": "805",
+            "typeApp": "4½"
+          }
+        ]
+      ],
+      "codePostal": "G1E 3S6",
+      "lien": "http://laberge.qc.ca/complexe/place-poulin",
+      "nom": "Place Poulin",
+      "ville": "Québec"
+    }
+  },
+  {
+    "0": {
+      "adresse": "226, rue Seigneuriale,",
+      "appartements": [
+        [
+          {
+            "disponibilite": "Juillet 2022",
+            "etage": "RDC",
+            "lien": "http://laberge.qc.ca/complexe/plateau-des-dominicaines/appartement/226-101",
+            "prix": "915",
+            "typeApp": "3½"
+          }
+        ]
+      ],
+      "codePostal": "G1E 7C2",
+      "lien": "http://laberge.qc.ca/complexe/plateau-des-dominicaines",
+      "nom": "Plateau des Dominicaines",
+      "ville": "Québec"
+    }
+  },
+  {
+    "0": {
+      "adresse": "4208, rue des Cyprès,",
+      "appartements": [
+        [
+          {
+            "disponibilite": "Juillet 2022",
+            "etage": "3",
+            "lien": "http://laberge.qc.ca/complexe/place-des-cypres/appartement/4208-14",
+            "prix": "850",
+            "typeApp": "4½"
+          }
+        ],
+        [
+          {
+            "disponibilite": "Juillet 2022",
+            "etage": "3",
+            "lien": "http://laberge.qc.ca/complexe/place-des-cypres/appartement/4208-16",
+            "prix": "850",
+            "typeApp": "4½"
+          }
+        ]
+      ],
+      "codePostal": "G1G 1S5",
+      "lien": "http://laberge.qc.ca/complexe/place-des-cypres",
+      "nom": "Place des Cyprès",
+      "ville": "Québec"
+    }
+  },
+  {
+    "0": {
+      "adresse": "5795, avenue Sir Walter Scott,",
+      "appartements": [
+        [
+          {
+            "disponibilite": "Maintenant",
+            "etage": "2",
+            "lien": "http://laberge.qc.ca/complexe/le-oakridge/appartement/5795-212",
+            "prix": "1 090",
+            "typeApp": "3½"
+          }
+        ]
+      ],
+      "codePostal": "H4W 2T7",
+      "lien": "http://laberge.qc.ca/complexe/le-oakridge",
+      "nom": "Le Oakridge",
+      "ville": "Côte St-Luc"
+    }
+  },
+  {
+    "0": {
+      "adresse": "6600, chemin Kildare,",
+      "appartements": [
+        [
+          {
+            "disponibilite": "Maintenant",
+            "etage": "RDC",
+            "lien": "http://laberge.qc.ca/complexe/seasons/appartement/6600-103",
+            "prix": "1 595",
+            "typeApp": "4½"
+          }
+        ],
+        [
+          {
+            "disponibilite": "Maintenant",
+            "etage": "10",
+            "lien": "http://laberge.qc.ca/complexe/seasons/appartement/6600-1007",
+            "prix": "1 190",
+            "typeApp": "3½"
+          }
+        ],
+        [
+          {
+            "disponibilite": "Maintenant",
+            "etage": "12",
+            "lien": "http://laberge.qc.ca/complexe/seasons/appartement/6600-1203",
+            "prix": "1 595",
+            "typeApp": "4½"
+          }
+        ]
+      ],
+      "codePostal": "H4W 1B7",
+      "lien": "http://laberge.qc.ca/complexe/seasons",
+      "nom": "Seasons",
+      "ville": "Côte St-Luc"
+    }
+  }
+]
