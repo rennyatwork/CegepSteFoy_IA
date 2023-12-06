@@ -1,0 +1,11 @@
+numpy==1.18.5
+scipy==1.5.4
+pandas==0.25.3
+scikit-learn==0.22.2.post1
+joblib==0.14.1
+
+#pytest==5.4.3
+pytest
+
+#pluggy==0.13.1
+pluggy
