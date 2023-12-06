@@ -127,4 +127,5 @@ packages/regression_model/regression_model/datasets/*.txt
 *.jpeg
 *.png
 *LICENSE*
+venv*
 >>>>>>> origin/main
