@@ -1,0 +1,17 @@
+{
+  "data": [
+    {
+      "MSSubClass": 60,
+      "OverallQual": 7,
+      "OverallCond": 5,
+      "YearRemodAdd": 2003,
+      "1stFlrSF": 856,
+      "GrLivArea": 1710,
+      "BsmtFullBath": 1,
+      "Fireplaces": 0,
+      "GarageCars": 2,
+      "YrSold": 2008
+    }
+  ]
+}
+

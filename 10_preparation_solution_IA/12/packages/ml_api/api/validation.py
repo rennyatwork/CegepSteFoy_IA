@@ -98,26 +98,44 @@ class HouseDataRequestSchema(Schema):
     SecondFlrSF = fields.Integer()
     ThreeSsnPortch = fields.Integer()
 
+# def _filter_error_rows(errors: dict,
+#                        validated_input: t.List[dict]
+#                        ) -> t.List[dict]:
+#     """Remove input data rows with errors."""
 
-def _filter_error_rows(errors: dict,
-                       validated_input: t.List[dict]
-                       ) -> t.List[dict]:
+#     indexes = errors.keys()
+#     # delete them in reverse order so that you
+#     # don't throw off the subsequent indexes.
+#     for index in sorted(indexes, reverse=True):
+#         del validated_input[index]
+
+#     return validated_input
+
+
+def _filter_error_rows(errors: dict, validated_input: t.List[dict]) -> t.List[dict]:
     """Remove input data rows with errors."""
-
     indexes = errors.keys()
+
     # delete them in reverse order so that you
     # don't throw off the subsequent indexes.
     for index in sorted(indexes, reverse=True):
+        # Check if the key and value exist in the dictionary before swapping
+        key, value = SYNTAX_ERROR_FIELD_MAP.get(index, None), index
+        if key is not None and key in validated_input[index]:
+            validated_input[index][value], validated_input[index][key] = (
+                validated_input[index][key],
+                validated_input[index][value],
+            )
         del validated_input[index]
 
     return validated_input
 
 
-def validate_inputs(input_data):
+# def validate_inputs(input_data):
     """Check prediction inputs against schema."""
 
-    # set many=True to allow passing in a list
-    schema = HouseDataRequestSchema(strict=True, many=True)
+    # set many=True to allow passing in a list    
+    schema = HouseDataRequestSchema(many=True)
 
     # convert syntax error field names (beginning with numbers)
     for dict in input_data:
@@ -147,3 +165,25 @@ def validate_inputs(input_data):
         validated_input = input_data
 
     return validated_input, errors
+
+
+def validate_inputs(input_data):
+    """Check prediction inputs against schema."""
+    schema = HouseDataRequestSchema(many=True)
+
+    errors = None
+    try:
+        schema.load(input_data)
+    except ValidationError as exc:
+        errors = exc.messages
+
+    # convert syntax error field names back
+    # this is a hack - never name your data
+    # fields with numbers as the first letter.
+    if errors:
+        for dict in input_data:
+            for key, value in SYNTAX_ERROR_FIELD_MAP.items():
+                if key in dict and value in dict:
+                    dict[key], dict[value] = dict[value], dict[key]
+
+    return input_data, errors

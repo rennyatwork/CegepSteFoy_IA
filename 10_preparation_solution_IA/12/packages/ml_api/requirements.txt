@@ -1,8 +1,16 @@
 # api
-flask==1.0.2
+#flask==1.0.2
+flask>=latest_version
+
+#jinja2==2.11.3
+jinja2>=latest_version
+
+#markupsafe==2.1.1
+markupsafe>=latest_version
 
 # schema validation
-marshmallow==2.17.0
+#marshmallow==2.17.0
+marshmallow>=latest_version
 
 # local regression_model package
 # update with your local path
