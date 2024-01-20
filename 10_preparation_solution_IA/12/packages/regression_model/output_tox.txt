@@ -1,0 +1,31 @@
+regression_model installed: attrs==23.2.0,distlib==0.3.8,filelock==3.13.1,joblib==0.15.1,more-itertools==10.2.0,numpy==1.19.5,packaging==23.2,pandas==1.1.5,platformdirs==4.1.0,pluggy==0.13.1,py==1.11.0,pytest==5.4.3,python-dateutil==2.8.2,pytz==2023.3.post1,scikit-learn==0.22.2.post1,scipy==1.10.1,six==1.16.0,toml==0.10.2,tox==3.23.1,virtualenv==20.25.0,wcwidth==0.2.13
+regression_model run-test-pre: PYTHONHASHSEED='1031356939'
+regression_model run-test: commands[0] | python regression_model/train_pipeline.py
+2024-01-20 12:11:48,829 — regression_model.processing.data_management — INFO —save_pipeline:33 — saved pipeline: lasso_regression_output_v0.1.0.pkl
+regression_model run-test: commands[1] | pytest tests/
+============================= test session starts ==============================
+platform linux -- Python 3.8.10, pytest-5.4.3, py-1.11.0, pluggy-0.13.1
+cachedir: .tox/regression_model/.pytest_cache
+rootdir: /home/hadoop/Git_Ia/CegepSteFoy_IA/10_preparation_solution_IA/12/packages/regression_model
+collected 2 items
+
+tests/test_predict.py ..                                                 [100%]
+
+=============================== warnings summary ===============================
+.tox/regression_model/lib/python3.8/site-packages/sklearn/utils/multiclass.py:13
+  /home/hadoop/Git_Ia/CegepSteFoy_IA/10_preparation_solution_IA/12/packages/regression_model/.tox/regression_model/lib/python3.8/site-packages/sklearn/utils/multiclass.py:13: DeprecationWarning: Please use `spmatrix` from the `scipy.sparse` namespace, the `scipy.sparse.base` namespace is deprecated.
+    from scipy.sparse.base import spmatrix
+
+.tox/regression_model/lib/python3.8/site-packages/sklearn/utils/optimize.py:18
+  /home/hadoop/Git_Ia/CegepSteFoy_IA/10_preparation_solution_IA/12/packages/regression_model/.tox/regression_model/lib/python3.8/site-packages/sklearn/utils/optimize.py:18: DeprecationWarning: Please use `line_search_wolfe2` from the `scipy.optimize` namespace, the `scipy.optimize.linesearch` namespace is deprecated.
+    from scipy.optimize.linesearch import line_search_wolfe2, line_search_wolfe1
+
+.tox/regression_model/lib/python3.8/site-packages/sklearn/utils/optimize.py:18
+  /home/hadoop/Git_Ia/CegepSteFoy_IA/10_preparation_solution_IA/12/packages/regression_model/.tox/regression_model/lib/python3.8/site-packages/sklearn/utils/optimize.py:18: DeprecationWarning: Please use `line_search_wolfe1` from the `scipy.optimize` namespace, the `scipy.optimize.linesearch` namespace is deprecated.
+    from scipy.optimize.linesearch import line_search_wolfe2, line_search_wolfe1
+
+-- Docs: https://docs.pytest.org/en/latest/warnings.html
+======================== 2 passed, 3 warnings in 1.58s =========================
+___________________________________ summary ____________________________________
+  regression_model: commands succeeded
+  congratulations :)
