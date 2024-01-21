@@ -6,6 +6,8 @@ from api.config import get_logger
 from api.validation import validate_inputs
 from api import __version__ as api_version
 
+import pandas as pd
+
 _logger = get_logger(logger_name=__name__)
 
 
@@ -54,3 +56,20 @@ def predict():
         return jsonify({'predictions': predictions,
                         'version': version,
                         'errors': errors})
+
+@prediction_app.route('/test_validation', methods=['POST'])
+def test_validation():
+    if request.method == 'POST':
+        # Step 1: Extract POST data from request body as JSON
+        json_data = request.get_json()
+        _logger.debug(f'Inputs: {json_data}')
+
+        # Convert JSON data to DataFrame
+        input_data = pd.DataFrame(json_data['data'])
+
+        # Step 2: Validate the input using the provided validation function
+        try:
+            validated_data = validate_inputs(input_data=input_data)
+            return jsonify({'input_data': validated_data.to_dict(orient='records'), 'errors': None})
+        except ValueError as e:
+            return jsonify({'input_data': None, 'errors': str(e)}), 400
