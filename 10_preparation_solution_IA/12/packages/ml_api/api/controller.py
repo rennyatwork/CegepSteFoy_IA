@@ -14,8 +14,9 @@ prediction_app = Blueprint('prediction_app', __name__)
 # Define the default route
 @prediction_app.route('/', methods=['GET'])
 def default_route():
-    return render_template('index.html')  # Replace 'index.html' with the actual name of your HTML template
-
+    print("Inside default_route")
+    #return render_template('index.html', template_folder='templates')  # Replace 'index.html' with the actual name of your HTML template
+    return render_template('index.html')
 
 @prediction_app.route('/health', methods=['GET'])
 def health():
