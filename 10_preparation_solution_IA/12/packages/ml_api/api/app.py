@@ -8,7 +8,8 @@ _logger = get_logger(logger_name=__name__)
 
 def create_app(*, config_object) -> Flask:
     """Create a flask app instance."""
-    flask_app = Flask('ml_api')
+    #flask_app = Flask('ml_api')
+    flask_app = Flask('ml_api', template_folder='api/templates')
     flask_app.config.from_object(config_object)
 
     # import blueprints
@@ -17,4 +18,3 @@ def create_app(*, config_object) -> Flask:
     _logger.debug('Application instance created')
     
     return flask_app
-
