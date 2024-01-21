@@ -1,4 +1,4 @@
-from flask import Blueprint, request, jsonify
+from flask import Blueprint, request, jsonify, render_template
 from regression_model.predict import make_prediction
 from regression_model import __version__ as _version
 
@@ -10,6 +10,11 @@ _logger = get_logger(logger_name=__name__)
 
 
 prediction_app = Blueprint('prediction_app', __name__)
+
+# Define the default route
+@prediction_app.route('/', methods=['GET'])
+def default_route():
+    return render_template('index.html')  # Replace 'index.html' with the actual name of your HTML template
 
 
 @prediction_app.route('/health', methods=['GET'])

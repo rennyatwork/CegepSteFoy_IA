@@ -5,3 +5,8 @@
 5) run install_requirements.sh
 6) go to ./packages/regression_model/regression_model
 7) run tox (it should pass)
+
+ML 
+go to packages/ml_api
+run 
+python3 run.py
