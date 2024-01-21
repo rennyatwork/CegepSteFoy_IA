@@ -19,4 +19,6 @@ def validate_inputs(input_data: pd.DataFrame) -> pd.DataFrame:
         print(f"Missing columns in input data: {', '.join(missing_columns)}")
         raise ValueError(f"Missing columns in input data: {', '.join(missing_columns)}")
 
+    # Additional checks or modifications can be added here based on your requirements
+
     return input_data
