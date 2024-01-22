@@ -1,0 +1,30 @@
+{
+  "data": [
+    {
+      "MSSubClass": 60,
+      "OverallQual": 7,
+      "OverallCond": 5,
+      "YearRemodAdd": 2003,
+      "1stFlrSF": 856,
+      "GrLivArea": 1710,
+      "BsmtFullBath": 1,
+      "Fireplaces": 0,
+      "GarageCars": 2,
+      "YrSold": 2008,
+      "KitchenQual": "Gd",
+      "HeatingQC": "Ex",
+      "MSZoning": "RL",
+      "BsmtExposure": "No",
+      "RoofStyle": "Gable",
+      "GarageType": "Attchd",
+      "Neighborhood": "CollgCr",
+      "PavedDrive": "Y",
+      "CentralAir": "Y",
+      "MasVnrType": "BrkFace",
+      "FireplaceQu": "None",
+      "LotFrontage": 70,
+      "GarageFinish": "RFn",
+      "BsmtQual": "Gd"
+    }
+  ]
+}
