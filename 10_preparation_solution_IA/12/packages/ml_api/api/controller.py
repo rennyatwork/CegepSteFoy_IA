@@ -41,11 +41,15 @@ def predict():
         json_data = request.get_json()
         _logger.debug(f'Inputs: {json_data}')
 
-        # Step 2: Validate the input using marshmallow schema
-        input_data, errors = validate_inputs(input_data=json_data)
+        # Step 2: Validate the input using the provided validation function
+        validated_data = validate_inputs(input_data=json_data)
+
+        # If there are errors, return them
+        if validated_data['errors']:
+            return jsonify(validated_data), 400
 
         # Step 3: Model prediction
-        result = make_prediction(input_data=input_data)
+        result = make_prediction(input_data=validated_data['input_data'])
         _logger.debug(f'Outputs: {result}')
 
         # Step 4: Convert numpy ndarray to list
@@ -55,7 +59,8 @@ def predict():
         # Step 5: Return the response as JSON
         return jsonify({'predictions': predictions,
                         'version': version,
-                        'errors': errors})
+                        'errors': None})
+
 
 @prediction_app.route('/test_validation', methods=['POST'])
 def test_validation():
@@ -64,12 +69,7 @@ def test_validation():
         json_data = request.get_json()
         _logger.debug(f'Inputs: {json_data}')
 
-        # Convert JSON data to DataFrame
-        input_data = pd.DataFrame(json_data['data'])
-
         # Step 2: Validate the input using the provided validation function
-        try:
-            validated_data = validate_inputs(input_data=input_data)
-            return jsonify({'input_data': validated_data.to_dict(orient='records'), 'errors': None})
-        except ValueError as e:
-            return jsonify({'input_data': None, 'errors': str(e)}), 400
+        validated_data = validate_inputs(input_data=json_data)
+
+        return jsonify(validated_data)

@@ -1,0 +1,1 @@
+curl -X POST -H "Content-Type: application/json" -d @input_test_small_regression.json http://127.0.0.1:5000/v1/predict/regression
