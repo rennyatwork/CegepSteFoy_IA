@@ -10,3 +10,12 @@ ML
 go to packages/ml_api
 run 
 python3 run.py
+
+
+PACKAGING
+go to regression_model dir and run:
+
+$ python3 setup.py sdist
+
+A new dir 'dist' will be created with the package (tar.gz) in it
+
