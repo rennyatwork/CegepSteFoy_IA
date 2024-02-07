@@ -69,27 +69,54 @@ def add_missing_indicator(X_train, X_test):
         X_train[var].fillna(median_val, inplace=True)
         X_test[var].fillna(median_val, inplace=True)
     
-    print (X_train[['age', 'fare']].isnull().sum())
+    print (X_train[config.MISSING_INDICATOR_VARS].isnull().sum())
     return X_train, X_test
 
     
     
-    
-
-
-    
-def impute_na():
+#def impute_na():
+def impute_na(X_train, X_test):
     # function replaces NA by value entered by user
     # or by string Missing (default behaviour)
-    pass
+    #vars_cat = [c for c in data.columns if data[c].dtypes=='O']
+    X_train[config.CATEGORICAL_VARS] = X_train[config.CATEGORICAL_VARS].fillna('Missing')
+    X_test[config.CATEGORICAL_VARS] = X_test[config.CATEGORICAL_VARS].fillna('Missing')
+    return X_train, X_test
 
 
 
-def remove_rare_labels():
+def find_frequent_labels(df, var, rare_perc):
+    
+    # function finds the labels that are shared by more than
+    # a certain % of the passengers in the dataset
+    
+    df = df.copy()
+    
+    tmp = df.groupby(var)[var].count() / len(df)
+    
+    return tmp[tmp > rare_perc].index
+
+
+
+    
+def remove_rare_labels(X_train, X_test):
     # groups labels that are not in the frequent list into the umbrella
     # group Rare
-    pass
+    for var in config.CATEGORICAL_VARS:
+    
+        # find the frequent categories
+        frequent_ls = find_frequent_labels(X_train, var, 0.05)
+        print(var)
+        print(frequent_ls)
+    
+        # replace rare categories by the string "Rare"
+        X_train[var] = np.where(X_train[var].isin(
+        frequent_ls), X_train[var], 'Rare')
+    
+        X_test[var] = np.where(X_test[var].isin(
+        frequent_ls), X_test[var], 'Rare')
 
+    return X_train, X_test
 
 
 def encode_categorical(df, var):
@@ -139,3 +166,5 @@ if __name__ == '__main__':
     X_train, X_test, y_train, y_test =  divide_train_test(df)
     X_train_2, X_test_2 = extract_cabin_letter(X_train, X_test)
     X_train_3, X_test_3 = add_missing_indicator(X_train_2, X_test_2)
+    X_train_4, X_test_4 = impute_na(X_train_3, X_test_3)
+    X_train_5, X_test_5 = remove_rare_labels(X_train_4, X_test_4)
