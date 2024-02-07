@@ -1,6 +1,10 @@
 import pandas as pd
 import numpy as np
 
+from sklearn.metrics import roc_auc_score
+from sklearn.metrics import accuracy_score
+
+
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 from sklearn.linear_model import LogisticRegression
@@ -119,12 +123,35 @@ def remove_rare_labels(X_train, X_test):
     return X_train, X_test
 
 
-def encode_categorical(df, var):
+#def encode_categorical(df, var):
+def encode_categorical(X_train, X_test):
     # adds ohe variables and removes original categorical variable
     
-    df = df.copy()
+    #df = df.copy()
     
-    pass
+    for var in config.CATEGORICAL_VARS:
+    
+        # to create the binary variables, we use get_dummies from pandas
+    
+        X_train = pd.concat([X_train,
+                         pd.get_dummies(X_train[var], prefix=var, drop_first=True)
+                         ], axis=1)
+    
+        X_test = pd.concat([X_test,
+                        pd.get_dummies(X_test[var], prefix=var, drop_first=True)
+                        ], axis=1)
+    
+
+    X_train.drop(labels=config.CATEGORICAL_VARS, axis=1, inplace=True)
+    X_test.drop(labels=config.CATEGORICAL_VARS, axis=1, inplace=True)
+
+    print ('X_train.shape: ', X_train.shape)
+    print ('X_test.shape:  ', X_test.shape)
+    
+    X_test['embarked_Rare'] = 0
+    
+    
+    return X_train, X_test
 
 
 
@@ -138,24 +165,64 @@ def check_dummy_variables(df, dummy_list):
 def train_scaler(df, output_path):
     # train and save scaler
     pass
+   
   
     
 
-def scale_features(df, output_path):
+# def scale_features(df, output_path):
+def scale_features(X_train, X_test):
     # load scaler and transform data
-    pass
+    
+    # Get the column order from the training set
+    column_order = X_train.columns
+    
+     # create scaler
+    scaler = StandardScaler()
+
+    #  fit  the scaler to the train set
+    scaler.fit(X_train[column_order]) 
+
+    # transform the train and test set
+    X_train = scaler.transform(X_train[column_order])
+
+    X_test = scaler.transform(X_test[column_order])
+    
+    return X_train, X_test
 
 
 
-def train_model(df, target, output_path):
+#def train_model(df, target, output_path):
+def train_model(X_train, y_train):
     # train and save model
-    pass
+    model = LogisticRegression(C=0.0005, random_state=0)
+
+    # train the model
+    model.fit(X_train, y_train)
+    
+    return model
 
 
 
-def predict(df, model):
+#def predict(df, model):
+def predict(X_train, y_train, model):
     # load model and get predictions
-    pass
+    # make predictions for test set
+    class_ = model.predict(X_train)
+    pred = model.predict_proba(X_train)[:,1]
+
+    # determine mse and rmse
+    print('train roc-auc: {}'.format(roc_auc_score(y_train, pred)))
+    print('train accuracy: {}'.format(accuracy_score(y_train, class_)))
+    print()
+
+    # make predictions for test set
+    class_ = model.predict(X_test)
+    pred = model.predict_proba(X_test)[:,1]
+
+    # determine mse and rmse
+    print('test roc-auc: {}'.format(roc_auc_score(y_test, pred)))
+    print('test accuracy: {}'.format(accuracy_score(y_test, class_)))
+    print()
 
 
 if __name__ == '__main__':
@@ -168,3 +235,11 @@ if __name__ == '__main__':
     X_train_3, X_test_3 = add_missing_indicator(X_train_2, X_test_2)
     X_train_4, X_test_4 = impute_na(X_train_3, X_test_3)
     X_train_5, X_test_5 = remove_rare_labels(X_train_4, X_test_4)
+    X_train_6, X_test_6 = encode_categorical(X_train_5, X_test_5)
+    print('X_train_6: ', X_train_6.head(3))
+    print('X_test_6: ', X_test_6.head(3))
+    print('X_train_columns: ', X_train_6.columns)
+    print('X_test_columns: ', X_test_6.columns)
+    X_train_7, X_test_7 = scale_features(X_train_6, X_test_6)
+    model = train_model(X_train_7, y_train)
+    predict(X_train_7, y_train, model)
