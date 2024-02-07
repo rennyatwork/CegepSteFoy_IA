@@ -190,7 +190,7 @@ def scale_features(X_train, X_test):
     return X_train, X_test
 
 
-
+"""
 #def train_model(df, target, output_path):
 def train_model(X_train, y_train):
     # train and save model
@@ -223,7 +223,7 @@ def predict(X_train, y_train, model):
     print('test roc-auc: {}'.format(roc_auc_score(y_test, pred)))
     print('test accuracy: {}'.format(accuracy_score(y_test, class_)))
     print()
-
+"""
 
 if __name__ == '__main__':
     df =load_data()
@@ -241,5 +241,5 @@ if __name__ == '__main__':
     print('X_train_columns: ', X_train_6.columns)
     print('X_test_columns: ', X_test_6.columns)
     X_train_7, X_test_7 = scale_features(X_train_6, X_test_6)
-    model = train_model(X_train_7, y_train)
-    predict(X_train_7, y_train, model)
+    #model = train_model(X_train_7, y_train)
+    #predict(X_train_7, y_train, model)
