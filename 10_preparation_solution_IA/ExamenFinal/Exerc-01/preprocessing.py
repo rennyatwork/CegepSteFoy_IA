@@ -13,10 +13,11 @@ import config
 # Individual pre-processing and training functions
 # ================================================
 
-def load_data(df_path='https://www.openml.org/data/get_csv/16826755/phpMYEkMl'):
+def load_data(df_path=config.PATH_TO_DATASET):
     # Function loads data for training
     data = pd.read_csv(df_path)
     # print('data: ', data.head(3))
+    print('cols: ',len(data.columns))
     return data
 
 
@@ -53,9 +54,27 @@ def extract_cabin_letter(X_train, X_test, var_cabin='cabin'):
 
 
 
-def add_missing_indicator(df, var):
-    # function adds a binary missing value indicator
-    pass
+# def add_missing_indicator(df, var):
+def add_missing_indicator(X_train, X_test):
+    for var in config.MISSING_INDICATOR_VARS:
+        print ("[var]: ", var)
+        # add missing indicator
+        X_train[var+'_NA'] = np.where(X_train[var].isnull(), 1, 0)
+        X_test[var+'_NA'] = np.where(X_test[var].isnull(), 1, 0)
+
+        # replace NaN by median
+        median_val = X_train[var].median()
+        print(var, median_val)
+
+        X_train[var].fillna(median_val, inplace=True)
+        X_test[var].fillna(median_val, inplace=True)
+    
+    print (X_train[['age', 'fare']].isnull().sum())
+    return X_train, X_test
+
+    
+    
+    
 
 
     
@@ -119,3 +138,4 @@ if __name__ == '__main__':
     #print(df.head(3))
     X_train, X_test, y_train, y_test =  divide_train_test(df)
     X_train_2, X_test_2 = extract_cabin_letter(X_train, X_test)
+    X_train_3, X_test_3 = add_missing_indicator(X_train_2, X_test_2)

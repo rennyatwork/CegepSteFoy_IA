@@ -24,4 +24,6 @@ TARGET = 'survived'
 
 CATEGORICAL_VARS = ['sex', 'cabin', 'embarked', 'title']
 
+MISSING_INDICATOR_VARS = ['age', 'fare']
+
 #NUMERICAL_TO_IMPUTE = 
